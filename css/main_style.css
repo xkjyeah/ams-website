@@ -246,6 +246,10 @@ main, #body_area {
     width: 100%;
     padding: 30px 0;
     margin: 0; }
+    #main_body_area #main_left {
+      margin: 0.6em; }
+    #main_body_area #main_right {
+      margin: 0.6em; }
   .iframe_facebook {
     display: none; }
   #copy_right_area .text, #copy_right_area .facebook {
