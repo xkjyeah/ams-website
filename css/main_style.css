@@ -347,6 +347,7 @@ p, .text_justify {
   line-height: 24px; }
 
 li {
+  font-size: 17px;
   margin: 0 0 20px 0;
   padding-left: 20px; }
 
