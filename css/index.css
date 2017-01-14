@@ -63,7 +63,7 @@ sup {
 
 body {
   border: 0;
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   font-style: inherit;
   font-weight: inherit;
   margin: 0;
@@ -345,7 +345,7 @@ main, #body_area {
   text-decoration: none; }
 
 #title_Purple_big {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   color: #7c257a;
   border-bottom: 2px solid #bac2c6;
   font-size: 32px;
@@ -356,7 +356,7 @@ main, #body_area {
   width: 100%; }
 
 #title_Purple_big_noline {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   color: #7c257a;
   font-size: 32px;
   padding: 0;
@@ -366,7 +366,7 @@ main, #body_area {
   width: 100%; }
 
 #title_Purple_normal {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   color: #7c257a;
   font-size: 20px;
   padding: 0;
@@ -376,7 +376,7 @@ main, #body_area {
   width: 100%; }
 
 #title_white {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   color: #ffffff;
   border-bottom: 2px solid #71559d;
   font-size: 23px;
@@ -544,7 +544,7 @@ label.enquiry_text_area select {
   background-color: #ffffff;
   padding-left: 5px;
   color: #000000;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-size: 16.2px;
   font-style: normal;
   padding: 5px;
@@ -567,7 +567,7 @@ label.enquiry_text_area button[type="submit"] {
   text-align: center;
   border: 0px;
   cursor: pointer;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-style: normal;
   background: #f26531;
   border-radius: 5px;
@@ -686,7 +686,7 @@ small a {
   margin: 0; }
 
 #inner_header_title {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   color: #7c257a;
   padding: 0;
   margin: 0 0 15px 0;
@@ -750,7 +750,7 @@ small a {
   margin: 0; }
 
 h2, #service_title_small {
-  font-family: 'Calibri';
+  font-family: 'Calibri' sans-serif;
   font-size: 22px;
   color: #f26531;
   text-align: left;
@@ -829,7 +829,7 @@ h2, #service_title_small {
   margin: 7px 0px;
   float: left;
   font-size: 18px;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   color: #33383d;
   line-height: 1.5;
   text-align: left; }
@@ -840,7 +840,7 @@ h2, #service_title_small {
   margin: 7px 0px;
   float: left;
   font-size: 18px;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   color: #33383d;
   line-height: 1.5;
   text-align: left;
@@ -852,7 +852,7 @@ h2, #service_title_small {
   margin: 7px 0px;
   float: left;
   font-size: 18px;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   color: #33383d;
   line-height: 1.5;
   text-align: center;
@@ -873,7 +873,7 @@ h2, #service_title_small {
   height: 150px;
   float: left;
   color: #33383d;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-size: 15px;
   padding-top: 7px; }
 
@@ -885,7 +885,7 @@ h2, #service_title_small {
   width: 97%;
   height: 30px;
   color: #33383d;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-size: 15px;
   float: left; }
 
@@ -901,7 +901,7 @@ h2, #service_title_small {
   text-align: center;
   border: 0px;
   cursor: pointer;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-style: normal;
   background: #f26531;
   border-radius: 5px;
@@ -917,7 +917,7 @@ h2, #service_title_small {
   width: 99%;
   height: 30px;
   color: #33383d;
-  font-family: 'Calibri' !important;
+  font-family: 'Calibri' sans-serif !important;
   font-size: 15px;
   float: left; }
 
