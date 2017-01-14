@@ -76,7 +76,7 @@ a {
   width: 100%;
   padding: 10px 0;
   margin: 0;
-  font-size: 14.25px;
+  font-size: 16.2px;
   color: #ffffff;
   font-weight: 400; }
 
@@ -254,7 +254,7 @@ main, #body_area {
     width: 100%;
     padding: 0;
     margin: 0 0 0 0;
-    background: url(../images/nav_bg.jpg);
+    background-color: #573d7f;
     background-repeat: repeat; }
   .iframe_facebook {
     display: none; }
@@ -277,6 +277,8 @@ main, #body_area {
   width: 100%;
   padding: 0;
   margin: 0; }
+  #right_area p {
+    font-size: 16.2px; }
 
 #home_service_area {
   width: 100%;
@@ -383,7 +385,7 @@ main, #body_area {
   width: 100%; }
 
 p, .text_justify {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
   margin: 0 0 1em 0;
@@ -391,7 +393,7 @@ p, .text_justify {
   line-height: 1.5; }
 
 li {
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 0 20px 0;
   padding-left: 20px; }
 
@@ -427,7 +429,7 @@ strong {
   width: 100%; }
 
 .text_left {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: left;
   margin: 0 0 10px 0;
@@ -436,7 +438,7 @@ strong {
   line-height: 1.5; }
 
 #text_left_2 {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: left;
   margin: 0 0 20px 0;
@@ -469,7 +471,7 @@ strong {
   list-style: disc; }
 
 #site_map_text ul ul li a {
-  font-size: 15px;
+  font-size: 18px;
   color: #f26531;
   text-align: justify;
   margin: 0;
@@ -518,7 +520,6 @@ strong {
   width: 100%;
   padding: 0;
   margin: 0 0 10px 0;
-  font-size: 15px;
   text-align: justify; }
 
 #enquiry {
@@ -543,7 +544,7 @@ label.enquiry_text_area select {
   padding-left: 5px;
   color: #000000;
   font-family: 'Calibri' !important;
-  font-size: 14.25px;
+  font-size: 16.2px;
   font-style: normal;
   padding: 5px;
   border-radius: 5px;
@@ -557,7 +558,7 @@ label.enquiry_text_area button[type="submit"] {
   border: 1px solid #f26531;
   color: #fff;
   width: 100%;
-  font-size: 14.25px;
+  font-size: 16.2px;
   font-weight: 600;
   height: 40px;
   padding: 0px;
@@ -598,7 +599,7 @@ label.enquiry_text_area button[type="submit"] {
 
 .address_black {
   color: #000000;
-  font-size: 14.25px;
+  font-size: 16.2px;
   line-height: 1.5;
   margin: 0 0 1em;
   padding: 0;
@@ -662,7 +663,8 @@ label.enquiry_text_area button[type="submit"] {
       margin: 0;
       padding: 0;
       display: inline;
-      white-space: nowrap; }
+      white-space: nowrap;
+      font-size: 14.4px; }
       #site_map ul.links li:not(:first-child):before {
         content: '  |  '; }
     #site_map ul.links li.links-wrap {
@@ -670,7 +672,7 @@ label.enquiry_text_area button[type="submit"] {
 
 small {
   color: #888888;
-  font-size: 15px; }
+  font-size: 14.4px; }
 
 small a {
   color: #888888;
@@ -695,7 +697,7 @@ small a {
 
 #bread_crumb {
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: capitalize;
   text-align: left;
   letter-spacing: 0.01em;
@@ -703,7 +705,7 @@ small a {
 
 #bread_crumb a {
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
   letter-spacing: 0.01em; }
 
@@ -825,7 +827,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -836,7 +838,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -848,7 +850,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -890,7 +892,7 @@ h2, #service_title_small {
   border: 1px solid #f26531;
   color: #fff;
   width: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   height: 40px;
   padding: 0px;
@@ -935,7 +937,7 @@ h2, #service_title_small {
 table, tr, td, th {
   border: 1px solid black;
   border-collapse: collapse;
-  font-size: 15px; }
+  font-size: 18px; }
 
 td ul {
   text-align: left; }
@@ -955,16 +957,7 @@ tr, td {
   margin: 0; }
 
 .service_img_left {
-  width: 44%;
-  padding: 0;
-  margin: 0 4% 0 0;
-  float: left; }
-
-.service_img_right {
-  width: 52%;
-  padding: 0;
-  margin: 0;
-  float: right; }
+  text-align: center; }
 
 img {
   max-width: 100%; }
@@ -976,7 +969,7 @@ img {
     max-width: 240px; }
 
 #small_font {
-  font-size: 14.25px;
+  font-size: 16.2px;
   color: #000000;
   text-align: left;
   margin: 0 0 0;
@@ -991,7 +984,7 @@ img {
   border-radius: 3px; }
 
 #what_news_link {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: right;
   margin: 0 0 0;
@@ -999,7 +992,7 @@ img {
   line-height: 20px; }
 
 #what_news_link a {
-  font-size: 15px;
+  font-size: 18px;
   color: #f26531;
   text-decoration: none;
   text-transform: capitalize; }
@@ -1018,7 +1011,7 @@ img {
   border-radius: 6px; }
 
 blockquote {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
   margin: 0;
@@ -1029,7 +1022,7 @@ blockquote {
 
 @media screen and (min-width: 414px), print {
   .text_justify {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     text-align: justify;
     margin: 0 0 20px 0;
@@ -1038,7 +1031,7 @@ blockquote {
 
 @media screen and (min-width: 360px), print {
   .text_justify {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     text-align: justify;
     margin: 0 0 20px 0;

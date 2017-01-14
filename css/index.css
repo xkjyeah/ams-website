@@ -77,7 +77,7 @@ a {
   width: 100%;
   padding: 10px 0;
   margin: 0;
-  font-size: 14.25px;
+  font-size: 16.2px;
   color: #ffffff;
   font-weight: 400; }
 
@@ -255,7 +255,7 @@ main, #body_area {
     width: 100%;
     padding: 0;
     margin: 0 0 0 0;
-    background: url(../images/nav_bg.jpg);
+    background-color: #573d7f;
     background-repeat: repeat; }
   .iframe_facebook {
     display: none; }
@@ -278,6 +278,8 @@ main, #body_area {
   width: 100%;
   padding: 0;
   margin: 0; }
+  #right_area p {
+    font-size: 16.2px; }
 
 #home_service_area {
   width: 100%;
@@ -384,7 +386,7 @@ main, #body_area {
   width: 100%; }
 
 p, .text_justify {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
   margin: 0 0 1em 0;
@@ -392,7 +394,7 @@ p, .text_justify {
   line-height: 1.5; }
 
 li {
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 0 20px 0;
   padding-left: 20px; }
 
@@ -428,7 +430,7 @@ strong {
   width: 100%; }
 
 .text_left {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: left;
   margin: 0 0 10px 0;
@@ -437,7 +439,7 @@ strong {
   line-height: 1.5; }
 
 #text_left_2 {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: left;
   margin: 0 0 20px 0;
@@ -470,7 +472,7 @@ strong {
   list-style: disc; }
 
 #site_map_text ul ul li a {
-  font-size: 15px;
+  font-size: 18px;
   color: #f26531;
   text-align: justify;
   margin: 0;
@@ -519,7 +521,6 @@ strong {
   width: 100%;
   padding: 0;
   margin: 0 0 10px 0;
-  font-size: 15px;
   text-align: justify; }
 
 #enquiry {
@@ -544,7 +545,7 @@ label.enquiry_text_area select {
   padding-left: 5px;
   color: #000000;
   font-family: 'Calibri' !important;
-  font-size: 14.25px;
+  font-size: 16.2px;
   font-style: normal;
   padding: 5px;
   border-radius: 5px;
@@ -558,7 +559,7 @@ label.enquiry_text_area button[type="submit"] {
   border: 1px solid #f26531;
   color: #fff;
   width: 100%;
-  font-size: 14.25px;
+  font-size: 16.2px;
   font-weight: 600;
   height: 40px;
   padding: 0px;
@@ -599,7 +600,7 @@ label.enquiry_text_area button[type="submit"] {
 
 .address_black {
   color: #000000;
-  font-size: 14.25px;
+  font-size: 16.2px;
   line-height: 1.5;
   margin: 0 0 1em;
   padding: 0;
@@ -663,7 +664,8 @@ label.enquiry_text_area button[type="submit"] {
       margin: 0;
       padding: 0;
       display: inline;
-      white-space: nowrap; }
+      white-space: nowrap;
+      font-size: 14.4px; }
       #site_map ul.links li:not(:first-child):before {
         content: '  |  '; }
     #site_map ul.links li.links-wrap {
@@ -671,7 +673,7 @@ label.enquiry_text_area button[type="submit"] {
 
 small {
   color: #888888;
-  font-size: 15px; }
+  font-size: 14.4px; }
 
 small a {
   color: #888888;
@@ -696,7 +698,7 @@ small a {
 
 #bread_crumb {
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: capitalize;
   text-align: left;
   letter-spacing: 0.01em;
@@ -704,7 +706,7 @@ small a {
 
 #bread_crumb a {
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
   letter-spacing: 0.01em; }
 
@@ -826,7 +828,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -837,7 +839,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -849,7 +851,7 @@ h2, #service_title_small {
   padding: 0px;
   margin: 7px 0px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Calibri' !important;
   color: #33383d;
   line-height: 1.5;
@@ -891,7 +893,7 @@ h2, #service_title_small {
   border: 1px solid #f26531;
   color: #fff;
   width: 100%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   height: 40px;
   padding: 0px;
@@ -936,7 +938,7 @@ h2, #service_title_small {
 table, tr, td, th {
   border: 1px solid black;
   border-collapse: collapse;
-  font-size: 15px; }
+  font-size: 18px; }
 
 td ul {
   text-align: left; }
@@ -956,16 +958,7 @@ tr, td {
   margin: 0; }
 
 .service_img_left {
-  width: 44%;
-  padding: 0;
-  margin: 0 4% 0 0;
-  float: left; }
-
-.service_img_right {
-  width: 52%;
-  padding: 0;
-  margin: 0;
-  float: right; }
+  text-align: center; }
 
 img {
   max-width: 100%; }
@@ -977,7 +970,7 @@ img {
     max-width: 240px; }
 
 #small_font {
-  font-size: 14.25px;
+  font-size: 16.2px;
   color: #000000;
   text-align: left;
   margin: 0 0 0;
@@ -992,7 +985,7 @@ img {
   border-radius: 3px; }
 
 #what_news_link {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: right;
   margin: 0 0 0;
@@ -1000,7 +993,7 @@ img {
   line-height: 20px; }
 
 #what_news_link a {
-  font-size: 15px;
+  font-size: 18px;
   color: #f26531;
   text-decoration: none;
   text-transform: capitalize; }
@@ -1019,7 +1012,7 @@ img {
   border-radius: 6px; }
 
 blockquote {
-  font-size: 15px;
+  font-size: 18px;
   color: #000000;
   text-align: justify;
   margin: 0;
@@ -1030,7 +1023,7 @@ blockquote {
 
 @media screen and (min-width: 414px), print {
   .text_justify {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     text-align: justify;
     margin: 0 0 20px 0;
@@ -1039,7 +1032,7 @@ blockquote {
 
 @media screen and (min-width: 360px), print {
   .text_justify {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     text-align: justify;
     margin: 0 0 20px 0;
@@ -1119,6 +1112,26 @@ figure, figure.address_gradient {
     top: 39px;
     left: 0;
     opacity: 1; }
+  #cssmenu ul ul li a {
+    width: 269px; }
+  #cssmenu > ul > li.has-sub > a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0px solid transparent;
+    border-top-color: #ffffff;
+    right: 0;
+    top: 0; }
+  #cssmenu > ul > li > ul::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #ffffff;
+    top: -4px;
+    left: 20px; }
   .toggle-navigation {
     display: none; } }
 
@@ -1142,8 +1155,8 @@ figure, figure.address_gradient {
   #cssmenu > ul > li {
     text-align: left;
     display: none;
-    background: url(../images/borderimg.jpg) no-repeat right;
-    padding: 10px 10px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    padding: 1em 10px;
     flex: 1 0 auto; }
   #cssmenu > ul > li.has-sub > a:before {
     content: ' + ';
@@ -1163,7 +1176,9 @@ figure, figure.address_gradient {
     -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
     -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
     -o-transition: top 0.2s ease, opacity 0.2s ease-in;
-    transition: top 0.2s ease, opacity 0.2s ease-in; } }
+    transition: top 0.2s ease, opacity 0.2s ease-in; }
+  #cssmenu ul ul li a {
+    width: 100%; } }
 
 #cssmenu {
   z-index: 100;
@@ -1207,6 +1222,15 @@ figure, figure.address_gradient {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+#cssmenu > ul ul li a {
+  padding: 0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover,
 #cssmenu > ul > li > a:active,
@@ -1217,16 +1241,6 @@ figure, figure.address_gradient {
   padding-right: 0;
   color: #ffffff; }
 
-#cssmenu > ul > li.has-sub > a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 0px solid transparent;
-  border-top-color: #ffffff;
-  right: 0;
-  top: 0; }
-
 #cssmenu > ul > li.has-sub.active > a:after,
 #cssmenu > ul > li.has-sub:hover > a,
 #cssmenu > ul > li.has-sub:focus > a,
@@ -1235,16 +1249,6 @@ figure, figure.address_gradient {
 
 #cssmenu.align-right ul ul {
   text-align: right; }
-
-#cssmenu > ul > li > ul::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 5px solid transparent;
-  border-bottom-color: #ffffff;
-  top: -4px;
-  left: 20px; }
 
 #cssmenu.align-right > ul > li > ul::after {
   left: auto;
@@ -1291,7 +1295,6 @@ figure, figure.address_gradient {
   text-decoration: none;
   font-weight: 400;
   padding: 15px 25px;
-  width: 269px;
   color: #ffffff;
   text-align: left;
   background: #78629c;
