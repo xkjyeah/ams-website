@@ -14,7 +14,7 @@ export default {
           <form action="http://enquiry.ambulanceservice.com.sg/enquiry"
             method="post" name='form1' id="form1">
 
-            <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success.html" />
+            <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success" />
             <label class="enquiry_text_area">
               <span>Name:</span>
               <input name="name" size="32" type="text" placeholder="John" />

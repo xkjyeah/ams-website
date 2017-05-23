@@ -8,17 +8,17 @@
   <div class="text">
     <div id="site_map">
       <ul class="links">
-        <li><a href="index.html" class="footer_link">Home</a></li>
-        <li><a href="companyprofile-crew.html" class="footer_link">Company Profile & Crew</a></li>
-        <li><a href="fleet-information.html" class="footer_link">Fleet Information</a></li>
-        <li><a href="ambulance-equipment-list.html" class="footer_link">Ambulance Equipment List</a></li>
-        <li><a href="transport.html" class="footer_link">Transport</a></li>
-        <li><a href="event-standby.html" class="footer_link">Event Standby</a></li>
-        <li><a href="gallery.html" class="footer_link">Gallery</a></li>
-        <li><a href="sales-purchase.html" class="footer_link">Sales & Rental</a></li>
-        <li><a href="contact-us.html" class="footer_link">Contact AMS</a></li>
-        <li><a href="whats-new.html" class="footer_link">What's New</a></li>
-        <li><a href="join-us.html" class="footer_link">Join Us</a></li>
+        <li><nuxt-link to="/" class="footer_link">Home</nuxt-link></li>
+        <li><nuxt-link to="/companyprofile-crew" class="footer_link">Company Profile & Crew</nuxt-link></li>
+        <li><nuxt-link to="/fleet-information" class="footer_link">Fleet Information</nuxt-link></li>
+        <li><nuxt-link to="/ambulance-equipment-list" class="footer_link">Ambulance Equipment List</nuxt-link></li>
+        <li><nuxt-link to="/transport" class="footer_link">Transport</nuxt-link></li>
+        <li><nuxt-link to="/event-standby" class="footer_link">Event Standby</nuxt-link></li>
+        <li><nuxt-link to="/gallery" class="footer_link">Gallery</nuxt-link></li>
+        <li><nuxt-link to="/sales-purchase" class="footer_link">Sales &amp; Rental</nuxt-link></li>
+        <li><nuxt-link to="/contact-us" class="footer_link">Contact AMS</nuxt-link></li>
+        <li><nuxt-link to="/whats-new" class="footer_link">What's New</nuxt-link></li>
+        <li><nuxt-link to="/join-us" class="footer_link">Join Us</nuxt-link></li>
       </ul>
 
       <ul class="links">

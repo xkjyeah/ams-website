@@ -11,13 +11,13 @@ export default {
     <div id="main_left">
       <div id="left_area">
         <p>
-          We have a hygienic, comfortable, and modern <a href="fleet-information.html" class="text_link">fleet</a> of ambulances extensively equipped with the following in each ambulance:
+          We have a hygienic, comfortable, and modern <nuxt-link to="/fleet-information">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
         </p>
         <div class="inner_service_area">
           <div class="inner_service_box">
 
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/eq_icon.png" /></div>
+              <div class="service_icon"><img src="images/eq_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <p>

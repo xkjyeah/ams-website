@@ -8,46 +8,48 @@ export default {
 <default-page>
   <div id="left_area">
     <div id="enquiry" style="margin:0 0 20px 0 !important;">
-      <p>
-        <table border="0" width="90%" cellspacing="0" cellpadding="0" style="border:none; text-align:left;">
-          <tr style="border:none;text-align:left;">
-            <td height="20" style="border:none;"></td>
-          </tr>
-          <tr style="border:none;text-align:left;">
-            <td style="border:none;text-align:left;"><span style="font-size:20px; line-height:50px; text-align:left;">The requested page was not found</span></td>
-          </tr>
-          <tr style="border:none;text-align:left;">
-            <td height="20" style="border:none;"></td>
-          </tr>
-          <tr style="border:none;text-align:left;">
-            <td style="border:none;text-align:left;"><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
-          </tr>
-          <tr style="border:none;text-align:left;">
-            <td height="20" style="border:none;"></td>
-          </tr>
-          <tr style="border:none;">
-            <td style="font-size:16px; line-height:22px;border:none;text-align:left;">
-              <b>You may not be able to visit this page because of:</b>
-              <ul type="disc">
-                <li>an out-of-date bookmark/favorite</li>
-                <li>a search engine that has an <b>out-of-date listing for this site</b></li>
-                <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
-                <li>the requested resource was not found</li>
-                <li>an error has occurred while processing your request</li>
-              </ul>
-            </td>
-          </tr>
-          <tr style="border:none;">
-            <td height="20" style="border:none;"></td>
-          </tr>
-          <tr style="border:none;">
-            <td style="border:none;text-align:left;"><a href="index.html" style="font-size:20px; color:#0e1c4a; text-decoration:none;text-align:left;">Return to the homepage</a></td>
-          </tr>
-          <tr style="border:none;">
-            <td height="20" style="border:none;"></td>
-          </tr>
-        </table>
-      </p>
+      <table border="0" width="90%" cellspacing="0" cellpadding="0" style="border:none; text-align:left;">
+        <tbody>
+        <tr style="border:none;text-align:left;">
+          <td height="20" style="border:none;"></td>
+        </tr>
+        <tr style="border:none;text-align:left;">
+          <td style="border:none;text-align:left;"><span style="font-size:20px; line-height:50px; text-align:left;">The requested page was not found</span></td>
+        </tr>
+        <tr style="border:none;text-align:left;">
+          <td height="20" style="border:none;"></td>
+        </tr>
+        <tr style="border:none;text-align:left;">
+          <td style="border:none;text-align:left;"><span style="font-size:16px; line-height:22px;">Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</span></td>
+        </tr>
+        <tr style="border:none;text-align:left;">
+          <td height="20" style="border:none;"></td>
+        </tr>
+        <tr style="border:none;">
+          <td style="font-size:16px; line-height:22px;border:none;text-align:left;">
+            <b>You may not be able to visit this page because of:</b>
+            <ul type="disc">
+              <li>an out-of-date bookmark/favorite</li>
+              <li>a search engine that has an <b>out-of-date listing for this site</b></li>
+              <li>a <b>mistyped address</b> you have <b>no access</b> to this page</li>
+              <li>the requested resource was not found</li>
+              <li>an error has occurred while processing your request</li>
+            </ul>
+          </td>
+        </tr>
+        <tr style="border:none;">
+          <td height="20" style="border:none;"></td>
+        </tr>
+        <tr style="border:none;">
+          <td style="border:none;text-align:left;">
+            <nuxt-link to="/">Return to the homepage</nuxt-link>
+          </td>
+        </tr>
+        <tr style="border:none;">
+          <td height="20" style="border:none;"></td>
+        </tr>
+      </tbody>
+      </table>
       <div style="clear:both;"></div>
     </div>
     <div class="inner_service_box">
@@ -107,7 +109,7 @@ export default {
           </div>
         </div>
       </div>
-      <div class="iframe_facebook"">
+      <div class="iframe_facebook">
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309%2F&width=336&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
             width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>

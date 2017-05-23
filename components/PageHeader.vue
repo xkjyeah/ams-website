@@ -3,7 +3,7 @@
   <div class="site">
     <div id="logo_call_area">
       <div id="logo_area">
-        <a href="index.html"><img src="images/logo.png" /></a>
+        <nuxt-link to="/"><img src="images/logo.png" /></nuxt-link>
       </div>
       <div id="call_area">
         <div id="call_icon_text_area">
@@ -25,50 +25,39 @@
           <span class="icon-bar"></span>
         </button>
         <ul>
-          <li :class="{active: page.category == 'home'}">
-            <a href="index.html">Home</a>
-          </li>
-          <li  :class="{active: page.category == 'about'}"
-              class="has-sub"><a href="javascript:void(0)">About Us</a>
+          <nuxt-link tag="li" active-class="active" to="/"><a>Home</a></nuxt-link>
+          <li class="has-sub"><a href="javascript:void(0)">About Us</a>
             <ul>
-              <li><a href="companyprofile-crew.html">Company Profile & Crew</a></li>
-              <li><a href="fleet-information.html">Fleet Information</a></li>
-              <li><a href="ambulance-equipment-list.html">Ambulance Equipment List</a></li>
+              <nuxt-link tag="li" active-class="active" to="/companyprofile-crew"><a>Company Profile &amp; Crew</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/fleet-information"><a>Fleet Information</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/ambulance-equipment-list"><a>Ambulance Equipment List</a></nuxt-link>
 
-              <li><a href="whats-new.html">What's New</a></li>
-              <li><a href="join-us.html">Join Us</a></li>
+              <nuxt-link tag="li" active-class="active" to="/whats-new"><a>What's New</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/join-us"><a>Join Us</a></nuxt-link>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="javascript:void(0)">Transport</a>
+            <ul>
+              <nuxt-link tag="li" active-class="active" to="/transport"><a>Local Transport</a></nuxt-link>
+
+              <nuxt-link tag="li" active-class="active" to="/transport#critically-ill"><a>Transport of Critically Ill</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/transport#overseas-transport"><a>Overseas Transport</a></nuxt-link>
 
             </ul>
           </li>
-          <li  :class="{active: page.category == 'transport'}" class="has-sub"><a href="javascript:void(0)">Transport</a>
+          <li class="has-sub"><a href="javascript:void(0)">Event Standby</a>
             <ul>
-              <li><a href="transport.html">Local Transport</a></li>
-
-              <li><a href="transport.html#critical-ill">Transport of Critically Ill</a></li>
-              <li><a href="transport.html#overSeas">Overseas Transport</a></li>
-
+              <nuxt-link tag="li" active-class="active" to="/event-standby"><a>Information</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/gallery"><a>Gallery</a></nuxt-link>
             </ul>
           </li>
-          <li class="has-sub"
-           :class="{active: page.category == 'event-standby'}"
-           ><a href="javascript:void(0)">Event Standby</a>
+          <li class="has-sub"><a href="javascript:void(0)">Sales &amp; Rental</a>
             <ul>
-              <li><a href="event-standby.html">Information</a></li>
-
-              <li><a href="gallery.html">Gallery</a></li>
-
+              <nuxt-link tag="li" active-class="active" to="/sales-purchase"><a>Rental of Oxygen Cylinders</a></nuxt-link>
+              <nuxt-link tag="li" active-class="active" to="/sales-purchase#purchaseAED"><a>Sales of AED</a></nuxt-link>
             </ul>
           </li>
-          <li class="has-sub"
-           :class="{active: page.category == 'sales-purchase'}"><a href="javascript:void(0)">Sales & Rental</a>
-            <ul>
-              <li><a href="sales-purchase.html">Rental of Oxygen Cylinders</a></li>
-              <li><a href="sales-purchase.html#purchaseAED">Sales of AED</a></li>
-
-            </ul>
-          </li>
-          <li  :class="{active: page.category == 'contact'}"><a href="contact-us.html">Contact Us</a></li>
-
+          <nuxt-link tag="li" active-class="active" to="/contact-us"><a>Contact Us</a></nuxt-link>
         </ul>
       </div>
       <div style="clear:both;"></div>
@@ -77,9 +66,3 @@
   </div>
 </header>
 </template>
-
-<script>
-export default {
-  props: ['page']
-}
-</script>

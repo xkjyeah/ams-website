@@ -6,7 +6,6 @@ export default {
 </script>
 
 <template>
-
 <default-page>
   <h2>Submission error</h2>
   <p>

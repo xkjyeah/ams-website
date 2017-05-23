@@ -10,26 +10,22 @@ export default {
   <div id="main_body_area">
     <div id="main_left">
       <div id="left_area">
-
-
         <div class="inner_service_area">
           <div class="inner_service_box">
-
-            <div class="inner_service_left">
-              <div id="service_icon"><img src="images/oxygen-cylinder.png" /></div>
-            </div>
-            <div class="inner_service_right">
               <h2>
-                <a name="rentOxygen"></a>Rental of Oxygen Cylinders</h2>
+                <div class="service_icon"><img src="images/oxygen-cylinder.png" /></div>
+                <a name="rentOxygen"></a>Rental of Oxygen Cylinders
+              </h2>
+
               <p><img src="images/oxygen cylinder.jpg" width="200" border="0" hspace="15" vspace="10" align="left" /> AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
                 It has a carrying handle for easy handling; it does not rust therefore it is not possible for the patient to inhale rust particles. Our cylinders come in the following sizes according to the volume of liquid oxygen within: 2.9L, 4.6L and
                 10.5L.
-                <div style="clear:both;"></div>
+                <br clear="both" />
               </p>
 
 
-              <p>
-                <table style="width:100%;">
+              <table style="width:100%;">
+                <tbody>
                   <tr>
                     <td rowspan="2" style="text-align:center;"><strong><i>Cylinder Size <br />
 (Liquid<br />Volume<br /> in Litres)
@@ -72,9 +68,8 @@ export default {
                     <td style="text-align:center;">2 hr(s) 14 min(s)</td>
                     <td style="text-align:center;">1 hr(s) 07 min(s)</td>
                   </tr>
-                </table>
-
-              </p>
+                </tbody>
+              </table>
               <p>
                 <strong>Details to Provide When Calling Us</strong>
               </p>
@@ -94,31 +89,23 @@ export default {
               <p>
                 You can contact us 24/7 to replace your depleted oxygen cylinders with full oxygen cylinders.
               </p>
-
-            </div>
-
-            <div style="clear:both;"></div>
           </div>
           <div class="inner_service_box">
-            <div class="inner_service_left">
-              <div id="service_icon"><img src="images/aed.png" /></div>
-            </div>
-            <div class="inner_service_right">
-              <h2>
-                <a name="purchaseAED"></a>Sale of Automated External Defibrillator (AED)</h2>
-              <p><img src="images/AED_Small.png" width="250" border="0" hspace="15" vspace="10" align="left" />AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 7-year warranty provided by HeartSine
+              <h2 id="purchaseAED">
+                <div class="service_icon"><img src="images/aed.png" /></div>
+                Sale of Automated External Defibrillator (AED)
+              </h2>
+              <p style="text-align: center">
+                <img src="images/AED_Small.png" width="250" />
+              </p>
+              <p>
+                AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 7-year warranty provided by HeartSine
                 against device malfunction.
-                <div style="clear:both;"></div>
               </p>
               <p>Each AED comes with:<br> - 1 lithium battery (non-rechargeable) <br> - 1 pair of adult defibrillation pads<br>
-
               </p>
               <p>We also sell consumables such as the <strong>battery and a pair of adult defibrillation pads together.</strong></p>
               <p>We do not stock the paediatric defibrillation pads.</p>
-
-            </div>
-
-            <div style="clear:both;"></div>
           </div>
         </div>
         <!--<div id="bottom_call_action_area">

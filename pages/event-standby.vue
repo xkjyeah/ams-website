@@ -10,25 +10,19 @@ export default {
   <div id="main_body_area">
     <div id="main_left">
       <div id="left_area">
-
         <p>Ambulance Medical Services has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
           safety of your participants.
         </p>
-        <p>Find out more about the equipment in our ambulances <a href="ambulance-equipment-list.html" class="text_link">here</a> and our ambulance fleet <a href="fleet-information.html" class="text_link">here</a>.</p>
+        <p>Find out more about the equipment in our ambulances <nuxt-link to="/ambulance-equipment-list">here</nuxt-link>
+          and our ambulance fleet <nuxt-link to="/fleet-information">here</nuxt-link>.
+        </p>
         <div class="inner_service_area">
-          <div class="inner_service_box">
-
-            <div class="inner_service_left">
-              <div id="service_icon"><img src="images/event.png" /></div>
-            </div>
-            <div class="inner_service_right">
-
               <h2>
+                <div class="service_icon"><img src="images/event.png" /></div>
                 Pricing Schedule
               </h2>
-              <p>
-                <table style="width:100%;">
-                  <thead>
+              <table style="width:100%;">
+                <thead>
                   <tr>
                     <th style="width: 20%; text-align:center;">Services</th>
                     <th style="width: 40%; text-align:center;"><strong>Office Hours</strong><br> (9am - 5pm, weekdays)</th>
@@ -65,7 +59,7 @@ export default {
                     <td style="text-align:center;"><strong>Mobile Medical Team(s)</strong></td>
                     <td colspan="2">
                       <ul>
-                        <li>All Terrain <a href="gallery.html#buggy" style="color:#000000;font-weight:400;">Buggies</a></li>
+                        <li>All Terrain <nuxt-link to="/gallery#buggy">Buggies</nuxt-link></li>
                         <li>Bicycles</li>
                         <li>Motorcycles</li>
                         <li>Mobile first aid bag comprising of </li>
@@ -109,9 +103,7 @@ export default {
                     </td>
                   </tr>
                 </tbody>
-                </table>
-
-              </p>
+              </table>
               <p>
                 All prices quoted are subject to GST
               </p>
@@ -129,14 +121,9 @@ export default {
                   treatment and advice. Likewise, we very much appreciated your follow-up telephone call today with us!”
                 </blockquote>
               </div>
-              <div id="gallery_img" style="margin:0 0 20px 0;"><img src="images/eventstandby_new2.JPG" /></div>
-              <div id="gallery_img"><img src="images/eventstandby_new.JPG" /></div>
+              <div class="gallery_img" style="margin:0 0 20px 0;"><img src="images/eventstandby_new2.JPG" /></div>
+              <div class="gallery_img"><img src="images/eventstandby_new.JPG" /></div>
               <div class="text_justify" style="text-align:center;">You can count on US!</div>
-            </div>
-            <div style="clear:both;"></div>
-          </div>
-
-
         </div>
 
         <div id="inner_image"><img src="images/3.jpg" /></div>

@@ -34,5 +34,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  plugins: [
+    '~/plugins/default'
+  ],
 }

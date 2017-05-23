@@ -7,8 +7,8 @@
       <!-- <form action="http://ebasoft.com.sg/activamedia/admin/mailscript.asp" -->
       <form action="http://enquiry.ambulanceservice.com.sg/enquiry"
         method="post" name='form1' id="form1">
-        <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success.html" />
-        <input type="hidden" name="redirect_error" value="http://www.ambulanceservice.com.sg/contact-error.html" />
+        <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success" />
+        <input type="hidden" name="redirect_error" value="http://www.ambulanceservice.com.sg/contact-error" />
         <label class="enquiry_text_area">
           <input name="name" size="32" type="text" placeholder="Name:" />
         </label>

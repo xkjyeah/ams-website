@@ -16,7 +16,7 @@ export default {
         <div class="inner_service_area">
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/eq_icon.png" /></div>
+              <div class="service_icon"><img src="images/eq_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Well-equipped</h2>
@@ -27,7 +27,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/confort_icon.png" /></div>
+              <div class="service_icon"><img src="images/confort_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Comfortable, quiet</h2>
@@ -38,7 +38,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/hygenic.png" /></div>
+              <div class="service_icon"><img src="images/hygenic.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Hygienic</h2>
@@ -50,7 +50,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/quality_icon.png" /></div>
+              <div class="service_icon"><img src="images/quality_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Quality-assured</h2>
@@ -62,7 +62,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/realible_icon.png" /></div>
+              <div class="service_icon"><img src="images/realible_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Reliable</h2>
@@ -73,7 +73,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/wheelchair_icon.png" /></div>
+              <div class="service_icon"><img src="images/wheelchair_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Wheelchair Lifts</h2>

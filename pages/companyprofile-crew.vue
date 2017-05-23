@@ -16,7 +16,7 @@ export default {
         <div class="inner_service_area">
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/our-director.png" /></div>
+              <div class="service_icon"><img src="images/our-director.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Our Director</h2>
@@ -24,15 +24,14 @@ export default {
                 16 teams of ambulance crew. As a responsible pre-hospital healthcare provider, AMS is covered with professional indemnity and public liability insurance of S$1,000,000 & S$500,000 respectively. AMS is GST registered with a paid up capital
                 of S$250,000.</p>
             </div>
-
             <div style="clear:both;"></div>
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div id="service_icon"><img src="images/our-crew.png" /></div>
+              <div class="service_icon"><img src="images/our-crew.png" /></div>
             </div>
             <div class="inner_service_right">
-              <h2><a name="ourCrew">Our Crew</a></h2>
+              <h2 id="our-crew">Our Crew</h2>
               <p><strong>Experienced, professionally qualified staff</strong></p>
               <p>In AMS, the drivers and paramedics work together to ensure a continuous chain of survival for our patients. Hence we believe in continually training our staff to equip them with the skills necessary for managing medical emergencies.</p>
               <p>Every ambulance team will comprise of a Driver and a Paramedic. Our paramedics have varying levels of training from Level 1 to Level 3.<br></p>
@@ -54,7 +53,8 @@ export default {
               <p>Our ambulance drivers are also certified <strong>Emergency Medical Technicians (EMT).</strong> </p>
               <p><strong>Scope of duties</strong></p>
               <p>
-                Our paramedics can perform the following (not exhaustive):<br>
+                Our paramedics can perform the following (not exhaustive):
+              </p>
                 <ol>
                   <li>Resuscitation of a cardiac arrest victim according to BCLS and ACLS principles</li>
                   <li>Wound dressing and treatment, and external bleeding management.</li>
@@ -63,8 +63,7 @@ export default {
                   <li>Assist physicians and nurses for invasive therapeutic procedures</li>
                   <li>Casualty vital signs monitoring</li>
                 </ol>
-              </p>
-              <div id="gallery_img"><img src="images/company_crew.JPG" /></div>
+              <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
             </div>
 
             <div style="clear:both;"></div>
