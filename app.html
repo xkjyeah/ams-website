@@ -9,22 +9,6 @@
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
-
-    window.toggleMenu = function () {
-      document.getElementById('cssmenu').classList.toggle('opened');
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-      var menuHeads = document.querySelectorAll('#cssmenu > ul > li.has-sub > a')
-      for (var i=0; i< menuHeads.length; i++) {
-        var menuHead = menuHeads[i];
-        menuHead.addEventListener('click', (function (menuHead) {
-          return function () {
-            menuHead.parentNode.classList.toggle('opened');
-          }
-        })(menuHead))
-      }
-    })
     </script>
   </head>
   <body {{ BODY_ATTRS }}>
