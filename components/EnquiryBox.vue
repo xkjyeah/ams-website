@@ -36,7 +36,7 @@
         <label class="enquiry_text_area">
           <textarea name="message" placeholder="Message"></textarea>
         </label>
-        <div class="g-recaptcha" data-sitekey="6LcZNygTAAAAAKPt757U3VcKOzCXGkLyl2sC2jCp"></div>
+        <ReCaptcha />
 
         <label class="enquiry_text_area">
           <button type="submit">
