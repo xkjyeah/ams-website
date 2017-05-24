@@ -56,35 +56,34 @@ export default {
               </ol>
               <p>
                 Level 3: Paramedic Qualification Level
-                <ul>
-                  <li>Specialized knowledge in trauma and medical emergencies</li>
-                </ul>
               </p>
+              <ul>
+                <li>Specialized knowledge in trauma and medical emergencies</li>
+              </ul>
               <p><strong>Medical Certifications</strong></p>
-              <p>Most of our paramedics have the following certification:
-                <ul>
-                  <li>Basic and Advanced First Aid</li>
-                  <li>Basic Cardiac Life Support (BCLS)</li>
-                  <li>Advance Cardiac Life Support (ACLS) </li>
-                  <li>International Trauma Life Support (ITLS)</li>
-                  <li>Training in Intravenous therapy</li>
-                </ul>
-                <p>Our ambulance drivers are also certified <strong>Emergency Medical Technicians (EMT).</strong> </p>
-                <p><strong>Scope of duties</strong></p>
-                <p>
-                  Our paramedics can perform the following (not exhaustive):
-                </p>
-                <ol>
-                  <li>Resuscitation of a cardiac arrest victim according to BCLS and ACLS principles</li>
-                  <li>Wound dressing and treatment, and external bleeding management.</li>
-                  <li>Fracture immobilization to avoid secondary injury</li>
-                  <li>Spinal management to avoid secondary injury</li>
-                  <li>Assist physicians and nurses for invasive therapeutic procedures</li>
-                  <li>Casualty vital signs monitoring</li>
-                </ol>
-                <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
+              <p>Most of our paramedics have the following certification:</p>
+              <ul>
+                <li>Basic and Advanced First Aid</li>
+                <li>Basic Cardiac Life Support (BCLS)</li>
+                <li>Advance Cardiac Life Support (ACLS) </li>
+                <li>International Trauma Life Support (ITLS)</li>
+                <li>Training in Intravenous therapy</li>
+              </ul>
+              <p>Our ambulance drivers are also certified <strong>Emergency Medical Technicians (EMT).</strong> </p>
+              <p><strong>Scope of duties</strong></p>
+              <p>
+                Our paramedics can perform the following (not exhaustive):
+              </p>
+              <ol>
+                <li>Resuscitation of a cardiac arrest victim according to BCLS and ACLS principles</li>
+                <li>Wound dressing and treatment, and external bleeding management.</li>
+                <li>Fracture immobilization to avoid secondary injury</li>
+                <li>Spinal management to avoid secondary injury</li>
+                <li>Assist physicians and nurses for invasive therapeutic procedures</li>
+                <li>Casualty vital signs monitoring</li>
+              </ol>
+              <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
             </div>
-
             <div style="clear:both;"></div>
           </div>
 
