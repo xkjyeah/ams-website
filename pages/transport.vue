@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Transport',
-  category: 'transport',
+  head: {
+    category: 'transport',
+    title: 'Transport',
+  }
 }
 </script>
 
@@ -13,8 +15,12 @@ export default {
 
         <p>Ambulance Medical Service provides 24/7 transport within Singapore for <strong>emergency</strong> and <strong>non-emergency</strong> cases. We are registered under SCDF’s <a href="https://www.scdf.gov.sg/content/scdf_internet/en/general/information/information_on_scdfand1777medicalservices.html"
               target="new" class="text_link">1777 non-emergency ambulance hotline.</a></p>
-        <p>A non-emergency ambulance team consists of 1 Ambulance, an Emergency Medical Technician (EMT) certified driver and a paramedic level 1 or 2 with BCLS +/- ACLS and ITLS <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link></p>
-        <p>An emergency ambulance team will have a paramedic level 3 (instead of level 1 or 2) present. This paramedic will also have BCLS +/- ACLS and ITLS <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link></p>
+        <p>A non-emergency ambulance team consists of 1 Ambulance, an Emergency Medical Technician (EMT) certified driver and a paramedic level 1 or 2 with BCLS +/- ACLS and ITLS
+          <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link>
+        </p>
+        <p>An emergency ambulance team will have a paramedic level 3 (instead of level 1 or 2) present. This paramedic will also have BCLS +/- ACLS and ITLS
+          <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link>
+        </p>
         <p>We can transport <a href="transport.html#critically-ill" class="text_link">critically ill</a> patients requiring life support such as ventilators and infusion pumps.</p>
         <div class="inner_service_area">
           <div class="inner_service_box">
@@ -37,58 +43,58 @@ export default {
               </p>
               <table style="width:100%;">
                 <tbody>
-                <tr>
-                  <td style="text-align:center;">Services</td>
-                  <td style="text-align:center;"><strong>Office Hours</strong><br> (9am - 5pm, weekdays)</td>
-                  <td style="text-align:center;"><strong>After office Hours</strong><br>(5pm - 9am weekdays,<br> weekends and public holidays)</td>
-                </tr>
-                <tr>
-                  <td><b>1-way non emergency</b><br />(booked 1 day in advance)</td>
-                  <td style="text-align:center;"><strong>$50 – $90</strong></td>
-                  <td style="text-align:center;"><b>$90 – $130</b></td>
-                </tr>
-                <tr>
-                  <td><strong>1-way emergency to A&E </strong></td>
-                  <td style="text-align:center;"><b>$70 - $130</b></td>
-                  <td style="text-align:center;"><b>$90 - $150</b></td>
+                  <tr>
+                    <td style="text-align:center;">Services</td>
+                    <td style="text-align:center;"><strong>Office Hours</strong><br> (9am - 5pm, weekdays)</td>
+                    <td style="text-align:center;"><strong>After office Hours</strong><br>(5pm - 9am weekdays,<br> weekends and public holidays)</td>
+                  </tr>
+                  <tr>
+                    <td><b>1-way non emergency</b><br />(booked 1 day in advance)</td>
+                    <td style="text-align:center;"><strong>$50 – $90</strong></td>
+                    <td style="text-align:center;"><b>$90 – $130</b></td>
+                  </tr>
+                  <tr>
+                    <td><strong>1-way emergency to A&E </strong></td>
+                    <td style="text-align:center;"><b>$70 - $130</b></td>
+                    <td style="text-align:center;"><b>$90 - $150</b></td>
 
-                </tr>
-                <tr>
-                  <td><strong>2-way non emergency</strong><br />(booked 1 day in advance)</td>
-                  <td style="text-align:center;"><b>$90 - $130*</b><br /><br />* <strong>$20</strong> surcharge for any single trip that falls outside office hours</td>
-                  <td style="text-align:center;"><b>$120 - $180</b></td>
-                </tr>
+                  </tr>
+                  <tr>
+                    <td><strong>2-way non emergency</strong><br />(booked 1 day in advance)</td>
+                    <td style="text-align:center;"><b>$90 - $130*</b><br /><br />* <strong>$20</strong> surcharge for any single trip that falls outside office hours</td>
+                    <td style="text-align:center;"><b>$120 - $180</b></td>
+                  </tr>
 
-                <tr>
-                  <td><strong>Regular trips </strong>eg. Dialysis, elder care, or therapy</td>
-                  <td colspan="2" style="text-align:center;"><b>$85 - $110</b> per return trip</td>
-                </tr>
-                <tr>
-                  <td><strong>Psychiatric cases </strong></td>
-                  <td colspan="2" style="text-align:center;"><b>$200 - $400</b> per case</td>
-                </tr>
-                <tr>
-                  <td><strong>Airport cases</strong></td>
-                  <td colspan="2" style="text-align:center;">
-                    Stretcher / tarmac cases <strong>$350 - $500</strong> per trip<br /> Wheelchair cases <strong>$150 - $300</strong> per trip
-                  </td>
-                </tr>
-                <tr>
-                  <td><strong>Ferry terminal cases</strong></td>
-                  <td colspan="2" style="text-align:center;">
-                    <strong>$200 - $400</strong> per case
-                  </td>
-                </tr>
+                  <tr>
+                    <td><strong>Regular trips </strong>eg. Dialysis, elder care, or therapy</td>
+                    <td colspan="2" style="text-align:center;"><b>$85 - $110</b> per return trip</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Psychiatric cases </strong></td>
+                    <td colspan="2" style="text-align:center;"><b>$200 - $400</b> per case</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Airport cases</strong></td>
+                    <td colspan="2" style="text-align:center;">
+                      Stretcher / tarmac cases <strong>$350 - $500</strong> per trip<br /> Wheelchair cases <strong>$150 - $300</strong> per trip
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ferry terminal cases</strong></td>
+                    <td colspan="2" style="text-align:center;">
+                      <strong>$200 - $400</strong> per case
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td><strong>Use of oxygen or suction apparatus</strong></td>
-                  <td colspan="2" style="text-align:center;">Additional <strong>$10 – $30</strong></td>
-                </tr>
-                <tr>
-                  <td><b>Doctor/Nurse accompaniment</b></td>
-                  <td colspan="2" style="text-align:center;">Can be available upon request</td>
-                </tr>
-              </tbody>
+                  <tr>
+                    <td><strong>Use of oxygen or suction apparatus</strong></td>
+                    <td colspan="2" style="text-align:center;">Additional <strong>$10 – $30</strong></td>
+                  </tr>
+                  <tr>
+                    <td><b>Doctor/Nurse accompaniment</b></td>
+                    <td colspan="2" style="text-align:center;">Can be available upon request</td>
+                  </tr>
+                </tbody>
               </table>
               <p>
                 Remarks:<br> - All prices quoted are inclusive of GST.<br> - Prices are correct as of October 2016. Please contact our hotline for confirmation.<br> - A waiting charge may be imposed after the first 15min of waiting.<br> - A cancellation

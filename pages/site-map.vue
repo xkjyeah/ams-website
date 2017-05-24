@@ -1,6 +1,8 @@
 <script>
 export default {
-  title: 'Site Map'
+  head: {
+    title: 'Site Map'
+  }
 }
 </script>
 
@@ -25,7 +27,7 @@ export default {
               <li>Transport
                 <ul>
                   <li><a href="transport.html">Local Transport</a></li>
-                  <li><a href="transport.html#critically-ill">Transport of Critically Ill</a></li>
+                  <li><a href="transport.html#critical-ill">Transport of Critically Ill</a></li>
                   <li><a href="transport.html#overseas-transport">Overseas Transport</a></li>
 
                 </ul>

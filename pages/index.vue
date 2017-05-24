@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Home',
-  category: 'home'
+  head: {
+    title: 'Ambulance Medical Service',
+    category: 'home'
+  }
 }
 </script>
 <template>
@@ -18,7 +20,8 @@ export default {
             <img src="images/slider5.png" data-thumb="images/slider5.png" alt="" data-transition="fade" />
           </div>
         </div>
-      </div> <!--slider-wrapper-->
+      </div>
+      <!--slider-wrapper-->
       <div id="main_body_area">
         <div id="main_left">
           <div id="left_area">

@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Gallery',
-  category: 'event-standby',
+  head: {
+    title: 'Gallery',
+    category: 'event-standby',
+  }
 }
 </script>
 

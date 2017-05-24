@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'What\'s New',
-  category: 'about',
+  head: {
+    title: 'What\'s New',
+    category: 'about',
+  }
 }
 </script>
 

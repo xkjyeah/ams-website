@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Ambulance Equipment List',
-  category: 'about',
+  head: {
+    title: 'Ambulance Equipment List',
+    category: 'about',
+  }
 }
 </script>
 
@@ -11,7 +13,8 @@ export default {
     <div id="main_left">
       <div id="left_area">
         <p>
-          We have a hygienic, comfortable, and modern <nuxt-link to="/fleet-information">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
+          We have a hygienic, comfortable, and modern
+          <nuxt-link to="/fleet-information">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
         </p>
         <div class="inner_service_area">
           <div class="inner_service_box">
@@ -22,7 +25,8 @@ export default {
             <div class="inner_service_right">
               <p>
                 <b>Ambulance features</b><br /> Barlight, siren & strobe lights<br /> 220V AC power supply on board<br /> Digital video recorder for the ambulance cabin as well as the road in front<br /> Real time Global Position System (GPS) and GPS
-                navigator<br /> GPS navigator
+                navigator
+                <br /> GPS navigator
               </p>
               <p>
                 <strong>Patient Transfer</strong><br /> Wheelchair and stretcher locking devices<br /> Wheelchair Lifts<br /> Wheelchair with drip stand and safety belt<br /> Standard automatic loading stretcher, scoop stretcher, 2-fold stretcher, soft
@@ -39,11 +43,8 @@ export default {
               </p>
               <p>
                 <strong>Treatment</strong><br /> Standard First Aid Bag with first aid items<br /> Medication Bag with over-the-counter medications<br /> Spinal board, head immobilizer, Kendrick Extrication Device (KED) & cervical collar for immobilization
-                of spinal injury victim<br /> Traction splint, Blue Splint™ (Spencer™) & Fixo Splint™ (Spencer™) for long bone fracture immobilization<br /> Fire blanket and 2 fire distinguishers<br />
-                One stainless steel all-purpose scissors<br />
-                Automated
-                External Defibrillator (AED – Philips<sup>TM</sup> HeartStart HS1), for adult & child<br />
-                External Defibrillator Cardioverter and Cardiac Pacer –Philips MRx<sup>TM</sup> or Zoll<sup>TM</sup>
+                of spinal injury victim<br /> Traction splint, Blue Splint™ (Spencer™) & Fixo Splint™ (Spencer™) for long bone fracture immobilization<br /> Fire blanket and 2 fire distinguishers<br /> One stainless steel all-purpose scissors<br /> Automated
+                External Defibrillator (AED – Philips<sup>TM</sup> HeartStart HS1), for adult & child<br /> External Defibrillator Cardioverter and Cardiac Pacer –Philips MRx<sup>TM</sup> or Zoll<sup>TM</sup>
 
 
               </p>

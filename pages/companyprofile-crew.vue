@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Company Profile and Crew',
-  category: 'about',
+  head: {
+    title: 'Company Profile and Crew',
+    category: 'about',
+  }
 }
 </script>
 
@@ -39,22 +41,39 @@ export default {
               <p>
                 The following are the basic competencies of paramedics of each level:</p>
               <p>
-                Level 1: Paramedic Basic Level<br /> - Basic Health Sciences<br /> - Assessment of a casualty and continuous monitoring<br /> - Casualty Aid
+                Level 1: Paramedic Basic Level
               </p>
+              <ul>
+                <li>Basic Health Sciences</li>
+                <li>Assessment of a casualty and continuous monitoring</li>
+                <li>Casualty Aid</li>
+              </ul>
               <p>
-                Level 2: Paramedic Intermediate Level<br /> - Additional Knowledge Depth and Clinical experience
+                Level 2: Paramedic Intermediate Level
               </p>
+              <li>Additional Knowledge Depth and Clinical experience
+              </li>
+              </ol>
               <p>
-                Level 3: Paramedic Qualification Level<br /> - Specialized knowledge in trauma and medical emergencies
+                Level 3: Paramedic Qualification Level
+                <ul>
+                  <li>Specialized knowledge in trauma and medical emergencies</li>
+                </ul>
               </p>
               <p><strong>Medical Certifications</strong></p>
-              <p>Most of our paramedics have the following certification:<br /> - Basic and Advanced First Aid<br /> - Basic Cardiac Life Support (BCLS)<br /> - Advance Cardiac Life Support (ACLS) <br /> - International Trauma Life Support (ITLS) <br />                - Training in Intravenous therapy
-              </p>
-              <p>Our ambulance drivers are also certified <strong>Emergency Medical Technicians (EMT).</strong> </p>
-              <p><strong>Scope of duties</strong></p>
-              <p>
-                Our paramedics can perform the following (not exhaustive):
-              </p>
+              <p>Most of our paramedics have the following certification:
+                <ul>
+                  <li>Basic and Advanced First Aid</li>
+                  <li>Basic Cardiac Life Support (BCLS)</li>
+                  <li>Advance Cardiac Life Support (ACLS) </li>
+                  <li>International Trauma Life Support (ITLS)</li>
+                  <li>Training in Intravenous therapy</li>
+                </ul>
+                <p>Our ambulance drivers are also certified <strong>Emergency Medical Technicians (EMT).</strong> </p>
+                <p><strong>Scope of duties</strong></p>
+                <p>
+                  Our paramedics can perform the following (not exhaustive):
+                </p>
                 <ol>
                   <li>Resuscitation of a cardiac arrest victim according to BCLS and ACLS principles</li>
                   <li>Wound dressing and treatment, and external bleeding management.</li>
@@ -63,18 +82,13 @@ export default {
                   <li>Assist physicians and nurses for invasive therapeutic procedures</li>
                   <li>Casualty vital signs monitoring</li>
                 </ol>
-              <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
+                <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
             </div>
 
             <div style="clear:both;"></div>
           </div>
 
         </div>
-        <!-- <div id="bottom_call_action_area">
-                    <div id="bottom_call_action_text">call our <span>hotline</span> at</div>
-                      <div id="bottom_call_number"><a href="tel:6281 8111">6281 8111</a></div>
-                  <div style="clear:both;"></div>
-                  </div>-->
         <div id="inner_image"><img src="images/company-crew.jpg" /></div>
       </div>
     </div>

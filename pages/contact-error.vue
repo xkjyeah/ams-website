@@ -1,7 +1,9 @@
 <script>
 export default {
-  title: 'Thank You',
-  category: 'contact',
+  head: {
+    title: 'Thank You',
+    category: 'contact',
+  }
 }
 </script>
 
@@ -9,8 +11,7 @@ export default {
 <default-page>
   <h2>Submission error</h2>
   <p>
-    Ooops! There was an error during the form submission! Would you be able to
-    give us a call instead?</p>
+    Ooops! There was an error during the form submission! Would you be able to give us a call instead?</p>
   <p>Our number is <strong>6281 3132</strong>.
   </p>
   <p>You can also email us directly at <strong>mail@ambulanceservice.com.sg</strong>
