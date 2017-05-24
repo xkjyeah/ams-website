@@ -72,22 +72,18 @@ export default {
                 </tr>
               </tbody>
             </table>
-            <p>
-              <strong>Details to Provide When Calling Us</strong>
-            </p>
+            <h3>Details to Provide When Calling Us</h3>
             <p>
               To help us advise you better, please provide us the answers to the following questions when making the rental:<br> - What is the medical condition that the patient suffering from? <br> - What oxygen flow rate does his doctor prescribe?
 
 
             </p>
-            <p><strong>Pricing Schedule</strong></p>
+            <h3>Pricing Schedule</h3>
             <p>
               The rental fee of each cylinder varies from <strong>$60 - $100</strong> depending on the size of the cylinder. There will be no charge if clients pick up the oxygen cylinder from our warehouse; alternatively a delivery charge of $30-40 will
               be imposed.
             </p>
-            <p>
-              <strong>Replacement of depleted oxygen cylinders</strong>
-            </p>
+            <h3>Replacement of depleted oxygen cylinders</h3>
             <p>
               You can contact us 24/7 to replace your depleted oxygen cylinders with full oxygen cylinders.
             </p>
