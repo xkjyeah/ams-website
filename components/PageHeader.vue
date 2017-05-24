@@ -26,37 +26,26 @@
         </button>
         <ul>
           <nuxt-link tag="li" active-class="active" to="/"><a>Home</a></nuxt-link>
-          <li class="has-sub"><a href="javascript:void(0)">About Us</a>
-            <ul>
-              <nuxt-link tag="li" active-class="active" to="/companyprofile-crew"><a>Company Profile &amp; Crew</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/fleet-information"><a>Fleet Information</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/ambulance-equipment-list"><a>Ambulance Equipment List</a></nuxt-link>
-
-              <nuxt-link tag="li" active-class="active" to="/whats-new"><a>What's New</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/join-us"><a>Join Us</a></nuxt-link>
-            </ul>
-          </li>
-          <li class="has-sub"><a href="javascript:void(0)">Transport</a>
-            <ul>
-              <nuxt-link tag="li" active-class="active" to="/transport"><a>Local Transport</a></nuxt-link>
-
-              <nuxt-link tag="li" active-class="active" to="/transport#critically-ill"><a>Transport of Critically Ill</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/transport#overseas-transport"><a>Overseas Transport</a></nuxt-link>
-
-            </ul>
-          </li>
-          <li class="has-sub"><a href="javascript:void(0)">Event Standby</a>
-            <ul>
-              <nuxt-link tag="li" active-class="active" to="/event-standby"><a>Information</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/gallery"><a>Gallery</a></nuxt-link>
-            </ul>
-          </li>
-          <li class="has-sub"><a href="javascript:void(0)">Sales &amp; Rental</a>
-            <ul>
-              <nuxt-link tag="li" active-class="active" to="/sales-purchase"><a>Rental of Oxygen Cylinders</a></nuxt-link>
-              <nuxt-link tag="li" active-class="active" to="/sales-purchase#purchaseAED"><a>Sales of AED</a></nuxt-link>
-            </ul>
-          </li>
+          <NavMenuList label="About Us">
+            <nuxt-link tag="li" active-class="active" to="/companyprofile-crew"><a>Company Profile &amp; Crew</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/fleet-information"><a>Fleet Information</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/ambulance-equipment-list"><a>Ambulance Equipment List</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/whats-new"><a>What's New</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/join-us"><a>Join Us</a></nuxt-link>
+          </NavMenuList>
+          <NavMenuList label="Transport">
+            <nuxt-link tag="li" active-class="active" to="/transport"><a>Local Transport</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/transport#critically-ill"><a>Transport of Critically Ill</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/transport#overseas-transport"><a>Overseas Transport</a></nuxt-link>
+          </NavMenuList>
+          <NavMenuList label="Event Standby">
+            <nuxt-link tag="li" active-class="active" to="/event-standby"><a>Information</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/gallery"><a>Gallery</a></nuxt-link>
+          </NavMenuList>
+          <NavMenuList label="Sales &amp; Rental">
+            <nuxt-link tag="li" active-class="active" to="/sales-purchase"><a>Rental of Oxygen Cylinders</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/sales-purchase#purchaseAED"><a>Sales of AED</a></nuxt-link>
+          </NavMenuList>
           <nuxt-link tag="li" active-class="active" to="/contact-us"><a>Contact Us</a></nuxt-link>
         </ul>
       </div>
