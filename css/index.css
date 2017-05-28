@@ -419,12 +419,12 @@ a.text_link:hover {
 strong {
   font-weight: 700; }
 
-#service_img {
+.service_img {
   padding: 0;
   margin: 0 0 20px 0;
   width: 100%; }
 
-#service_img img {
+.service_img img {
   padding: 0;
   margin: 0;
   width: 100%; }
@@ -738,13 +738,13 @@ small a {
   margin: 0;
   float: right; }
 
-#service_icon {
+.service_icon {
   text-align: left;
   width: 100%;
   padding: 0;
   margin: 0; }
 
-#service_icon img {
+.service_icon img {
   width: 122px;
   padding: 0;
   margin: 0; }
