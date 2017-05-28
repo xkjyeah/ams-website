@@ -18,8 +18,8 @@
     </div>
     <!--logo_call_area-->
     <div id="nav_area">
-      <div id="cssmenu">
-        <button class="toggle-navigation" onclick="toggleMenu()">
+      <div id="cssmenu" :class="{opened: menuOpened}">
+        <button class="toggle-navigation" @click="menuOpened = !menuOpened">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -55,3 +55,18 @@
   </div>
 </header>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      menuOpened: false
+    }
+  },
+  created () {
+    this.$router.afterEach(() => {
+      this.menuOpened = false
+    })
+  }
+}
+</script>

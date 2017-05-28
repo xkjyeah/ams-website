@@ -814,7 +814,6 @@ label.enquiry_text_area button[type="submit"] {
         margin: 0;
         padding: 0;
         display: inline;
-        white-space: nowrap;
         font-size: $base-font-size * 0.8;
 
         &:not(:first-child):before {
