@@ -34,7 +34,7 @@
         </li>
       </ul>
 
-      <div class="a_links"><small>Copyright 2016 AMS Pte Ltd</small></div>
+      <div class="a_links"><small>Copyright 2017 AMS Pte Ltd</small></div>
     </div>
   </div>
 
