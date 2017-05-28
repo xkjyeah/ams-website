@@ -3,11 +3,11 @@
   <div class="site">
     <div id="logo_call_area">
       <div id="logo_area">
-        <nuxt-link to="/"><img src="images/logo.png" /></nuxt-link>
+        <nuxt-link to="/"><img src="/images/logo.png" /></nuxt-link>
       </div>
       <div id="call_area">
         <div id="call_icon_text_area">
-          <div id="call_icon"><img src="images/tele_icon.png" /></div>
+          <div id="call_icon"><img src="/images/tele_icon.png" /></div>
           <div id="call_text_area">
 
             <div id="call_number">6281&nbsp;8111</div>

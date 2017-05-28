@@ -26,7 +26,7 @@ export default {
       <li>Wheelchair lifts in most ambulances to protect your health and safety</li>
       <li>Participate in high-profile events</li>
     </ol>
-    <div id="inner_image"><img src="images/company-crew.jpg" /></div>
+    <div id="inner_image"><img src="/images/company-crew.jpg" /></div>
   </div>
   <div slot="sidebar">
     <address-area />

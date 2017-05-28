@@ -15,11 +15,11 @@ export default {
         <div class="inner_service_area">
           <div class="inner_service_box">
             <h2>
-                <div class="service_icon"><img src="images/oxygen-cylinder.png" /></div>
+                <div class="service_icon"><img src="/images/oxygen-cylinder.png" /></div>
                 <a name="rentOxygen"></a>Rental of Oxygen Cylinders
               </h2>
 
-            <p><img src="images/oxygen cylinder.jpg" width="200" border="0" hspace="15" vspace="10" align="left" /> AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
+            <p><img src="/images/oxygen cylinder.jpg" width="200" border="0" hspace="15" vspace="10" align="left" /> AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
               It has a carrying handle for easy handling; it does not rust therefore it is not possible for the patient to inhale rust particles. Our cylinders come in the following sizes according to the volume of liquid oxygen within: 2.9L, 4.6L and
               10.5L.
               <br clear="both" />
@@ -92,11 +92,11 @@ export default {
           </div>
           <div class="inner_service_box">
             <h2 id="purchaseAED">
-                <div class="service_icon"><img src="images/aed.png" /></div>
+                <div class="service_icon"><img src="/images/aed.png" /></div>
                 Sale of Automated External Defibrillator (AED)
               </h2>
             <p style="text-align: center">
-              <img src="images/AED_Small.png" width="250" />
+              <img src="/images/AED_Small.png" width="250" />
             </p>
             <p>
               AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 7-year warranty provided by HeartSine against device malfunction.

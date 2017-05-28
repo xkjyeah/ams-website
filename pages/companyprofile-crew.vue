@@ -18,7 +18,7 @@ export default {
         <div class="inner_service_area">
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div class="service_icon"><img src="images/our-director.png" /></div>
+              <div class="service_icon"><img src="/images/our-director.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2>Our Director</h2>
@@ -30,7 +30,7 @@ export default {
           </div>
           <div class="inner_service_box">
             <div class="inner_service_left">
-              <div class="service_icon"><img src="images/our-crew.png" /></div>
+              <div class="service_icon"><img src="/images/our-crew.png" /></div>
             </div>
             <div class="inner_service_right">
               <h2 id="our-crew">Our Crew</h2>
@@ -82,13 +82,13 @@ export default {
                 <li>Assist physicians and nurses for invasive therapeutic procedures</li>
                 <li>Casualty vital signs monitoring</li>
               </ol>
-              <div class="gallery_img"><img src="images/company_crew.JPG" /></div>
+              <div class="gallery_img"><img src="/images/company_crew.JPG" /></div>
             </div>
             <div style="clear:both;"></div>
           </div>
 
         </div>
-        <div id="inner_image"><img src="images/company-crew.jpg" /></div>
+        <div id="inner_image"><img src="/images/company-crew.jpg" /></div>
       </div>
     </div>
     <div id="main_right">

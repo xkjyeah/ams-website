@@ -19,7 +19,7 @@ export default {
           <div class="inner_service_box">
 
             <div class="inner_service_left">
-              <div class="service_icon"><img src="images/eq_icon.png" /></div>
+              <div class="service_icon"><img src="/images/eq_icon.png" /></div>
             </div>
             <div class="inner_service_right">
               <h3>Ambulance features</h3>
@@ -57,7 +57,7 @@ export default {
           </div>
         </div>
 
-        <div id="inner_image"><img src="images/3.jpg" /></div>
+        <div id="inner_image"><img src="/images/3.jpg" /></div>
       </div>
     </div>
     <div id="main_right">

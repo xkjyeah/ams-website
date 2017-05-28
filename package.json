@@ -5,6 +5,7 @@
   "author": "daniel.ssq89@gmail.com",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "http-server": "^0.10.0",
     "nuxt": "latest"
   },
@@ -15,7 +16,8 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "serve": "npm run generate && http-server dist"
+    "serve": "npm run generate && http-server dist",
+    "deploy": "npm run generate && echo www.ambulanceservice.com.sg > dist/CNAME && echo Need_undercored_directories > dist/.nojekyll && gh-pages --depth 1 -d dist"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

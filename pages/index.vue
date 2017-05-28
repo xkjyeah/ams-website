@@ -13,11 +13,11 @@ export default {
       <div id="wrapper">
         <div class="slider-wrapper theme-default">
           <div id="slider" class="nivoSlider">
-            <img src="images/slider1.png" data-thumb="images/slider1.png" alt="" data-transition="fade" />
-            <a href="event-standby.html"><img src="images/slider2.png" data-thumb="images/slider2.png" alt="" data-transition="fade" /></a>
-            <a href="companyprofile-crew.html"><img src="images/slider3.png" data-thumb="images/slider3.png" alt="" data-transition="fade" /></a>
-            <img src="images/slider4.png" data-thumb="images/slider4.png" alt="" data-transition="fade" />
-            <img src="images/slider5.png" data-thumb="images/slider5.png" alt="" data-transition="fade" />
+            <img src="/images/slider1.png" data-thumb="/images/slider1.png" alt="" data-transition="fade" />
+            <a href="event-standby.html"><img src="/images/slider2.png" data-thumb="/images/slider2.png" alt="" data-transition="fade" /></a>
+            <a href="companyprofile-crew.html"><img src="/images/slider3.png" data-thumb="/images/slider3.png" alt="" data-transition="fade" /></a>
+            <img src="/images/slider4.png" data-thumb="/images/slider4.png" alt="" data-transition="fade" />
+            <img src="/images/slider5.png" data-thumb="/images/slider5.png" alt="" data-transition="fade" />
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default {
               <div class="service_block">
                 <a href="transport.html">
                   <div id="title_Purple_normal">Transport</div>
-                  <div class="service_img"><img src="images/transport_service.png" /></div>
+                  <div class="service_img"><img src="/images/transport_service.png" /></div>
                   <div class="text_left">24 hours Emergency or Non-Emergency</div>
                   <div class="text_left">One-Way or Two-Way Regular Transport for dialysis sessions / therapy</div>
                   <div class="text_left">Transport for Psychiatric patients</div>
@@ -49,7 +49,7 @@ export default {
               <div class="service_block">
                 <a href="event-standby.html">
                   <div id="title_Purple_normal">Event Standby</div>
-                  <div class="service_img"><img src="images/transport_service1.png" /></div>
+                  <div class="service_img"><img src="/images/transport_service1.png" /></div>
                   <div class="text_left">Engage an Ambulance with Paramedics, Nurses, Doctors</div>
                   <div class="text_left">Medical coverage of Sports Events, Gatherings, Conventions, Exhibitions</div>
                   <div class="text_left">First Aid station and Mobile Medical team on buggies, bicycles and motorcycles</div>
@@ -59,7 +59,7 @@ export default {
               <div class="service_block">
                 <a href="sales-purchase.html">
                   <div id="title_Purple_normal">Sales & Rental</div>
-                  <div class="service_img"><img src="images/transport_service2.png" /></div>
+                  <div class="service_img"><img src="/images/transport_service2.png" /></div>
                   <div class="text_left">Rent Oxygen cylinders of various sizes for home therapy</div>
                   <div class="text_left">Purchase HeartSine Automated External Defibrillators (AEDs)</div>
                 </a>
@@ -74,7 +74,7 @@ export default {
               <div class="service_block">
                 <a href="companyprofile-crew.html">
                   <div id="title_Purple_normal">Company Profile and Crew</div>
-                  <div class="service_img"><img src="images/our_crew_1.png" /></div>
+                  <div class="service_img"><img src="/images/our_crew_1.png" /></div>
                   <div class="text_left">Our Director, a Doctor, trained in Anaesthesia and Intensive Care.</div>
                   <div class="text_left">Our Crew of drivers and paramedics level 1-3 is experienced and certified to do their task.
 
@@ -85,7 +85,7 @@ export default {
               <div class="service_block">
                 <a href="fleet-information.html">
                   <div id="title_Purple_normal">Fleet Information</div>
-                  <div class="service_img"><img src="images/fleet_information_1.png" /></div>
+                  <div class="service_img"><img src="/images/fleet_information_1.png" /></div>
                   <div class="text_left">We own 20 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
                   </div>
                 </a>
@@ -95,7 +95,7 @@ export default {
               <div class="service_block">
                 <a href="ambulance-equipment-list.html">
                   <div id="title_Purple_normal">Ambulance Equipment List</div>
-                  <div class="service_img"><img src="images/transport_service2.png" /></div>
+                  <div class="service_img"><img src="/images/transport_service2.png" /></div>
                   <div class="text_left">Find out what we stock in each ambulance.
                   </div>
                 </a>

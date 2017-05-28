@@ -22,8 +22,8 @@ export default {
       ],
       link: [
         {rel: 'shortcut icon', href: 'favicon.ico'},
-        {rel: 'stylesheet', type: 'text/css', href: 'css/nivo-slider.css'},
-        {rel: 'stylesheet', type: 'text/css', href: 'css/default.css'},
+        {rel: 'stylesheet', type: 'text/css', href: '/css/nivo-slider.css'},
+        {rel: 'stylesheet', type: 'text/css', href: '/css/default.css'},
       ]
     }
   }

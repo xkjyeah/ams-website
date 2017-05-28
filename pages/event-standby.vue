@@ -22,7 +22,7 @@ export default {
         </p>
         <div class="inner_service_area">
           <h2>
-            <div class="service_icon"><img src="images/event.png" /></div>
+            <div class="service_icon"><img src="/images/event.png" /></div>
             Pricing Schedule
           </h2>
           <table-wrap>
@@ -77,7 +77,7 @@ export default {
                       </ul>
                     </ul>
                     <figure class="address_gradient">
-                      <img src="images/buggy-small.jpg" style="" />
+                      <img src="/images/buggy-small.jpg" style="" />
                       <figcaption>
                         All terrain buggies to reach casualties fast
                       </figcaption>
@@ -93,16 +93,16 @@ export default {
                       <li>Spinal board</li>
                       <li>Litter carrier - lightweight casualty transport system that allows one person to transport a casualty strapped to a stretcher, and also performs as a litter stand in the medical station</li>
                       <li><a href="http://www.zoll.com/medical-products/cardiac-support-pump/autopulse/" target="new" class="text_link">AutoPulse</a> – automated CPR machine that allows continuous CPR while transporting a patient on a stretcher
-                        <br/><img src="images/zoll-autopulse-small.jpg" class="img-me" />
+                        <br/><img src="/images/zoll-autopulse-small.jpg" class="img-me" />
                       </li>
                       <li>
                         <a href="http://caervest.com/" target="new" class="text_link">Caervest</a> - portable, core body cooling device for heatstroke/cardiac arrest victim
-                        <br/><img src="images/caervest-small.jpg" class="img-lg" />
+                        <br/><img src="/images/caervest-small.jpg" class="img-lg" />
                       </li>
                       <li>External Defibrillator Cardioverter and Cardiac Pacer &mdash; Philips MRx<sup>TM</sup> or Zoll<sup>TM</sup>
                         <br/>
-                        <img src="images/mrx-small.jpg" class="img-me" />
-                        <img src="images/zoll-r-series-small.jpg" class="img-lg" />
+                        <img src="/images/mrx-small.jpg" class="img-me" />
+                        <img src="/images/zoll-r-series-small.jpg" class="img-lg" />
                       </li>
                     </ul>
 
@@ -128,12 +128,12 @@ export default {
               treatment and advice. Likewise, we very much appreciated your follow-up telephone call today with us!”
             </blockquote>
           </div>
-          <div class="gallery_img" style="margin:0 0 20px 0;"><img src="images/eventstandby_new2.JPG" /></div>
-          <div class="gallery_img"><img src="images/eventstandby_new.JPG" /></div>
+          <div class="gallery_img" style="margin:0 0 20px 0;"><img src="/images/eventstandby_new2.JPG" /></div>
+          <div class="gallery_img"><img src="/images/eventstandby_new.JPG" /></div>
           <div class="text_justify" style="text-align:center;">You can count on US!</div>
         </div>
 
-        <div id="inner_image"><img src="images/3.jpg" /></div>
+        <div id="inner_image"><img src="/images/3.jpg" /></div>
       </div>
     </div>
     <div id="main_right">

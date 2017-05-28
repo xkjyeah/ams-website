@@ -24,7 +24,7 @@ export default {
         <div class="inner_service_area">
           <div class="inner_service_box">
             <h2 id="local">
-              <div class="service_icon"><img src="images/transport_icon.png" /></div>
+              <div class="service_icon"><img src="/images/transport_icon.png" /></div>
               Local transport
             </h2>
             <p>
@@ -105,11 +105,11 @@ export default {
                 is thankful for their consideration in making her as comfortable as they can.”
               </blockquote>
             </div>
-            <div class="gallery_img"><img src="images/transport_new.JPG" /></div>
+            <div class="gallery_img"><img src="/images/transport_new.JPG" /></div>
           </div>
           <div class="inner_service_box">
               <h2 id="critically-ill">
-                <div class="service_icon"><img src="images/transport_icon.png" /></div>
+                <div class="service_icon"><img src="/images/transport_icon.png" /></div>
                 Transport of Critically Ill
               </h2>
               <p>We can provide transport of critically ill patients with doctor/nurse accompaniment as requested. Our ICU equipment include:</p>
@@ -122,7 +122,7 @@ export default {
 
           <div id="service_box">
             <h2 id="overseas-transport">
-              <div class="service_icon"><img src="images/overseas.png" /></div>
+              <div class="service_icon"><img src="/images/overseas.png" /></div>
               Overseas transport
             </h2>
             <p><strong>Patient evacuation to West Malaysia, Batam and Bintan</strong></p>
@@ -130,7 +130,7 @@ export default {
           </div>
 
         </div>
-        <div id="inner_image"><img src="images/2.jpg" /></div>
+        <div id="inner_image"><img src="/images/2.jpg" /></div>
       </div>
     </div>
     <div id="main_right">
