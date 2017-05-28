@@ -36,61 +36,63 @@ export default {
             <p>
               We accept cash or NETS payment aboard all our ambulances.
             </p>
-            <table style="width:100%;">
-              <tbody>
-                <tr>
-                  <td style="text-align:center;">Services</td>
-                  <td style="text-align:center;"><strong>Office Hours</strong><br> (9am - 5pm, weekdays)</td>
-                  <td style="text-align:center;"><strong>After office Hours</strong><br>(5pm - 9am weekdays,<br> weekends and public holidays)</td>
-                </tr>
-                <tr>
-                  <td><b>1-way non emergency</b><br />(booked 1 day in advance)</td>
-                  <td style="text-align:center;"><strong>$50 – $90</strong></td>
-                  <td style="text-align:center;"><b>$90 – $130</b></td>
-                </tr>
-                <tr>
-                  <td><strong>1-way emergency to A&E </strong></td>
-                  <td style="text-align:center;"><b>$70 - $130</b></td>
-                  <td style="text-align:center;"><b>$90 - $150</b></td>
+            <table-wrap>
+              <table style="min-width: 450px; width: 100%">
+                <tbody>
+                  <tr>
+                    <th style="text-align:center; width: 20%">Services</th>
+                    <td style="text-align:center; width: 40%"><strong>Office Hours</strong><br> (9am - 5pm, weekdays)</td>
+                    <td style="text-align:center; width: 40%"><strong>After office Hours</strong><br>(5pm - 9am weekdays,<br> weekends and public holidays)</td>
+                  </tr>
+                  <tr>
+                    <td><b>1-way non emergency</b><br />(booked 1 day in advance)</td>
+                    <td style="text-align:center;"><strong>$50 – $90</strong></td>
+                    <td style="text-align:center;"><b>$90 – $130</b></td>
+                  </tr>
+                  <tr>
+                    <td><strong>1-way emergency to A&E </strong></td>
+                    <td style="text-align:center;"><b>$70 - $130</b></td>
+                    <td style="text-align:center;"><b>$90 - $150</b></td>
 
-                </tr>
-                <tr>
-                  <td><strong>2-way non emergency</strong><br />(booked 1 day in advance)</td>
-                  <td style="text-align:center;"><b>$90 - $130*</b><br /><br />* <strong>$20</strong> surcharge for any single trip that falls outside office hours</td>
-                  <td style="text-align:center;"><b>$120 - $180</b></td>
-                </tr>
+                  </tr>
+                  <tr>
+                    <td><strong>2-way non emergency</strong><br />(booked 1 day in advance)</td>
+                    <td style="text-align:center;"><b>$90 - $130*</b><br /><br />* <strong>$20</strong> surcharge for any single trip that falls outside office hours</td>
+                    <td style="text-align:center;"><b>$120 - $180</b></td>
+                  </tr>
 
-                <tr>
-                  <td><strong>Regular trips </strong>eg. Dialysis, elder care, or therapy</td>
-                  <td colspan="2" style="text-align:center;"><b>$85 - $110</b> per return trip</td>
-                </tr>
-                <tr>
-                  <td><strong>Psychiatric cases </strong></td>
-                  <td colspan="2" style="text-align:center;"><b>$200 - $400</b> per case</td>
-                </tr>
-                <tr>
-                  <td><strong>Airport cases</strong></td>
-                  <td colspan="2" style="text-align:center;">
-                    Stretcher / tarmac cases <strong>$350 - $500</strong> per trip<br /> Wheelchair cases <strong>$150 - $300</strong> per trip
-                  </td>
-                </tr>
-                <tr>
-                  <td><strong>Ferry terminal cases</strong></td>
-                  <td colspan="2" style="text-align:center;">
-                    <strong>$200 - $400</strong> per case
-                  </td>
-                </tr>
+                  <tr>
+                    <td><strong>Regular trips </strong>eg. Dialysis, elder care, or therapy</td>
+                    <td colspan="2" style="text-align:center;"><b>$85 - $110</b> per return trip</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Psychiatric cases </strong></td>
+                    <td colspan="2" style="text-align:center;"><b>$200 - $400</b> per case</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Airport cases</strong></td>
+                    <td colspan="2" style="text-align:center;">
+                      Stretcher / tarmac cases <strong>$350 - $500</strong> per trip<br /> Wheelchair cases <strong>$150 - $300</strong> per trip
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ferry terminal cases</strong></td>
+                    <td colspan="2" style="text-align:center;">
+                      <strong>$200 - $400</strong> per case
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td><strong>Use of oxygen or suction apparatus</strong></td>
-                  <td colspan="2" style="text-align:center;">Additional <strong>$10 – $30</strong></td>
-                </tr>
-                <tr>
-                  <td><b>Doctor/Nurse accompaniment</b></td>
-                  <td colspan="2" style="text-align:center;">Can be available upon request</td>
-                </tr>
-              </tbody>
-            </table>
+                  <tr>
+                    <td><strong>Use of oxygen or suction apparatus</strong></td>
+                    <td colspan="2" style="text-align:center;">Additional <strong>$10 – $30</strong></td>
+                  </tr>
+                  <tr>
+                    <td><b>Doctor/Nurse accompaniment</b></td>
+                    <td colspan="2" style="text-align:center;">Can be available upon request</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
             <p>
               Remarks:<br> - All prices quoted are inclusive of GST.<br> - Prices are correct as of October 2016. Please contact our hotline for confirmation.<br> - A waiting charge may be imposed after the first 15min of waiting.<br> - A cancellation
               charge may be imposed if you decide to cancel the service after we have arrived at the pick-up point.

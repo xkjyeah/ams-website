@@ -26,7 +26,8 @@ export default {
             </p>
 
 
-            <table style="width:100%;">
+            <table-wrap>
+            <table style="width:100%; min-width: 600px">
               <tbody>
                 <tr>
                   <td rowspan="2" style="text-align:center;"><strong><i>Cylinder Size <br />
@@ -72,6 +73,7 @@ export default {
                 </tr>
               </tbody>
             </table>
+            </table-wrap>
             <h3>Details to Provide When Calling Us</h3>
             <p>
               To help us advise you better, please provide us the answers to the following questions when making the rental:<br> - What is the medical condition that the patient suffering from? <br> - What oxygen flow rate does his doctor prescribe?
