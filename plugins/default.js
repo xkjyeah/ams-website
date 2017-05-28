@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 Vue.component('AddressArea', require('../components/AddressArea.vue'))
 Vue.component('MapComponent', require('../components/MapComponent.vue'))
+Vue.component('CallBanner', require('../components/CallBanner.vue'))
 Vue.component('ReCaptcha', require('../components/ReCaptcha.vue'))
 Vue.component('NavMenuList', require('../components/NavMenuList.vue'))
 Vue.component('WhatsNewWidget', require('../components/WhatsNewWidget.vue'))

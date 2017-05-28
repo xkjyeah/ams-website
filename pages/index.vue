@@ -103,12 +103,7 @@ export default {
               </div>
               <div style="clear:both;"></div>
             </div>
-
-            <div id="bottom_call_action_area">
-              <div id="bottom_call_action_text">call our <span>hotline</span> at</div>
-              <div id="bottom_call_number"><a href="tel:6281 8111">6281 8111</a></div>
-              <div style="clear:both;"></div>
-            </div>
+            <CallBanner />
           </div>
         </div>
         <div id="main_right">
