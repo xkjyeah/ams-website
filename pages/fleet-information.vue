@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Information',
-    category: 'about',
+    // category: 'about',
   }
 }
 </script>

@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Company Profile and Crew',
-    category: 'about',
+    // category: 'about',
   }
 }
 </script>

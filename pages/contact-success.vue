@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Thank You',
-    category: 'contact',
+    // category: 'contact',
   }
 }
 </script>

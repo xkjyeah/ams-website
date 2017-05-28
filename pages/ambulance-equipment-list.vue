@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Ambulance Equipment List',
-    category: 'about',
+    // category: 'about',
   }
 }
 </script>

@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Ambulance Medical Service',
-    category: 'home'
+    // category: 'home'
   }
 }
 </script>

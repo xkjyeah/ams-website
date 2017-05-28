@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Gallery',
-    category: 'event-standby',
+    // category: 'event-standby',
   }
 }
 </script>

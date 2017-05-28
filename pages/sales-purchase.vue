@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'Sales & Rental',
-    category: 'sales-purchase',
+    // category: 'sales-purchase',
   }
 }
 </script>

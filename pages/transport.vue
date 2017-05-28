@@ -1,7 +1,7 @@
 <script>
 export default {
   head: {
-    category: 'transport',
+    // category: 'transport',
     title: 'Transport',
   }
 }

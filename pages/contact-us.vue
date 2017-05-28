@@ -1,7 +1,7 @@
 <script>
 export default {
   title: 'Contact Us',
-  category: 'contact',
+  // category: 'contact',
 }
 </script>
 

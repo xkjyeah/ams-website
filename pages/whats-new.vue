@@ -2,7 +2,7 @@
 export default {
   head: {
     title: 'What\'s New',
-    category: 'about',
+    // category: 'about',
   }
 }
 </script>

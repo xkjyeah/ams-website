@@ -1,7 +1,7 @@
 <script>
 export default {
   title: '404 Error',
-  category: '',
+  // category: '',
 }
 </script>
 <template>
