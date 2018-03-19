@@ -1,8 +1,12 @@
 <script>
 export default {
   head: {
-    title: 'Information',
-    // category: 'event-standby',
+    title: 'Event Standby',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
+    }]
   }
 }
 </script>

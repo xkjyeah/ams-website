@@ -2,7 +2,11 @@
 export default {
   head: {
     title: 'Gallery',
-    // category: 'event-standby',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service provides medical coverage for events and operations. Browse our gallery here!'
+    }]
   }
 }
 </script>

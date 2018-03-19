@@ -1,8 +1,12 @@
 <script>
 export default {
   head: {
-    title: 'Company Profile and Crew',
-    // category: 'about',
+    title: 'Join us',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
+    }]
   }
 }
 </script>

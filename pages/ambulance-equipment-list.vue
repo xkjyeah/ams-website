@@ -1,8 +1,12 @@
 <script>
 export default {
   head: {
-    title: 'Ambulance Equipment List',
-    // category: 'about',
+    title: 'Ambulance Equipment',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Our ambulances are fully equipped with modern medical equipment and medications necessary for emergency situations. View our full list of ambulance equipment here. '
+    }]
   }
 }
 </script>

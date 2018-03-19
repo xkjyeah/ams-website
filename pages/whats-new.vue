@@ -2,7 +2,11 @@
 export default {
   head: {
     title: 'What\'s New',
-    // category: 'about',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here!'
+    }]
   }
 }
 </script>

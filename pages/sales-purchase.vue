@@ -1,8 +1,12 @@
 <script>
 export default {
   head: {
-    title: 'Sales & Rental',
-    // category: 'sales-purchase',
+    title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service sells and rents certain medical equipment for home use in Singapore, such as oxygen cylinders & AEDs. View more details here.'
+    }]
   }
 }
 </script>

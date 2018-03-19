@@ -1,8 +1,10 @@
 <script>
 export default {
   head: {
-    title: 'Ambulance Medical Service',
-    // category: 'home'
+    title: 'Emergency Ambulance Singapore',
+    meta: [
+      {hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!'}
+    ]
   }
 }
 </script>

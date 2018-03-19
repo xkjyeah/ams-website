@@ -1,8 +1,12 @@
 <script>
 export default {
   head: {
-    // category: 'transport',
-    title: 'Transport',
+    title: 'Emergency Medical Transport Singapore',
+    meta: [{
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service provides 24/7 emergency transport for patients in Singapore, including non-emergency cases, and patients requiring overseas evacuation. Contact us at 6281-8111 today!'
+    }]
   }
 }
 </script>
