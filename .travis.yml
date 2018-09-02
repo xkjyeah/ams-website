@@ -1,0 +1,12 @@
+language: node
+script:
+  - npm run build-for-deploy
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  fqdn: www.ambulanceservice.com.sg
+  local-dir:
+  on:
+    branch: nuxt
