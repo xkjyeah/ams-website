@@ -1,5 +1,6 @@
 language: node
 script:
+  - npm install
   - npm run build-for-deploy
 deploy:
   provider: pages
