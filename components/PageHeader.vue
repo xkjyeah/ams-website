@@ -31,7 +31,7 @@
             <nuxt-link tag="li" active-class="active" to="/fleet-information"><a>Fleet Information</a></nuxt-link>
             <nuxt-link tag="li" active-class="active" to="/ambulance-equipment-list"><a>Ambulance Equipment List</a></nuxt-link>
             <nuxt-link tag="li" active-class="active" to="/whats-new"><a>What's New</a></nuxt-link>
-            <nuxt-link tag="li" active-class="active" to="/join-us"><a>Join Us</a></nuxt-link>
+            <nuxt-link tag="li" active-class="active" to="/join-us"><a>Jobs</a></nuxt-link>
           </NavMenuList>
           <NavMenuList label="Transport">
             <nuxt-link tag="li" active-class="active" to="/transport"><a>Local Transport</a></nuxt-link>

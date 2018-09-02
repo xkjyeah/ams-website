@@ -18,7 +18,7 @@
         <li><nuxt-link to="/sales-purchase" class="footer_link">Sales &amp; Rental</nuxt-link></li>
         <li><nuxt-link to="/contact-us" class="footer_link">Contact AMS</nuxt-link></li>
         <li><nuxt-link to="/whats-new" class="footer_link">What's New</nuxt-link></li>
-        <li><nuxt-link to="/join-us" class="footer_link">Join Us</nuxt-link></li>
+        <li><nuxt-link to="/join-us" class="footer_link">Jobs</nuxt-link></li>
       </ul>
 
       <ul class="links">

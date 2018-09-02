@@ -14,11 +14,22 @@ export default {
 <template>
 <default-page>
   <div>
-    <h2>Joining AMS</h2>
+    <h2>Jobs at AMS</h2>
+
+    <h3>Positions available:</h3>
+    <ul>
+      <li>Paramedic</li>
+      <li>Medic</li>
+      <li>Driver</li>
+    </ul>
 
     <p>
-      At AMS, we are renowned for keeping our crew trained and up-to-date with the latest courses / equipment. We are always looking for new employees, so feel free to enquire if we have any job vacancies. If you would like to join us, please <a class="text_link"
-          href="assets/Employment-Application.docx">download our employment application form</a> and email it to us at mail@ambulanceservice.com.sg
+
+      At AMS, we are renowned for keeping our crew trained and up-to-date with the latest courses / equipment.
+      We are always looking for new employees.
+      If you would like to join us, please
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ509wOWpV6pSocYx5kOrNRuRZWedM_NGUeroycZMF0nSFuQ/viewform?usp=sf_link">
+      fill up the online job application form</a>.
     </p>
 
     <h2>Employee Benefits</h2>
