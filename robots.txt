@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: http://www.ambulanceservice.com.sg/sitemap.xml

@@ -1,0 +1,35 @@
+{
+  "name": "website2",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "daniel.ssq89@gmail.com",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.7.2",
+    "nuxt": "latest",
+    "sass-loader": "^6.0.6"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "serve": "npm run generate && http-server dist",
+    "build-for-deploy": "npm run generate",
+    "deploy": "npm run build-for-deploy && gh-pages --depth 1 -t -d dist"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "shx": "^0.2.2"
+  }
+}
