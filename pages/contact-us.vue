@@ -20,7 +20,7 @@ export default {
 
 <template>
 <default-page>
-  <form action="http://enquiry.ambulanceservice.com.sg/enquiry"
+  <form action="https://ams-bookings.herokuapp.com/enquiry"
     method="post" name='form1' id="form1" @submit="trackGA">
 
     <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success" />
