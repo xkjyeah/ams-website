@@ -8,13 +8,19 @@ export default {
       content: 'Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here!'
     }]
   },
+  
+  methods: {
+    trackGA () {
+      gtag('event', 'conversion', { 'where': 'contact_us_form' })
+    }
+  }
 }
 </script>
 
 <template>
 <default-page>
   <form action="http://enquiry.ambulanceservice.com.sg/enquiry"
-    method="post" name='form1' id="form1">
+    method="post" name='form1' id="form1" @submit="trackGA">
 
     <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success" />
     <label class="enquiry_text_area">
