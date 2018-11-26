@@ -11,7 +11,7 @@ export default {
   methods: {
     trackGA () {
       if (window.gtag) {
-        window.gtag('event', 'conversion',{ 'send_to': 'AW-952434988/sbHXCMT5-IcBEKyClMYD'});
+        window.gtag('event', 'conversion', { 'send_to': 'AW-952434988/sbHXCMT5-IcBEKyClMYD' })
       }
     }
   }
