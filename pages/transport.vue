@@ -13,7 +13,10 @@ export default {
 
 <template>
 <default-page>
-  <p>Ambulance Medical Service provides 24/7 transport within Singapore for <strong>emergency</strong> and <strong>non-emergency</strong> cases. We are registered under SCDF’s <a href="https://www.scdf.gov.sg/content/scdf_internet/en/general/information/information_on_scdfand1777medicalservices.html"
+  <p>Ambulance Medical Service provides 24/7 transport within Singapore for
+  <strong>emergency</strong> and <strong>non-emergency</strong> cases.
+  We are registered under SCDF’s
+  <a href="https://www.scdf.gov.sg/home/about-us/information/scdf-emergency-medical-services"
         target="new" class="text_link">1777 non-emergency ambulance hotline.</a></p>
   <p>A non-emergency ambulance team consists of 1 Ambulance, an Emergency Medical Technician (EMT) certified driver and a paramedic level 1 or 2 with BCLS +/- ACLS and ITLS
     <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link>
