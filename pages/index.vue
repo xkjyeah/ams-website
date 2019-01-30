@@ -95,7 +95,7 @@ export default {
                 <div style="clear:both;"></div>
               </div>
               <div class="service_block">
-                <a href="ambulance-equipment-list.html">
+                <a href="/ambulance-equipment-list">
                   <div id="title_Purple_normal">Ambulance Equipment List</div>
                   <div class="service_img"><img src="/images/transport_service2.png" /></div>
                   <div class="text_left">Find out what we stock in each ambulance.
