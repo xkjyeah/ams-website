@@ -120,7 +120,8 @@ export default {
       <p>
         - Dräger Oxylog® 3000 – for ventilation<br /> - B.Braun Space Infusor – for accurate, controlled drug and fluids administration<br /> - Philips Intellivue X2 monitor – for continuous vital sign monitoring and recording
       </p>
-      <p>The above are in addition to the comprehensive equipment aboard our ambulances. The full equipment list can be seen <a href="ambulance-equipment-list.html" class="text_link">here.</a></p>
+      <p>The above are in addition to the comprehensive equipment aboard our ambulances.
+      The full equipment list can be seen <a href="/ambulance-equipment-list" class="text_link">here.</a></p>
       <p>Please contact our operation managers for details.</p>
     </div>
 
