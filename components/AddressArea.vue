@@ -6,7 +6,7 @@
           Ambulance Medical Service
         </div>
         <div class="address_black">
-          605 Macpherson Road, #01-10 Citimac, Singapore 368239
+          65 Ubi Road 1, #01-57 Oxley Bizhub, Singapore 408729
         </div>
         <div class="address_black">
           <div class="tele_block">
