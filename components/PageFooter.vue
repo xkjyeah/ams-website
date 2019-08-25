@@ -9,7 +9,7 @@
     <div id="site_map">
       <ul class="links">
         <li><nuxt-link to="/" class="footer_link">Home</nuxt-link></li>
-        <li><nuxt-link to="/companyprofile-crew" class="footer_link">Company Profile & Crew</nuxt-link></li>
+        <li><nuxt-link to="/companyprofile-crew" class="footer_link">Company Profile &amp; Crew</nuxt-link></li>
         <li><nuxt-link to="/fleet-information" class="footer_link">Fleet Information</nuxt-link></li>
         <li><nuxt-link to="/ambulance-equipment-list" class="footer_link">Ambulance Equipment List</nuxt-link></li>
         <li><nuxt-link to="/transport" class="footer_link">Transport</nuxt-link></li>
@@ -29,7 +29,7 @@
       </ul>
 
       <ul class="links">
-        <li class="links-wrap">Address: 605 Macpherson Road, #01-10 Citimac, Singapore 368239</li>
+        <li class="links-wrap">Address: 65 Ubi Road 1, #01-57 Oxley Bizhub, Singapore 408729</li>
         <li>AMS on <a href="https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/" target="new">Facebook</a>
         </li>
       </ul>
