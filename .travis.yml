@@ -12,4 +12,4 @@ deploy:
   fqdn: www.ambulanceservice.com.sg
   local-dir: dist
   on:
-    branch: nuxt
+    branch: master
