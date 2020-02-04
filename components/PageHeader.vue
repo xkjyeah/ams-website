@@ -4,6 +4,10 @@
     <div id="logo_call_area">
       <div id="logo_area">
         <nuxt-link to="/"><img src="/images/logo.png" /></nuxt-link>
+        <div class="certification-logos">
+          <img src="/images/bizsafe_enterprise_level_4_thumb.jpg" alt="Biz SAFE Enterprise Level 4" class="cert-logo" />
+          <img src="/images/qms_vertical_sac_thumb.jpg" alt="QMS Vertical Sac" class="cert-logo"/>
+        </div>
       </div>
       <div id="call_area">
         <div id="call_icon_text_area">
@@ -70,3 +74,14 @@ export default {
   }
 }
 </script>
+
+<style>
+  .certification-logos {
+    margin: 10px 0 0;
+  }
+
+  .certification-logos .cert-logo {
+    width: 80px !important;
+    margin-right: 10px !important;
+  }
+</style>
