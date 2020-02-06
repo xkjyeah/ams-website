@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'Fleet Information',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service offers pre-hospital care and comfort for our patients. Learn more about the medical equipment and treatment we use for rescue operations here!'
-    }]
+  head () {
+    return {
+      title: 'Fleet Information',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service offers pre-hospital care and comfort for our patients. Learn more about the medical equipment and treatment we use for rescue operations here!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
@@ -22,7 +30,7 @@ export default {
       </div>
       <div class="inner_service_right">
         <h2>Well-equipped</h2>
-        <p>Every ambulance is extensively equipped to provide pre-hospital care. Our full equipment list within each ambulance can be found <a href="ambulance-equipment-list.html" class="text_link">here.</a> </p>
+        <p>Every ambulance is extensively equipped to provide pre-hospital care. Our full equipment list within each ambulance can be found <a href="/ambulance-equipment-list/" class="text_link">here.</a> </p>
       </div>
 
       <div style="clear:both;"></div>

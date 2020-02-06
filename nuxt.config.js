@@ -38,4 +38,7 @@ module.exports = {
   plugins: [
     '~/plugins/default'
   ],
+  env: {
+    baseUrl: process.env.BASE_URL || 'https://www.ambulanceservice.com.sg'
+  }
 }

@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'Gallery',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service provides medical coverage for events and operations. Browse our gallery here!'
-    }]
+  head () {
+    return {
+      title: 'Gallery',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service provides medical coverage for events and operations. Browse our gallery here!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
@@ -18,13 +26,13 @@ export default {
   <p>Jump to:</p>
   <ul>
     <li>
-      <nuxt-link to="/gallery#Northeast">Northeast Compressport Run 2015</nuxt-link>
+      <nuxt-link to="/gallery/#Northeast">Northeast Compressport Run 2015</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/gallery#Duathlon">Singapore Duathlon 2014</nuxt-link>
+      <nuxt-link to="/gallery/#Duathlon">Singapore Duathlon 2014</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/gallery#Olympic">Singapore Summer Youth Olympic Games 2010</nuxt-link>
+      <nuxt-link to="/gallery/#Olympic">Singapore Summer Youth Olympic Games 2010</nuxt-link>
     </li>
   </ul>
   <div class="inner_service_area">

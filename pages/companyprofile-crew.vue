@@ -1,14 +1,22 @@
 <script>
 export default {
-  head: {
-    title: 'Company & Staff Profile',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service provides 24/7 ambulance services with professional paramedics trained to handle a range of medical emergencies. Find out more about our company and staff here!'
-      }
-    ]
+  head () {
+    return {
+      title: 'Company & Staff Profile',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Ambulance Medical Service provides 24/7 ambulance services with professional paramedics trained to handle a range of medical emergencies. Find out more about our company and staff here!'
+        }
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>

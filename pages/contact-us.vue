@@ -1,12 +1,18 @@
 <script>
 export default {
-  head: {
-    title: 'Contact Us',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here!'
-    }]
+  head () {
+    return {
+      title: 'Contact Us',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here!'
+      }],
+      link: [{
+        rel: 'canonical',
+        href: process.env.baseUrl + this.$route.path
+      }]
+    }
   },
   methods: {
     trackGA () {

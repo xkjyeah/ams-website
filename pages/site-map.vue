@@ -1,7 +1,15 @@
 <script>
 export default {
-  head: {
-    title: 'Site Map'
+  head () {
+    return {
+      title: 'Site Map',
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
