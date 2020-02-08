@@ -1,8 +1,14 @@
 <script>
 export default {
-  head: {
-    title: 'Thank You',
-    // category: 'contact',
+  head () {
+    return {
+      title: 'Thank You',
+      // category: 'contact',
+      link: [{
+        rel: 'canonical',
+        href: process.env.baseUrl + this.$route.path
+      }]
+    }
   }
 }
 </script>

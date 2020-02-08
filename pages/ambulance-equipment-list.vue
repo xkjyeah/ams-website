@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'Ambulance Equipment',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Our ambulances are fully equipped with modern medical equipment and medications necessary for emergency situations. View our full list of ambulance equipment here. '
-    }]
+  head () {
+    return {
+      title: 'Ambulance Equipment',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Our ambulances are fully equipped with modern medical equipment and medications necessary for emergency situations. View our full list of ambulance equipment here. '
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
@@ -17,7 +25,7 @@ export default {
     <div id="main_left">
       <div id="left_area">
         <p>We have a hygienic, comfortable, and modern
-          <nuxt-link to="/fleet-information">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
+          <nuxt-link to="/fleet-information/">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
         </p>
         <div class="inner_service_area">
           <div class="inner_service_box">

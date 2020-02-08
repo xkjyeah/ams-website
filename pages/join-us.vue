@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'Join us',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
-    }]
+  head () {
+    return {
+      title: 'Join us',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>

@@ -1,10 +1,18 @@
 <script>
 export default {
-  head: {
-    title: 'Emergency Ambulance Singapore',
-    meta: [
-      {hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!'}
-    ]
+  head () {
+    return {
+      title: 'Emergency Ambulance Singapore',
+      meta: [
+        {hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!'}
+      ],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
@@ -16,8 +24,8 @@ export default {
         <div class="slider-wrapper theme-default">
           <div id="slider" class="nivoSlider">
             <img src="/images/slider1.png" data-thumb="/images/slider1.png" alt="" data-transition="fade" />
-            <a href="event-standby.html"><img src="/images/slider2.png" data-thumb="/images/slider2.png" alt="" data-transition="fade" /></a>
-            <a href="companyprofile-crew.html"><img src="/images/slider3.png" data-thumb="/images/slider3.png" alt="" data-transition="fade" /></a>
+            <a href="/event-standby/"><img src="/images/slider2.png" data-thumb="/images/slider2.png" alt="" data-transition="fade" /></a>
+            <a href="/companyprofile-crew/"><img src="/images/slider3.png" data-thumb="/images/slider3.png" alt="" data-transition="fade" /></a>
             <img src="/images/slider4.png" data-thumb="/images/slider4.png" alt="" data-transition="fade" />
             <img src="/images/slider5.png" data-thumb="/images/slider5.png" alt="" data-transition="fade" />
           </div>
@@ -35,7 +43,7 @@ export default {
             <div id="home_service_area">
 
               <div class="service_block">
-                <a href="/transport">
+                <a href="/transport/">
                   <div id="title_Purple_normal">Transport</div>
                   <div class="service_img"><img src="/images/transport_service.png" /></div>
                   <div class="text_left">24 hours Emergency or Non-Emergency</div>
@@ -49,7 +57,7 @@ export default {
                 <div style="clear:both;"></div>
               </div>
               <div class="service_block">
-                <a href="/event-standby">
+                <a href="/event-standby/">
                   <div id="title_Purple_normal">Event Standby</div>
                   <div class="service_img"><img src="/images/transport_service1.png" /></div>
                   <div class="text_left">Engage an Ambulance with Paramedics, Nurses, Doctors</div>
@@ -59,7 +67,7 @@ export default {
                 <div style="clear:both;"></div>
               </div>
               <div class="service_block">
-                <a href="sales-purchase">
+                <a href="sales-purchase/">
                   <div id="title_Purple_normal">Sales & Rental</div>
                   <div class="service_img"><img src="/images/transport_service2.png" /></div>
                   <div class="text_left">Rent Oxygen cylinders of various sizes for home therapy</div>
@@ -74,7 +82,7 @@ export default {
             <div id="home_service_area">
 
               <div class="service_block">
-                <a href="/companyprofile-crew">
+                <a href="/companyprofile-crew/">
                   <div id="title_Purple_normal">Company Profile and Crew</div>
                   <div class="service_img"><img src="/images/our_crew_1.png" /></div>
                   <div class="text_left">Our Director, a Doctor, trained in Anaesthesia and Intensive Care.</div>
@@ -85,7 +93,7 @@ export default {
                 <div style="clear:both;"></div>
               </div>
               <div class="service_block">
-                <a href="/fleet-information">
+                <a href="/fleet-information/">
                   <div id="title_Purple_normal">Fleet Information</div>
                   <div class="service_img"><img src="/images/fleet_information_1.png" /></div>
                   <div class="text_left">We own 20 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
@@ -95,7 +103,7 @@ export default {
                 <div style="clear:both;"></div>
               </div>
               <div class="service_block">
-                <a href="/ambulance-equipment-list">
+                <a href="/ambulance-equipment-list/">
                   <div id="title_Purple_normal">Ambulance Equipment List</div>
                   <div class="service_img"><img src="/images/transport_service2.png" /></div>
                   <div class="text_left">Find out what we stock in each ambulance.

@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'What\'s New',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here!'
-    }]
+  head () {
+    return {
+      title: 'What\'s New',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>

@@ -1,12 +1,18 @@
 <script>
 export default {
-  head: {
-    title: 'Event Standby',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
-    }]
+  head () {
+    return {
+      title: 'Event Standby',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
+      }],
+      link: [{
+        rel: 'canonical',
+        href: process.env.baseUrl + this.$route.path
+      }]
+    }
   }
 }
 </script>
@@ -17,9 +23,9 @@ export default {
     safety of your participants.
   </p>
   <p>Find out more about the equipment in our ambulances
-    <nuxt-link to="/ambulance-equipment-list">here</nuxt-link>
+    <nuxt-link to="/ambulance-equipment-list/">here</nuxt-link>
     and our ambulance fleet
-    <nuxt-link to="/fleet-information">here</nuxt-link>.
+    <nuxt-link to="/fleet-information/">here</nuxt-link>.
   </p>
   <div class="inner_service_area">
     <h2>
@@ -66,7 +72,7 @@ export default {
             <td colspan="2">
               <ul>
                 <li>All Terrain
-                  <nuxt-link to="/gallery#buggy">Buggies</nuxt-link>
+                  <nuxt-link to="/gallery/#buggy">Buggies</nuxt-link>
                 </li>
                 <li>Bicycles</li>
                 <li>Motorcycles</li>

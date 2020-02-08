@@ -1,12 +1,20 @@
 <script>
 export default {
-  head: {
-    title: 'Emergency Medical Transport Singapore',
-    meta: [{
-      hid: 'description',
-      name: 'description',
-      content: 'Ambulance Medical Service provides 24/7 emergency transport for patients in Singapore, including non-emergency cases, and patients requiring overseas evacuation. Contact us at 6281-8111 today!'
-    }]
+  head () {
+    return {
+      title: 'Emergency Medical Transport Singapore',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service provides 24/7 emergency transport for patients in Singapore, including non-emergency cases, and patients requiring overseas evacuation. Contact us at 6281-8111 today!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
@@ -19,12 +27,12 @@ export default {
   <a href="https://www.scdf.gov.sg/home/about-us/information/scdf-emergency-medical-services"
         target="new" class="text_link">1777 non-emergency ambulance hotline.</a></p>
   <p>A non-emergency ambulance team consists of 1 Ambulance, an Emergency Medical Technician (EMT) certified driver and a paramedic level 1 or 2 with BCLS +/- ACLS and ITLS
-    <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link>
+    <nuxt-link to="/companyprofile-crew/#our-crew">certification.</nuxt-link>
   </p>
   <p>An emergency ambulance team will have a paramedic level 3 (instead of level 1 or 2) present. This paramedic will also have BCLS +/- ACLS and ITLS
-    <nuxt-link to="/companyprofile-crew#our-crew">certification.</nuxt-link>
+    <nuxt-link to="/companyprofile-crew/#our-crew">certification.</nuxt-link>
   </p>
-  <p>We can transport <a href="transport.html#critically-ill" class="text_link">critically ill</a> patients requiring life support such as ventilators and infusion pumps.</p>
+  <p>We can transport <a href="/transport/#critically-ill" class="text_link">critically ill</a> patients requiring life support such as ventilators and infusion pumps.</p>
   <div class="inner_service_area">
     <div class="inner_service_box">
       <h2 id="local">
@@ -121,7 +129,7 @@ export default {
         - Dräger Oxylog® 3000 – for ventilation<br /> - B.Braun Space Infusor – for accurate, controlled drug and fluids administration<br /> - Philips Intellivue X2 monitor – for continuous vital sign monitoring and recording
       </p>
       <p>The above are in addition to the comprehensive equipment aboard our ambulances.
-      The full equipment list can be seen <a href="/ambulance-equipment-list" class="text_link">here.</a></p>
+      The full equipment list can be seen <a href="/ambulance-equipment-list/" class="text_link">here.</a></p>
       <p>Please contact our operation managers for details.</p>
     </div>
 
