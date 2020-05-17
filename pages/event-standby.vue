@@ -17,6 +17,34 @@ export default {
 }
 </script>
 
+<style lang="scss">
+table.past-projects-table {
+  max-width: 800px;
+  margin: auto;
+  img.partner-logo {
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    max-height: 40px;
+  }
+  tr:nth-child(even) td,
+  th
+   {
+    background-color: #EEE;
+  }
+  td, tr, th {
+    border: none;
+  }
+  /* the logo */
+  tbody tr td:nth-child(1) {
+    text-align: center;
+  }
+  th {
+    text-align: center;
+  }
+}
+</style>
+
 <template>
 <default-page>
   <p>Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
@@ -122,6 +150,257 @@ export default {
     </p>
 
     <h1>Past projects</h1>
+
+<table class="past-projects-table">
+<!--<thead>
+<tr>
+<th colspan="2">Service Provided</th>
+<th>Period</th>
+</tr>
+</thead>-->
+<tbody>
+<tr>
+<td>
+<img src="../assets/images/partners/image4.png" class="partner-logo" />
+</td>
+<td>
+
+Peace and Prosperity Singapore (27,000 participants)
+
+
+</td>
+<td>
+From 2019
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image5.png" class="partner-logo" />
+</td>
+<td>
+River Hongbao (10,000 participants)
+</td>
+<td>
+From 2015
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image6.jpeg" class="partner-logo" />
+</td>
+<td>
+Christmas wonderland (1.6 million visitors)
+</td>
+<td>
+2016
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image7.jpeg" class="partner-logo" />
+</td>
+<td>
+Siloso beach party (25,000 attendants)
+</td>
+<td>
+From 2012
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image8.jpeg" class="partner-logo" />
+</td>
+<td>
+Civil Service Club
+Emergency / Non-emergency transfer
+</td>
+<td>
+From 2015,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image9.png" class="partner-logo" />
+</td>
+<td>
+Esprimo Pte Ltd
+Emergency / Non-emergency transfer
+</td>
+<td>
+From 2012,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image10.png" class="partner-logo" />
+</td>
+<td>
+Singapore Rugby Union, National League
+Ambulance and Medical Team standby
+</td>
+<td>
+From 2018,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image11.png" class="partner-logo" />
+</td>
+<td>
+Centaurs weekly Rugby training
+Ambulance standby with WR Medic
+</td>
+<td>
+From 2018 to 2020, on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image12.png" class="partner-logo" />
+</td>
+<td>
+Tanglin Rugby Club Weekly Rugby training Ambulance standby with WR Medic
+</td>
+<td>
+From 2018 to 2020, on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image13.png" class="partner-logo" />
+</td>
+<td>
+SRU World Rugby HSBC 7’s
+Ambulance and WR Medical Team standby
+</td>
+<td>
+From 2018
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image14.png" class="partner-logo" />
+</td>
+<td>
+JRCS Grand Finals
+WR Medic, Ambulance standby
+</td>
+<td>
+2018, 2019
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image15.png" class="partner-logo" />
+</td>
+<td>
+SCC Rugby Academy Tournament
+WR Medic, Ambulance standby
+</td>
+<td>
+2018, 2019
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image16.png" class="partner-logo" />
+</td>
+<td>
+One Edge of Greatness Martial Arts Championship
+Ambulance and Medical Team standby
+</td>
+<td>
+2019
+current /on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image17.png" class="partner-logo" />
+</td>
+<td>
+Evolve Mixed Martial Arts (MMA).  Warrior Fight Night, Muay Thai Competition.  Annual Jiu Jitsu competition for kids, Kids Brazilian Jiu Jitsu Tournament
+</td>
+<td>
+2019 current /
+on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image18.jpeg" class="partner-logo" />
+</td>
+<td>
+Singapore F1 Race
+Medic and Ambulance standby, Medical posts, Mobile Medic, First Aid tent
+</td>
+<td>
+2018 to 2022
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image19.png" class="partner-logo" />
+</td>
+<td>Standard Chartered Singapore Marathon 2019</td>
+<td>
+From 2009,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image20.jpeg" class="partner-logo" />
+</td>
+<td>
+Event Health Management: Marathon, Run, Dash.   Emergency /Non-emergency / Doctor Standby &amp; transfer
+</td>
+<td>
+From 2017,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image21.png" class="partner-logo" />
+</td>
+<td>
+Singapore Badminton Association – International Series + Youth International Series
+</td>
+<td>
+From 2018,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image22.png" class="partner-logo" />
+</td>
+<td>
+Singapore Athletics:  U13 Track &amp; Field, School Meet, Cross Country, Schools Relay, Singapore Open Track &amp; Field Championship
+</td>
+<td>
+From 2014,
+current / on-going
+</td>
+</tr>
+<tr>
+<td>
+<img src="../assets/images/partners/image23.png" class="partner-logo" />
+</td>
+<td>
+Orangeroom Tri Factor Events – Run &amp; RunSwim Challenge, Triathlon, Aquathon,
+</td>
+<td>
+From 2015,
+current / on-going
+</td>
+</tr>
+</tbody>
+</table>
 
     <h1>Testimonials</h1>
 
