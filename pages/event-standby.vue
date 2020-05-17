@@ -19,7 +19,7 @@ export default {
 
 <template>
 <default-page>
-  <p>Ambulance Medical Services has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
+  <p>Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
     safety of your participants.
   </p>
   <p>Find out more about the equipment in our ambulances
@@ -29,8 +29,7 @@ export default {
   </p>
   <div class="inner_service_area">
     <h2>
-      <div class="service_icon"><img src="/images/event.png" /></div>
-      Pricing Schedule
+      Price Schedule
     </h2>
     <table-wrap>
       <table style="width: 100%; min-width: 500px">
@@ -47,7 +46,7 @@ export default {
           </tr>
           <tr>
             <td style="text-align:center;"><b>1 ambulance team</b><br />1 ambulance, 1 Driver,<br /> 1 Paramedic level 1-3</td>
-            <td style="text-align:center;"><strong>$60 – $80</strong> per hour<br />Evacuation <b>$80</b> per trip</td>
+            <td style="text-align:center;"><strong>$60 – $80</strong> per hour<br />Evacuation <b>$90</b> per trip</td>
             <td style="text-align:center;"><b>$70 – $100</b> per hour<br />Evacuation <strong>$100</strong> per trip</td>
           </tr>
           <tr>
@@ -121,7 +120,10 @@ export default {
     <p>
       All prices quoted are subject to GST
     </p>
-    <div id="title_Purple_big_noline">Testimonials</div>
+
+    <h1>Past projects</h1>
+
+    <h1>Testimonials</h1>
 
     <div class="testimonial_area">
       <blockquote>
@@ -142,7 +144,6 @@ export default {
 
   <div id="inner_image"><img src="/images/3.jpg" /></div>
   <div slot="sidebar">
-    <whats-new-widget />
     <enquiry-box />
     <address-area />
     <facebook-widget />

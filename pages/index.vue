@@ -45,14 +45,19 @@ export default {
               <div class="service_block">
                 <a href="/transport/">
                   <div id="title_Purple_normal">Transport</div>
+
                   <div class="service_img"><img src="/images/transport_service.png" /></div>
+                  <div>
+                    In view of COVID-19, enhanced preventive measures are in place for <strong>all regular cases</strong>, including full Personal Protective Equipment (PPE) for all emergency cases.
+                  </div>
+                  <br/>
                   <div class="text_left">24 hours Emergency or Non-Emergency</div>
                   <div class="text_left">One-Way or Two-Way Regular Transport for dialysis sessions / therapy</div>
                   <div class="text_left">Transport for Psychiatric patients</div>
                   <div class="text_left">Airport Tarmac, Ferry Terminal</div>
                   <div class="text_left">Overseas transport to West Malaysia, Batam, Bintan</div>
                   <div class="text_left">Transport of Critically Ill</div>
-                  <div class="text_left">Cash and NETS payment accepted!</div>
+                  <div class="text_left">Cash and PayNow accepted!</div>
                 </a>
                 <div style="clear:both;"></div>
               </div>
@@ -63,6 +68,7 @@ export default {
                   <div class="text_left">Engage an Ambulance with Paramedics, Nurses, Doctors</div>
                   <div class="text_left">Medical coverage of Sports Events, Gatherings, Conventions, Exhibitions</div>
                   <div class="text_left">First Aid station and Mobile Medical team on buggies, bicycles and motorcycles</div>
+                  <div class="text_left">Construction site medical post provision (with Doctors and Paramedics)</div>
                 </a>
                 <div style="clear:both;"></div>
               </div>
@@ -70,7 +76,7 @@ export default {
                 <a href="sales-purchase/">
                   <div id="title_Purple_normal">Sales & Rental</div>
                   <div class="service_img"><img src="/images/transport_service2.png" /></div>
-                  <div class="text_left">Rent Oxygen cylinders of various sizes for home therapy</div>
+                  <div class="text_left">Sale and rental of oxygen cylinders of various sizes for home therapy</div>
                   <div class="text_left">Purchase HeartSine Automated External Defibrillators (AEDs)</div>
                 </a>
               </div>
@@ -96,7 +102,7 @@ export default {
                 <a href="/fleet-information/">
                   <div id="title_Purple_normal">Fleet Information</div>
                   <div class="service_img"><img src="/images/fleet_information_1.png" /></div>
-                  <div class="text_left">We own 20 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
+                  <div class="text_left">We own 39 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
                   </div>
                 </a>
 

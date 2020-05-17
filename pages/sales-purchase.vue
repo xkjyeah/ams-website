@@ -28,7 +28,8 @@ export default {
         <a name="rentOxygen"></a>Rental of Oxygen Cylinders
       </h2>
 
-      <p><img src="/images/oxygen cylinder.jpg" width="200" border="0" hspace="15" vspace="10" align="left" /> AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
+      <p>
+        AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
         It has a carrying handle for easy handling; it does not rust therefore it is not possible for the patient to inhale rust particles. Our cylinders come in the following sizes according to the volume of liquid oxygen within: 2.9L, 4.6L and 10.5L.
         <br clear="both" />
       </p>
@@ -90,7 +91,7 @@ export default {
       </p>
       <h3>Pricing Schedule</h3>
       <p>
-        The rental fee of each cylinder varies from <strong>$60 - $100</strong> depending on the size of the cylinder. There will be no charge if clients pick up the oxygen cylinder from our warehouse; alternatively a delivery charge of $30-40 will be
+        The rental fee of each cylinder varies from <strong>$70 - $100</strong> depending on the size of the cylinder. There will be no charge if clients pick up the oxygen cylinder from our warehouse; alternatively a delivery charge of $50 (office hours) or $80 (non-office hours) will be
         imposed.
       </p>
       <h3>Replacement of depleted oxygen cylinders</h3>
@@ -100,23 +101,27 @@ export default {
     </div>
     <div class="inner_service_box">
       <h2 id="purchaseAED">
-                <div class="service_icon"><img src="/images/aed.png" /></div>
-                Sale of Automated External Defibrillator (AED)
-              </h2>
+        <div class="service_icon"><img src="/images/aed.png" /></div>
+        Sale of Automated External Defibrillator (AED)
+      </h2>
       <p style="text-align: center">
         <img src="/images/AED_Small.png" width="250" />
       </p>
       <p>
-        AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 7-year warranty provided by HeartSine against device malfunction.
+        AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 8-year warranty provided by HeartSine against device malfunction.
       </p>
-      <p>Each AED comes with:<br> - 1 lithium battery (non-rechargeable) <br> - 1 pair of adult defibrillation pads<br>
+      <p>
+      Each AED comes with:
+      <li>1 lithium battery (non-rechargeable) </li>
+      <li>1 pair of adult defibrillation pads</li>
+      <li>Optional AED cabinet &mdash; installation included</li>
       </p>
       <p>We also sell consumables such as the <strong>battery and a pair of adult defibrillation pads together.</strong></p>
       <p>We do not stock the paediatric defibrillation pads.</p>
     </div>
   </div>
+
   <div slot="sidebar">
-    <whats-new-widget />
     <enquiry-box />
     <address-area />
     <facebook-widget />

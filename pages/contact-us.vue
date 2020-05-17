@@ -70,13 +70,12 @@ export default {
         Submit
       </button>
     </label>
-  
+
   </form>
   <br>
   <MapComponent />
 
 <div slot="sidebar">
-  <whats-new-widget />
   <address-area />
   <facebook-widget />
 </div>

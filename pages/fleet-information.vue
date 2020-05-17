@@ -21,7 +21,7 @@ export default {
 
 <template>
 <default-page>
-  <p>AMS currently owns 20 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
+  <p>AMS currently owns 39 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
   </p>
   <div class="inner_service_area">
     <div class="inner_service_box">
@@ -96,7 +96,6 @@ export default {
 
   <div id="inner_image"><img src="/images/fleet_info_img.jpg" /></div>
   <div slot="sidebar">
-    <whats-new-widget />
     <enquiry-box />
 
     <address-area />

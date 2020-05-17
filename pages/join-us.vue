@@ -23,6 +23,7 @@ export default {
 <default-page>
   <div>
     <h2>Jobs at AMS</h2>
+    <p>We’re always looking for more passionate individuals with a heart for service to join our crew!</p>
 
     <h3>Positions available:</h3>
     <ul>
@@ -36,8 +37,7 @@ export default {
       At AMS, we are renowned for keeping our crew trained and up-to-date with the latest courses / equipment.
       We are always looking for new employees.
       If you would like to join us, please
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJ509wOWpV6pSocYx5kOrNRuRZWedM_NGUeroycZMF0nSFuQ/viewform?usp=sf_link">
-      fill up the online job application form</a>.
+      email us with your CV, or give us a call!
     </p>
 
     <h2>Employee Benefits</h2>

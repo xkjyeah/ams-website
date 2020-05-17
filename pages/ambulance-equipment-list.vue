@@ -74,7 +74,6 @@ export default {
     </div>
     <div id="main_right">
       <div id="right_area">
-        <whats-new-widget />
         <enquiry-box />
         <address-area />
         <facebook-widget />

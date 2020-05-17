@@ -77,7 +77,6 @@ export default {
     </div>
   </div>
   <div slot="sidebar">
-    <whats-new-widget />
     <enquiry-box/>
     <address-area />
     <facebook-widget />
