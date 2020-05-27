@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1 id="page_title">What's New</h1>
   <h3>April 2020</h3>
   <p>
     As of April 2020, we have expanded our fleet to 39 ambulances!
@@ -47,3 +48,16 @@ export default {
   </div>
 </default-page>
 </template>
+
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>

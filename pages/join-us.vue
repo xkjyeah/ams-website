@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1 id="page_title">Join Us</h1>
   <div>
     <h2>Jobs at AMS</h2>
     <p>We’re always looking for more passionate individuals with a heart for service to join our crew!</p>
@@ -57,3 +58,16 @@ export default {
   </div>
 </default-page>
 </template>
+
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>

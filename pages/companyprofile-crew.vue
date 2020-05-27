@@ -23,6 +23,7 @@ export default {
 
 <template>
 <default-page>
+  <h1 id="page_title">Company Profile & Crew</h1>
   <p>
     Ambulance Medical Service Pte Ltd (AMS) has been providing quality emergency and non-emergency ambulance services in Singapore since 1999.
   </p>
@@ -110,3 +111,15 @@ export default {
   </div>
 </default-page>
 </template>
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>

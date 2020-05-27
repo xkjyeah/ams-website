@@ -9,7 +9,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
+          href: process.env.baseUrl + this.$route.path
         }
       ]
     }
@@ -35,6 +35,7 @@ export default {
       <div id="main_body_area">
         <div id="main_left">
           <div id="left_area">
+            <h1 id="page_title">24/7 Ambulance Service in Singapore</h1>
             <div id="title_Purple_big">Dedicated. Reliable. Professional.</div>
             <p>Welcome to Ambulance Medical Service! </p>
             <p>We have been serving Singaporeans since 1999, and we’re dedicated to serving our customers with premier pre-hospital care and a smile. Come aboard with our friendly and experienced crew and let us look after you! </p>
@@ -138,3 +139,15 @@ export default {
   <!--body_area-->
 </main>
 </template>
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>

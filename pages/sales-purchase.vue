@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1 id="page_title">Equipment for Sale & Rent</h1>
   <div class="inner_service_area">
     <div class="inner_service_box">
       <h2>
@@ -128,3 +129,15 @@ export default {
   </div>
 </default-page>
 </template>
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>

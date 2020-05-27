@@ -43,10 +43,20 @@ table.past-projects-table {
     text-align: center;
   }
 }
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
 </style>
 
 <template>
 <default-page>
+  <h1 id="page_title">Medical Event Standby</h1>
   <p>Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
     safety of your participants.
   </p>

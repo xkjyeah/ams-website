@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1 id="page_title">Fleet Information</h1>
   <p>AMS currently owns 39 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
   </p>
   <div class="inner_service_area">
@@ -103,3 +104,16 @@ export default {
   </div>
 </default-page>
 </template>
+
+
+<style lang="scss" scoped>
+.page_title {
+  font-family: Calibri,sans-serif;
+  color: #7c257a;
+  font-size: 32px;
+  margin: 0 0 20px;
+  text-align: left;
+  text-transform: capitalize;
+  width: 100%;
+}
+</style>
