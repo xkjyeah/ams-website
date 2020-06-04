@@ -23,7 +23,7 @@ export default {
 
 <template>
 <default-page>
-  <h1>Company Profile & Crew</h1>
+  <h1>Company Profile &amp; Crew</h1>
   <p>
     Ambulance Medical Service Pte Ltd (AMS) has been providing quality emergency and non-emergency ambulance services in Singapore since 1999.
   </p>
