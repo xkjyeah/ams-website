@@ -21,7 +21,7 @@ export default {
 
 <template>
 <default-page>
-  <h1 id="page_title">Gallery</h1>
+  <h1>Gallery</h1>
   <p>We have provided medical coverage for hundreds of events. Here are some pictures of our crew in action!
   </p>
   <p>Jump to:</p>
@@ -84,16 +84,3 @@ export default {
   </div>
 </default-page>
 </template>
-
-
-<style lang="scss" scoped>
-.page_title {
-  font-family: Calibri,sans-serif;
-  color: #7c257a;
-  font-size: 32px;
-  margin: 0 0 20px;
-  text-align: left;
-  text-transform: capitalize;
-  width: 100%;
-}
-</style>

@@ -24,7 +24,7 @@ export default {
   <div id="main_body_area">
     <div id="main_left">
       <div id="left_area">
-        <h1 id="page_title">24/7 Ambulance Service in Singapore</h1>
+        <h1>24/7 Ambulance Service in Singapore</h1>
         <p>We have a hygienic, comfortable, and modern
           <nuxt-link to="/fleet-information/">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
         </p>
@@ -84,15 +84,3 @@ export default {
   </div>
 </div>
 </template>
-
-<style lang="scss" scoped>
-.page_title {
-  font-family: Calibri,sans-serif;
-  color: #7c257a;
-  font-size: 32px;
-  margin: 0 0 20px;
-  text-align: left;
-  text-transform: capitalize;
-  width: 100%;
-}
-</style>

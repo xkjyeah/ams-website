@@ -26,7 +26,7 @@ export default {
 
 <template>
 <default-page>
-  <h1 id="page_title">Contact Us</h1>
+  <h1>Contact Us</h1>
   <form action="https://ams-bookings.herokuapp.com/enquiry"
     method="post" name='form1' id="form1" @submit="trackGA">
 
@@ -82,15 +82,3 @@ export default {
 </div>
 </default-page>
 </template>
-
-<style lang="scss" scoped>
-.page_title {
-  font-family: Calibri,sans-serif;
-  color: #7c257a;
-  font-size: 32px;
-  margin: 0 0 20px;
-  text-align: left;
-  text-transform: capitalize;
-  width: 100%;
-}
-</style>

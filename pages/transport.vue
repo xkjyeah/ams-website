@@ -27,7 +27,7 @@ export default {
 
 <template>
 <default-page>
-  <h1 id="page_title">Medical Transport</h1>
+  <h1>Medical Transport</h1>
   <p>
     Ambulance Medical Service provides 24/7 transport within Singapore for
     <a href="https://www.moh.gov.sg/docs/librariesprovider5/default-document-library/emergencyambulancestandards.pdf" target="_blank">
@@ -196,15 +196,3 @@ export default {
   </div>
 </default-page>
 </template>
-
-<style lang="scss" scoped>
-.page_title {
-  font-family: Calibri,sans-serif;
-  color: #7c257a;
-  font-size: 32px;
-  margin: 0 0 20px;
-  text-align: left;
-  text-transform: capitalize;
-  width: 100%;
-}
-</style>
