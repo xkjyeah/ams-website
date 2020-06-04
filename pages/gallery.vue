@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1>Gallery</h1>
   <p>We have provided medical coverage for hundreds of events. Here are some pictures of our crew in action!
   </p>
   <p>Jump to:</p>

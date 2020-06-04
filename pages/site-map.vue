@@ -20,7 +20,7 @@ export default {
     <li><a href="index.html">Home</a></li>
     <li>About Us
       <ul>
-        <li><a href="/companyprofile-crew">Company Profile & Crew</a></li>
+        <li><a href="/companyprofile-crew">Company Profile &amp; Crew</a></li>
         <li><a href="/fleet-information">Fleet Information</a></li>
         <li><a href="/ambulance-equipment-list">Ambulance Equipment List</a></li>
         <li><a href="/what-new">What's New</a></li>
@@ -43,7 +43,7 @@ export default {
 
       </ul>
     </li>
-    <li>Sales & Rental
+    <li>Sales &amp; Rental
       <ul>
         <li><a href="/sales-purchase">Rental of Oxygen Cylinders</a></li>
         <li><a href="/sales-purchase#purchaseAED">Sales of AED</a></li>
@@ -54,7 +54,7 @@ export default {
   </ul>
   <MapComponent />
   <CallBanner />
-  
+
   <div slot="sidebar">
     <AddressArea />
     <FacebookWidget />

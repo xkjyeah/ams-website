@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1>Equipment for Sale &amp; Rent</h1>
   <div class="inner_service_area">
     <div class="inner_service_box">
       <h2>

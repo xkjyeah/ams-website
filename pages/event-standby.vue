@@ -47,6 +47,7 @@ table.past-projects-table {
 
 <template>
 <default-page>
+  <h1>Medical Event Standby</h1>
   <p>Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
     safety of your participants.
   </p>

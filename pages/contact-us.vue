@@ -26,6 +26,7 @@ export default {
 
 <template>
 <default-page>
+  <h1>Contact Us</h1>
   <form action="https://ams-bookings.herokuapp.com/enquiry"
     method="post" name='form1' id="form1" @submit="trackGA">
 

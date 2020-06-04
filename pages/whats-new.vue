@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1>What's New</h1>
   <h3>April 2020</h3>
   <p>
     As of April 2020, we have expanded our fleet to 39 ambulances!

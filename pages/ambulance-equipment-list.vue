@@ -24,6 +24,7 @@ export default {
   <div id="main_body_area">
     <div id="main_left">
       <div id="left_area">
+        <h1>24/7 Ambulance Service in Singapore</h1>
         <p>We have a hygienic, comfortable, and modern
           <nuxt-link to="/fleet-information/">fleet</nuxt-link> of ambulances extensively equipped with the following in each ambulance:
         </p>

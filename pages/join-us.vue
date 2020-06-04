@@ -21,6 +21,7 @@ export default {
 
 <template>
 <default-page>
+  <h1>Join Us</h1>
   <div>
     <h2>Jobs at AMS</h2>
     <p>We’re always looking for more passionate individuals with a heart for service to join our crew!</p>
