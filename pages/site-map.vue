@@ -43,7 +43,7 @@ export default {
 
       </ul>
     </li>
-    <li>Sales & Rental
+    <li>Sales &amp; Rental
       <ul>
         <li><a href="/sales-purchase">Rental of Oxygen Cylinders</a></li>
         <li><a href="/sales-purchase#purchaseAED">Sales of AED</a></li>
