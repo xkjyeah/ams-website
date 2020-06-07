@@ -130,7 +130,7 @@ export default {
         </ul>
 
         <div class="a_links">
-          <small>Copyright 2017 AMS Pte Ltd</small>
+          <small>Copyright 2020 AMS Pte Ltd</small>
         </div>
       </div>
     </div>
