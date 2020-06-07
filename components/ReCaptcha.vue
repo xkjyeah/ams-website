@@ -4,7 +4,7 @@ export default {
     window.grecaptcha.render(
       this.$refs.root,
       {
-        sitekey: '6LcZNygTAAAAAKPt757U3VcKOzCXGkLyl2sC2jCp',
+        sitekey: '6LcZNygTAAAAAKPt757U3VcKOzCXGkLyl2sC2jCp'
       }
     )
   }
@@ -12,5 +12,5 @@ export default {
 </script>
 
 <template>
-  <div ref="root"></div>
+  <div ref="root" />
 </template>

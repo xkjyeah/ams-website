@@ -1,5 +1,8 @@
 <template>
-  <div class="whats-new-widget address_gradient" style="margin:0 0 30px 0;">
+  <div
+    class="whats-new-widget address_gradient"
+    style="margin:0 0 30px 0;"
+  >
     <div id="address_area">
       <div class="address_block">
         <div id="title_Purple_normal">
@@ -27,7 +30,7 @@
           We have been promoted from BizSafe Level 3 to BizSafe Level 4!
         </p>
       </div>
-      <div style="clear:both;"></div>
+      <div style="clear:both;" />
     </div>
   </div>
 </template>

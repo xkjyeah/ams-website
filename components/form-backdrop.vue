@@ -1,8 +1,34 @@
+<script>
+export default {
+  props: {
+    open: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    close () {
+      this.$emit('close')
+    }
+  }
+}
+</script>
 <template>
-  <div class="backdrop" v-show="open">
-    <a href="#" @click="close">Close</a>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTdOE7fRZcLg3L5davFGs-yVL3APoYAafDQia-S2cfui5WqQ/viewform?embedded=true"
-    class="iframe" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <div
+    v-show="open"
+    class="backdrop"
+  >
+    <a
+      href="#"
+      @click="close"
+    >Close</a>
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeTdOE7fRZcLg3L5davFGs-yVL3APoYAafDQia-S2cfui5WqQ/viewform?embedded=true"
+      class="iframe"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >Loading...</iframe>
   </div>
 </template>
 
@@ -29,13 +55,3 @@
   }
 </style>
 
-<script>
-export default {
-  props: ['open'],
-  methods: {
-    close() {
-      this.$emit('close');
-    }
-  }
-}
-</script>

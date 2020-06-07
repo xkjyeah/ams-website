@@ -3,15 +3,15 @@
     <div id="main_body_area">
       <div id="main_left">
         <div id="left_area">
-          <slot></slot>
+          <slot />
         </div>
       </div>
       <div id="main_right">
         <div id="right_area">
-          <slot name="sidebar"></slot>
+          <slot name="sidebar" />
         </div>
       </div>
-      <br clear="both" />
+      <br clear="both">
     </div>
   </div>
 </template>
