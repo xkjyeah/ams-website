@@ -156,7 +156,7 @@ export default {
                 </td>
               </tr>
               <tr>
-                <td><strong>Ferry terminal cases</strong></td>
+                <td><strong>Ferry terminal / Causeway pickup cases</strong></td>
                 <td
                   colspan="2"
                   style="text-align:center;"
