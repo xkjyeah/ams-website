@@ -86,7 +86,7 @@ export default {
                 </td>
               </tr>
               <tr>
-                <td><b>1-way non emergency</b><br/>discharge from nursing home or hospital</td>
+                <td><b>1-way non emergency</b><br/>(discharge from nursing home or hospital)</td>
                 <td style="text-align:center;">
                   <strong>$60 – $100</strong>
                 </td>
