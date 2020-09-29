@@ -86,7 +86,7 @@ export default {
                 </td>
               </tr>
               <tr>
-                <td><b>1-way non emergency</b><br>(booked 1 day in advance)</td>
+                <td><b>1-way non emergency</b><br/>discharge from nursing home or hospital</td>
                 <td style="text-align:center;">
                   <strong>$60 – $100</strong>
                 </td>
@@ -94,22 +94,32 @@ export default {
                   <b>$100 – $150</b>
                 </td>
               </tr>
+      
               <tr>
-                <td><strong>1-way emergency to A&E </strong></td>
+                <td><b>1-way non emergency</b><br>(for admission / to A&amp;E)</td>
                 <td style="text-align:center;">
-                  <b>$90 - $160</b>
+                  <strong>$100 – $150</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$130 - $200</b>
+                  <b>$130 – $180</b>
                 </td>
               </tr>
               <tr>
-                <td><strong>2-way non emergency</strong><br>(booked 1 day in advance)</td>
+                <td><strong>1-way emergency to A&E </strong></td>
+                <td style="text-align:center;">
+                  <b>$120 - $160</b>
+                </td>
+                <td style="text-align:center;">
+                  <b>$150 - $200</b>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>2-way non emergency</strong><br/>(same day)</td>
                 <td style="text-align: center">
                   <b>$100 - $180*</b>
                   <br>
                   <br>
-                  * <strong>$20</strong> surcharge for any single trip that falls outside office hours
+                  * <strong>$30</strong> surcharge for any single trip that falls outside office hours
                 </td>
                 <td style="text-align:center;">
                   <b>$150 - $200</b>
@@ -122,7 +132,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <b>$85 - $110</b> per return trip
+                  <b>$100 - $150</b> per return trip
                 </td>
               </tr>
               <tr>
@@ -140,7 +150,9 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Stretcher / tarmac cases <strong>$350 - $500</strong> per trip<br> Wheelchair cases <strong>$200 - $300</strong> per trip
+                  Stretcher / tarmac cases <strong>$400 - $500</strong> per trip
+                  <br>
+                  Wheelchair cases <strong>$200 - $350</strong> per trip
                 </td>
               </tr>
               <tr>
@@ -149,7 +161,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <strong>$250 - $400</strong> per case
+                  <strong>$300 - $400</strong> per case
                 </td>
               </tr>
 
@@ -180,7 +192,7 @@ export default {
             <li>
               In view of COVID-19, if deemed necessary in the transport of the patient, extra charges will apply for use of full personal protective equipment (PPE).
             </li><li>All prices quoted are subject to GST.</li>
-            <li>Prices are correct as of April 2020. Please contact our hotline for confirmation.</li>
+            <li>Prices are correct as of September 2020. Please contact our hotline for confirmation.</li>
             <li>A waiting charge may be imposed after the first 15min of waiting.</li>
             <li>
               A cancellation charge
