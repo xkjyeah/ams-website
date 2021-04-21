@@ -88,41 +88,41 @@ export default {
               <tr>
                 <td><b>1-way non emergency</b><br/>(discharge from nursing home or hospital)</td>
                 <td style="text-align:center;">
-                  <strong>$60 – $100</strong>
+                  <strong>$80 – $120</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$100 – $150</b>
+                  <b>$120 – $160</b>
                 </td>
               </tr>
       
               <tr>
                 <td><b>1-way non emergency</b><br>(for admission / to A&amp;E)</td>
                 <td style="text-align:center;">
-                  <strong>$100 – $150</strong>
+                  <strong>$130 – $160</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$130 – $180</b>
+                  <b>$150 – $180</b>
                 </td>
               </tr>
               <tr>
                 <td><strong>1-way emergency to A&E </strong></td>
                 <td style="text-align:center;">
-                  <b>$120 - $160</b>
+                  <b>$150 - $180</b>
                 </td>
                 <td style="text-align:center;">
-                  <b>$150 - $200</b>
+                  <b>$160 - $200</b>
                 </td>
               </tr>
               <tr>
                 <td><strong>2-way non emergency</strong><br/>(same day)</td>
                 <td style="text-align: center">
-                  <b>$100 - $180*</b>
+                  <b>$130 - $180*</b>
                   <br>
                   <br>
                   * <strong>$30</strong> surcharge for any single trip that falls outside office hours
                 </td>
                 <td style="text-align:center;">
-                  <b>$150 - $200</b>
+                  <b>$160 - $220</b>
                 </td>
               </tr>
 
@@ -132,7 +132,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <b>$100 - $150</b> per return trip
+                  <b>$130 - $160</b> per return trip
                 </td>
               </tr>
               <tr>
@@ -141,7 +141,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <b>$250 - $400</b> per case
+                  <b>$300 - $450</b> per case
                 </td>
               </tr>
               <tr>
@@ -150,9 +150,9 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Stretcher / tarmac cases <strong>$400 - $500</strong> per trip
+                  Stretcher / tarmac cases <strong>$450 - $550</strong> per trip
                   <br>
-                  Wheelchair cases <strong>$200 - $350</strong> per trip
+                  Wheelchair cases <strong>$250 - $400</strong> per trip
                 </td>
               </tr>
               <tr>
@@ -183,6 +183,16 @@ export default {
                   Can be available upon request
                 </td>
               </tr>
+              <tr>
+                <td><b>Carrying patients by stairs</b></td>
+                <td
+                  colspan="2"
+                  style="text-align:center;"
+                >
+                  Surcharge of <strong>$30</strong> per level
+                </td>
+              </tr>
+              
             </tbody>
           </table>
         </table-wrap>
@@ -192,10 +202,10 @@ export default {
             <li>
               In view of COVID-19, if deemed necessary in the transport of the patient, extra charges will apply for use of full personal protective equipment (PPE).
             </li><li>All prices quoted are subject to GST.</li>
-            <li>Prices are correct as of September 2020. Please contact our hotline for confirmation.</li>
+            <li>Prices are correct as of April 2021. Please contact our hotline for confirmation.</li>
             <li>A waiting charge may be imposed after the first 15min of waiting.</li>
             <li>
-              A cancellation charge
+              A cancellation charge of 50% of the price
               may be imposed if you decide to cancel the service after we have arrived at the pick-up point.
             </li>
           </ol>
