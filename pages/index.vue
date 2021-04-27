@@ -13,7 +13,75 @@ export default {
         }
       ]
     }
-  }
+  },
+  jsonld() {
+		return [
+			{
+				"@context": "https://schema.org",
+				"@type": "WebSite",
+				"name": "Ambulance Medical Service - Emergency and Non-emergency services in Singapore",
+				"url": "https://www.ambulanceservice.com.sg/"
+			},
+			{
+				"@context": "https://schema.org",
+				"@id": "https://www.ambulanceservice.com.sg/",
+				"@type": "LocalBusiness",
+				"name": "Ambulance Medical Service",
+				"logo": "https://www.ambulanceservice.com.sg/images/logo.png",
+				"image": "https://www.ambulanceservice.com.sg/images/logo.png",
+				"url": "https://www.ambulanceservice.com.sg/",
+				"telephone": "65 6281 8111",
+				"priceRange": "$$",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
+					"addressLocality": "Singapore",
+					"postalCode": "408729",
+					"addressCountry": "+65"
+				},
+				"sameAs": [
+					"https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
+				],
+				"openingHoursSpecification": [{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Monday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Tuesday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Wednesday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Thursday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Friday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Saturday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}, {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Sunday",
+					"opens": "00:00",
+					"closes": "23:59"
+				}]
+			}
+			
+		]
+	}
 }
 </script>
 <template>
@@ -23,11 +91,11 @@ export default {
       <div id="wrapper">
         <div class="slider-wrapper theme-default">
           <div id="slider" class="nivoSlider">
-            <img src="/images/slider1.png" data-thumb="/images/slider1.png" alt="" data-transition="fade" />
-            <a href="/event-standby/"><img src="/images/slider2.png" data-thumb="/images/slider2.png" alt="" data-transition="fade" /></a>
-            <a href="/companyprofile-crew/"><img src="/images/slider3.png" data-thumb="/images/slider3.png" alt="" data-transition="fade" /></a>
-            <img src="/images/slider4.png" data-thumb="/images/slider4.png" alt="" data-transition="fade" />
-            <img src="/images/slider5.png" data-thumb="/images/slider5.png" alt="" data-transition="fade" />
+            <img src="/images/slider1.png" data-thumb="/images/slider1.png" alt="Emergency and Non-emergency Ambulance Services in Singapore" data-transition="fade" />
+            <a href="/event-standby/"><img src="/images/slider2.png" data-thumb="/images/slider2.png" alt="Medical Event Standby Ambulance" data-transition="fade" /></a>
+            <a href="/companyprofile-crew/"><img src="/images/slider3.png" data-thumb="/images/slider3.png" alt="Ambulance Medical Certified Crew" data-transition="fade" /></a>
+            <img src="/images/slider4.png" data-thumb="/images/slider4.png" alt="Excellent Track Record" data-transition="fade" />
+            <img src="/images/slider5.png" data-thumb="/images/slider5.png" alt="Fully Insured Liability Insurance" data-transition="fade" />
           </div>
         </div>
       </div>

@@ -36,7 +36,8 @@ module.exports = {
     }
   },
   plugins: [
-    '~/plugins/default'
+    '~/plugins/default',
+    '~/plugins/jsonld',
   ],
   env: {
     baseUrl: process.env.BASE_URL || 'https://www.ambulanceservice.com.sg'
