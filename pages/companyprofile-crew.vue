@@ -25,13 +25,13 @@ export default {
   <default-page>
     <h1>Company Profile &amp; Crew</h1>
     <p>
-      Ambulance Medical Service Pte Ltd (AMS) has been providing quality emergency and non-emergency ambulance services in Singapore since 1999.
+      Ambulance Medical Service Pte Ltd (AMS) has been providing quality <nuxt-link to="/">emergency and non-emergency ambulance services</nuxt-link> in Singapore since 1999.
     </p>
     <p>
       AMS has been awarded accreditation for providing Emergency Ambulance Medical / Transport Services compliant to the new MOH standards for Private Ambulance Operators that came into effect in 2019. AMS is also BizSAFE level 4 and ISO 9001 quality service certified. As a responsible pre-hospital healthcare provider, AMS is covered with professional indemnity and public liability insurance of S$1,000,000 & S$1000,000 respectively. AMS is GST registered with a paid-up capital of S$250,000. As of April 2020, we own over 39 well-furnished ambulances with state of art medical equipment and have 35 teams of ambulance crew.
     </p>
     <p>
-      AMS management promotes a sincere customer service culture with ongoing commitment to improve the customer journey. We have the honour of fulfilling contracted service to major Hospitals, Nursing Houses, Education institutes, Sport Clubs and Event Organizers covering event-standby, emergency and non-emergency ambulance, and medical services. AMS has extensive experience in small- and large-scale events, complex evacuations (both local and overseas), emergency cases, and 1777 (non-emergency public hotline) transport.
+      AMS management promotes a sincere customer service culture with ongoing commitment to improve the customer journey. We have the honour of fulfilling contracted service to major Hospitals, Nursing Houses, Education institutes, Sport Clubs and Event Organizers covering <nuxt-link to="/event-standby/">event-standby</nuxt-link>, emergency and non-emergency ambulance, and medical services. AMS has extensive experience in small- and large-scale events, complex evacuations (both local and overseas), emergency cases, and 1777 (non-emergency public hotline) transport.
     </p>
     <div class="inner_service_area">
       <div class="inner_service_box">
