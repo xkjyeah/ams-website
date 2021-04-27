@@ -1,9 +1,14 @@
-<template>
-  <div :is="body.component"></div>
-</template>
-
 <script>
 export default {
-  props: ['body']
+  props: {
+    'body': {
+      type: Object,
+      default: () => ({})
+    }
+  }
 }
 </script>
+
+<template>
+  <div :is="body.component" />
+</template>

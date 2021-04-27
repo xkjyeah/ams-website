@@ -20,25 +20,31 @@ export default {
 </script>
 
 <template>
-<default-page>
-  <img src="/images/what'snews_img.png" width="200" border="0" hspace="20" vspace="20" align="left" />
-  <h3>Oct 2016 </h3>
-  <p>
-    We have purchased the AutoPulse® Resuscitation System by Zoll to provide high-quality automated CPR to victims of sudden cardiac
-    arrest on the move. This device is NOW available at our First Aid station during medical cover for large scale events.
-  </p>
-  <p>The Autopulse has improved outcomes in numerous clinical trials. The AutoPulse’s stabilizing board can be placed on a
-    soft stretcher, so that high-quality CPR can continue while our paramedics carry the patient to the nearest ambulance for hospital evacuation.
-  </p>
-  <p>
-    Find out more about AutoPulse
-    <a href="http://www.zoll.com/medical-products/cardiac-support-pump/autopulse/"
-        target="new" class="text_link">here</a>.
-  </p>
-  <div slot="sidebar">
-    <enquiry-box/>
-    <address-area />
-    <facebook-widget />
-  </div>
-</default-page>
+  <default-page>
+    <h1>What's New</h1>
+    <h3>April 2020</h3>
+    <p>
+      As of April 2020, we have expanded our fleet to 39 ambulances!
+    </p>
+    <p>
+      We are proud to support COVID-19 since February 2020 and have dedicated a section of our fleet to support 993 transport services of suspect and confirmed cases. Rest assured that to avoid cross-infectivity with our regular patients, the COVID team is separate from our regular teams. Our COVID crew is well trained and adheres to strict personal-protection and sanitisation protocol. Preventive measures have also been ramped up for all regular cases.
+    </p>
+    <p>
+      Under new MOH regulations for improving stricter standards for private ambulances, AMS has been accredited for both Emergency Ambulance Services (EAS) and Medical Transport Services (MTS). With our commitment to maintaining professional services and top-line equipment, we are one of the earliest private ambulances to pass accreditation standards!
+    </p>
+
+    <h3>November 2019</h3>
+    <p>
+      We have received ISO 9001 : 2015 from November 2019. It is awarded to companies that meet requirements for a quality management system that consistently meet high standards of service and customer satisfaction. See more details at https://www.iso.org/standard/62085.html
+    </p>
+    <p>
+      We have also been promoted from BizSafe Level 3 to BizSafe Level 4!
+    </p>
+
+    <div slot="sidebar">
+      <enquiry-box />
+      <address-area />
+      <facebook-widget />
+    </div>
+  </default-page>
 </template>

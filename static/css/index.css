@@ -388,7 +388,7 @@ main, #body_area {
 p, .text_justify {
   font-size: 18px;
   color: #000000;
-  text-align: justify;
+  /* text-align: justify; */
   margin: 0 0 1em 0;
   padding: 0;
   line-height: 1.5; }

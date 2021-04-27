@@ -1,22 +1,36 @@
 <template>
-  <div class="whats-new-widget address_gradient" style="margin:0 0 30px 0;">
+  <div
+    class="whats-new-widget address_gradient"
+    style="margin:0 0 30px 0;"
+  >
     <div id="address_area">
       <div class="address_block">
         <div id="title_Purple_normal">
           What’s new at AMS
         </div>
-        <div class="service_img_left">
-          <p>October - 2016</p><img src="/images/what'snews_img.png" class="img-me"/>
-        </div>
-        <div class="service_img_right">
-          <p>We have purchased the<b> AutoPulse® Resuscitation System by Zoll</b> to provide high-quality automated CPR to victims of sudden cardiac arrest on the move. This device is NOW available at our First Aid station during medical cover for
-            large scale events.
-            <div id="what_news_link"><nuxt-link to="/whats-new/" class="text_link">read more</nuxt-link></div>
-          </p>
-        </div>
-        <div style="clear:both;"></div>
+
+        <h3>April 2020</h3>
+        <p>
+          As of April 2020, we have expanded our fleet to 39 ambulances!
+        </p>
+
+        <p>
+          We are proud to support the fight against COVID-19 since Febrary 2020.
+          AMS is also among the few private ambulance companies accredited for both
+          Emergency Ambulance Services (EMS) and Medical Transport Services (MTS)
+          under the new MOH regulations.
+        </p>
+
+        <h3>November 2019</h3>
+        <p>
+          We have received ISO 9001:2015 accreditation as a mark of our consistent high
+          standards of quality!
+        </p>
+        <p>
+          We have been promoted from BizSafe Level 3 to BizSafe Level 4!
+        </p>
       </div>
-      <div style="clear:both;"></div>
+      <div style="clear:both;" />
     </div>
   </div>
 </template>
