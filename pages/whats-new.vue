@@ -30,7 +30,7 @@ export default {
       We are proud to support COVID-19 since February 2020 and have dedicated a section of our fleet to support 993 transport services of suspect and confirmed cases. Rest assured that to avoid cross-infectivity with our regular patients, the COVID team is separate from our regular teams. Our COVID crew is well trained and adheres to strict personal-protection and sanitisation protocol. Preventive measures have also been ramped up for all regular cases.
     </p>
     <p>
-      Under new MOH regulations for improving stricter standards for private ambulances, AMS has been accredited for both Emergency Ambulance Services (EAS) and Medical Transport Services (MTS). With our commitment to maintaining professional services and top-line equipment, we are one of the earliest private ambulances to pass accreditation standards!
+      Under new MOH regulations for improving stricter standards for <nuxt-link to="/">private ambulances</nuxt-link>, AMS has been accredited for both Emergency Ambulance Services (EAS) and Medical Transport Services (MTS). With our commitment to maintaining professional services and top-line equipment, we are one of the earliest private ambulances to pass accreditation standards!
     </p>
 
     <h3>November 2019</h3>
