@@ -12,7 +12,9 @@ export default {
         {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
-        }
+        },
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg'},
       ]
     }
   }

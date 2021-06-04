@@ -10,7 +10,9 @@ export default {
         {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path
-        }
+        },
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'x-default'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'en-sg'},
       ]
     }
   },
