@@ -14,7 +14,9 @@ export default {
         {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
-        }
+        },
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'x-default'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'en-sg'},
       ]
     }
   }
