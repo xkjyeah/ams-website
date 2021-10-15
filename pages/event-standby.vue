@@ -9,9 +9,12 @@ export default {
         content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
       }],
       link: [{
-        rel: 'canonical',
-        href: process.env.baseUrl + this.$route.path + '/'
-      }]
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path + '/'
+        },
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'x-default'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg'},
+      ]
     }
   },
   jsonld() {
