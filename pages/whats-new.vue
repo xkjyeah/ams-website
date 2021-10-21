@@ -14,7 +14,7 @@ export default {
           href: process.env.baseUrl + this.$route.path + '/'
         },
         {rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: 'en-sg'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: 'en-sg'}
       ]
     }
   }
@@ -24,6 +24,45 @@ export default {
 <template>
   <default-page>
     <h1>What's New</h1>
+    <style>
+      .col-flex {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .col {
+        width: 100%;
+      }
+
+      .col:first-child {
+        margin-left: 0;
+      }
+
+      @media (min-width: 1024px) {
+        .col-flex {
+          flex-direction: row;
+        }
+        .col {
+          width: 50%;
+          margin-left: 30px;
+        }
+      }
+    </style>
+    <div class="col-flex">
+      <div class="col">
+        <img src="~/assets/images/letter-of-commendation-img.jpg" alt="LETTER OF COMMENDATION">
+      </div>
+      <div class="col">
+        <h3>Oct 2021 - LETTER OF COMMENDATION</h3>
+        <p>Dear Sir,</p>
+        <p>I wish to commend the professionalism and public spirit shown by your crew, Andy and Ben, when they happened to be the third vehicle behind, witnessing an accident yesterday afternoon at Ang Mo Kio Ave 5.</p>
+        <p>They helped to render first aid to the slightly injured motorcyclist.  The ambulance driver also helped to direct traffic at the CTE slip road upon the arrival of SCDF ambulance and traffic police.</p>
+        <p>They also advised us to notify the police due to injury, though the biker who caused the minor accident was not in favour of it.</p>
+        <p>The instant assistance by your staff helped to ease our anxiety, both victims being first timers.  I extend my great appreciation to both gentlemen.   I also congratulate you on your success in nurturing such excellent emergency responders.</p>
+        <p>Thank you.</p>
+      </div>
+    </div>
+    
     <h3>April 2020</h3>
     <p>
       As of April 2020, we have expanded our fleet to 39 ambulances!

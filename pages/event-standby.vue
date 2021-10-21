@@ -13,7 +13,7 @@ export default {
           href: process.env.baseUrl + this.$route.path + '/'
         },
         {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg'}
       ]
     }
   },
