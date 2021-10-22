@@ -15,12 +15,14 @@ export default {
         name: 'description',
         content: 'Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here!'
       }],
-      link: [{
-        rel: 'canonical',
-        href: process.env.baseUrl + this.$route.path + '/'
-      },
-      {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default'},
-      {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg'},
+      link: [
+        {
+          rel: 'canonical',
+          href: process.env.baseUrl + this.$route.path + '/'
+        },
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg'}
+      ]
     }
   }
 }

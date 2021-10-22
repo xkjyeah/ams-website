@@ -14,7 +14,7 @@ export default {
           href: process.env.baseUrl + this.$route.path + '/'
         },
         {rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'en-sg'},
+        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'en-sg'}
       ]
     }
   }
