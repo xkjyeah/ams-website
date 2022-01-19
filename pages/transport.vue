@@ -165,21 +165,21 @@ export default {
               </tr>
       
               <tr>
-                <td><b>1-way non emergency</b><br>(for admission / to A&amp;E)</td>
+                <td><b>1-way non emergency</b><br>(for admission)</td>
                 <td style="text-align:center;">
-                  <strong>$130 – $160</strong>
+                  <strong>$130 – $180</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$150 – $180</b>
+                  <b>$150 – $200</b>
                 </td>
               </tr>
               <tr>
                 <td><strong>1-way emergency to A&E </strong></td>
                 <td style="text-align:center;">
-                  <b>$150 - $180</b>
+                  <b>$180 - $200</b>
                 </td>
                 <td style="text-align:center;">
-                  <b>$160 - $200</b>
+                  <b>$180 - $220</b>
                 </td>
               </tr>
               <tr>
@@ -210,7 +210,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <b>$300 - $450</b> per case
+                  <b>$350 - $450</b> per case
                 </td>
               </tr>
               <tr>
@@ -219,13 +219,13 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Stretcher / tarmac cases <strong>$450 - $550</strong> per trip
+                  Tarmac cases <strong>$450 - $550</strong> per trip
                   <br>
-                  Wheelchair cases <strong>$250 - $400</strong> per trip
+                  Wheelchair/stretcher cases <strong>$250 - $400</strong> per trip
                 </td>
               </tr>
               <tr>
-                <td><strong>Ferry terminal / Causeway pickup cases</strong></td>
+                <td><strong>Ferry terminal cases</strong></td>
                 <td
                   colspan="2"
                   style="text-align:center;"
@@ -233,7 +233,15 @@ export default {
                   <strong>$300 - $400</strong> per case
                 </td>
               </tr>
-
+              <tr>
+                <td><strong>Causeway pickup cases</strong></td>
+                <td
+                  colspan="2"
+                  style="text-align:center;"
+                >
+                  <strong>$500</strong> per case
+                </td>
+              </tr>
               <tr>
                 <td><strong>Use of oxygen or suction apparatus</strong></td>
                 <td
