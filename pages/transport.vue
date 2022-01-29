@@ -248,7 +248,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Additional <strong>$20 – $50</strong>
+                  Additional <strong>$30 – $50</strong>
                 </td>
               </tr>
               <tr>
@@ -279,7 +279,7 @@ export default {
             <li>
               In view of COVID-19, if deemed necessary in the transport of the patient, extra charges will apply for use of full personal protective equipment (PPE).
             </li><li>All prices quoted are subject to GST.</li>
-            <li>Prices are correct as of April 2021. Please contact our hotline for confirmation.</li>
+            <li>Prices are correct as of January 2022. Please contact our hotline for confirmation.</li>
             <li>A waiting charge may be imposed after the first 15min of waiting.</li>
             <li>
               A cancellation charge of 50% of the price
