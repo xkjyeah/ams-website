@@ -30,8 +30,8 @@ export default {
     <p>Jump to:</p>
     <ul>
       <li>
-        <a href="/gallery/#LatestEvent">
-          Latest Event
+        <a href="/gallery/#LatestEvents">
+          Latest Events
         </a>
       </li>
       <li>
@@ -52,20 +52,18 @@ export default {
     </ul>
     <div class="inner_service_area">
       <div class="inner_service_box">
-        <h2 id="LatestEvent">
+        <h2 id="LatestEvents">
           <div class="service_icon">
             <img src="/images/gallery_icon.png">
           </div>
-          Latest Event
+          Latest Events
         </h2>
         <div class="gallery_img">
           <img src="/images/event-1.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellat voluptate nulla reprehenderit eos. Exercitationem eius ratione maiores laboriosam repellat, quo eum nemo deleniti aspernatur praesentium eaque, necessitatibus vitae unde.</p>
         <div class="gallery_img">
           <img src="/images/event-2.jpg">
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, incidunt similique nostrum maxime facere ex eius minima blanditiis. Nihil consectetur officiis provident quidem veniam placeat ipsam labore autem pariatur asperiores.</p>
         <div style="clear:both;" />
       </div>
     </div>
