@@ -30,21 +30,45 @@ export default {
     <p>Jump to:</p>
     <ul>
       <li>
-        <nuxt-link to="/gallery/#Northeast">
+        <a href="/gallery/#LatestEvent">
+          Latest Event
+        </a>
+      </li>
+      <li>
+        <a href="/gallery/#Northeast">
           Northeast Compressport Run 2015
-        </nuxt-link>
+        </a>
       </li>
       <li>
-        <nuxt-link to="/gallery/#Duathlon">
+        <a href="/gallery/#Duathlon">
           Singapore Duathlon 2014
-        </nuxt-link>
+        </a>
       </li>
       <li>
-        <nuxt-link to="/gallery/#Olympic">
+        <a href="/gallery/#Olympic">
           Singapore Summer Youth Olympic Games 2010
-        </nuxt-link>
+        </a>
       </li>
     </ul>
+    <div class="inner_service_area">
+      <div class="inner_service_box">
+        <h2 id="LatestEvent">
+          <div class="service_icon">
+            <img src="/images/gallery_icon.png">
+          </div>
+          Latest Event
+        </h2>
+        <div class="gallery_img">
+          <img src="/images/event-1.jpg">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellat voluptate nulla reprehenderit eos. Exercitationem eius ratione maiores laboriosam repellat, quo eum nemo deleniti aspernatur praesentium eaque, necessitatibus vitae unde.</p>
+        <div class="gallery_img">
+          <img src="/images/event-2.jpg">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, incidunt similique nostrum maxime facere ex eius minima blanditiis. Nihil consectetur officiis provident quidem veniam placeat ipsam labore autem pariatur asperiores.</p>
+        <div style="clear:both;" />
+      </div>
+    </div>
     <div class="inner_service_area">
       <div class="inner_service_box">
         <h2 id="Northeast">

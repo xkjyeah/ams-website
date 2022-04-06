@@ -25,7 +25,7 @@ export default {
   <default-page>
     <h1>Fleet Information</h1>
     <p>
-      AMS currently owns 39 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
+      AMS currently owns 60 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
     </p>
     <div class="inner_service_area">
       <div class="inner_service_box">

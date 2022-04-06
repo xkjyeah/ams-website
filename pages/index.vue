@@ -175,7 +175,7 @@ export default {
                 <div class="service_block">
                   <a href="sales-purchase/">
                     <div id="title_Purple_normal">Sales & Rental</div>
-                    <div class="service_img"><img src="/images/transport_service2.png"></div>
+                    <div class="service_img"><img src="/images/sales-and-rental.png"></div>
                     <div class="text_left">Sale and rental of oxygen cylinders of various sizes for home therapy</div>
                     <div class="text_left">Purchase HeartSine Automated External Defibrillators (AEDs)</div>
                   </a>
@@ -191,21 +191,21 @@ export default {
               <div style="clear:both;" />
               <div id="home_service_area">
                 <div class="service_block">
-                  <a href="/companyprofile-crew/">
+                  <nuxt-link to="/companyprofile-crew/">
                     <div id="title_Purple_normal">Company Profile and Crew</div>
                     <div class="service_img"><img src="/images/our_crew_1.png"></div>
                     <div class="text_left">Our Director, a Doctor, trained in Anaesthesia and Intensive Care.</div>
                     <div class="text_left">Our Crew of drivers and paramedics level 1-3 is experienced and certified to do their task.
 
                     </div>
-                  </a>
+                  </nuxt-link>
                   <div style="clear:both;" />
                 </div>
                 <div class="service_block">
                   <a href="/fleet-information/">
                     <div id="title_Purple_normal">Fleet Information</div>
                     <div class="service_img"><img src="/images/fleet_information_1.png"></div>
-                    <div class="text_left">We own 39 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
+                    <div class="text_left">We own 60 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
                     </div>
                   </a>
 
