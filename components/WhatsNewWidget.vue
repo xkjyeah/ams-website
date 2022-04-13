@@ -9,9 +9,9 @@
           What’s new at AMS
         </div>
 
-        <h3>April 2020</h3>
+        <h3>April 2022</h3>
         <p>
-          As of April 2020, we have expanded our fleet to 60 ambulances!
+          As of April 2022, we have expanded our fleet to 60 ambulances!
         </p>
 
         <p>
