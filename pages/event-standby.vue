@@ -130,13 +130,13 @@ export default {
             </tr>
             <tr>
               <td style="text-align:center;">
-                <b>1 ambulance team</b><br>1 ambulance, 1 Driver,<br> 1 Paramedic level 1-3
+                <b>1 ambulance team</b><br>1 ambulance, 1 Driver,<br> 1 Paramedic level 1-3<br>(2 men crew)
               </td>
               <td style="text-align:center;">
-                <strong>$60 – $80</strong> per hour<br>Evacuation <b>$90</b> per trip
+                <strong>$70 – $100</strong> per hour<br>Evacuation <b>$100</b> per trip
               </td>
               <td style="text-align:center;">
-                <b>$70 – $100</b> per hour<br>Evacuation <strong>$100</strong> per trip
+                <b>$80 – $120</b> per hour<br>Evacuation <strong>$120</strong> per trip
               </td>
             </tr>
             <tr>

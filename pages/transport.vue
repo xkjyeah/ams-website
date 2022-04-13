@@ -160,7 +160,7 @@ export default {
                   <strong>$80 – $120</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$120 – $160</b>
+                  <b>$120 – $200</b>
                 </td>
               </tr>
       
@@ -179,7 +179,7 @@ export default {
                   <b>$180 - $200</b>
                 </td>
                 <td style="text-align:center;">
-                  <b>$180 - $220</b>
+                  <b>$180 - $250</b>
                 </td>
               </tr>
               <tr>
@@ -248,7 +248,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Additional <strong>$30 – $50</strong>
+                  Additional <strong>$30 - $50</strong>
                 </td>
               </tr>
               <tr>
@@ -266,7 +266,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Surcharge of <strong>$30</strong> per level
+                  Surcharge of <strong>$30 - $50</strong> per level
                 </td>
               </tr>
               

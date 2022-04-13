@@ -30,21 +30,43 @@ export default {
     <p>Jump to:</p>
     <ul>
       <li>
-        <nuxt-link to="/gallery/#Northeast">
+        <a href="/gallery/#LatestEvents">
+          Latest Events
+        </a>
+      </li>
+      <li>
+        <a href="/gallery/#Northeast">
           Northeast Compressport Run 2015
-        </nuxt-link>
+        </a>
       </li>
       <li>
-        <nuxt-link to="/gallery/#Duathlon">
+        <a href="/gallery/#Duathlon">
           Singapore Duathlon 2014
-        </nuxt-link>
+        </a>
       </li>
       <li>
-        <nuxt-link to="/gallery/#Olympic">
+        <a href="/gallery/#Olympic">
           Singapore Summer Youth Olympic Games 2010
-        </nuxt-link>
+        </a>
       </li>
     </ul>
+    <div class="inner_service_area">
+      <div class="inner_service_box">
+        <h2 id="LatestEvents">
+          <div class="service_icon">
+            <img src="/images/gallery_icon.png">
+          </div>
+          Latest Events
+        </h2>
+        <div class="gallery_img">
+          <img src="/images/event-1.jpg">
+        </div>
+        <div class="gallery_img">
+          <img src="/images/event-2.jpg">
+        </div>
+        <div style="clear:both;" />
+      </div>
+    </div>
     <div class="inner_service_area">
       <div class="inner_service_box">
         <h2 id="Northeast">

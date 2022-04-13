@@ -11,7 +11,7 @@
 
         <h3>April 2020</h3>
         <p>
-          As of April 2020, we have expanded our fleet to 39 ambulances!
+          As of April 2020, we have expanded our fleet to 60 ambulances!
         </p>
 
         <p>

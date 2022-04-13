@@ -33,6 +33,11 @@ export default {
               alt="QMS Vertical Sac"
               class="cert-logo"
             >
+            <img
+              src="/images/iso-logo.png"
+              alt="iso-logo"
+              class="cert-logo"
+            >
           </div>
         </div>
         <div id="call_area">
@@ -42,7 +47,8 @@ export default {
             </div>
             <div id="call_text_area">
               <div id="call_number">
-                6281&nbsp;8111
+                <a href="tel:+6562818111">6281&nbsp;8111</a><br>
+                <a href="tel:+6562061188">6206&nbsp;1188</a>
               </div>
             </div>
           </div>
