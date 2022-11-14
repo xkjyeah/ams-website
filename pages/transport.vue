@@ -2,7 +2,7 @@
 export default {
   head () {
     return {
-      title: 'Emergency Medical Transport Singapore',
+      title: 'Emergency Medical Transport',
       meta: [{
         hid: 'description',
         name: 'description',
