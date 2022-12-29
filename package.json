@@ -9,9 +9,9 @@
     "gh-pages": "^1.0.0",
     "http-server": "^0.12.3",
     "node-sass": "^7.0.1",
-    "nuxt": "^1.4.0",
+    "nuxt": "^3.0.0",
     "nuxt-jsonld": "^1.5.0",
-    "sass-loader": "^6.0.6",
+    "sass-loader": "^13.2.0",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
