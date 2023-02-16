@@ -163,7 +163,7 @@ export default {
                   <b>$120 – $200</b>
                 </td>
               </tr>
-      
+
               <tr>
                 <td><b>1-way non emergency</b><br>(for admission)</td>
                 <td style="text-align:center;">
@@ -234,16 +234,34 @@ export default {
                 </td>
               </tr>
               <tr>
-                <td><strong>Causeway pickup cases</strong></td>
+                <td><strong>Johor Bahru</strong></td>
                 <td
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <strong>$500</strong> per case
+                  <strong>$600 - $800</strong> per case
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Other cities in Malaysia</strong></td>
+                <td
+                  colspan="2"
+                  style="text-align:center;"
+                >
+                  <strong>$1600 - $2000</strong> per case
                 </td>
               </tr>
               <tr>
                 <td><strong>Use of oxygen or suction apparatus</strong></td>
+                <td
+                  colspan="2"
+                  style="text-align:center;"
+                >
+                  Additional <strong>$30 - $50</strong>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Heavy patients (>80 kg)</strong></td>
                 <td
                   colspan="2"
                   style="text-align:center;"
@@ -269,7 +287,7 @@ export default {
                   Surcharge of <strong>$30 - $50</strong> per level
                 </td>
               </tr>
-              
+
             </tbody>
           </table>
         </table-wrap>
@@ -279,7 +297,7 @@ export default {
             <li>
               In view of COVID-19, if deemed necessary in the transport of the patient, extra charges will apply for use of full personal protective equipment (PPE).
             </li><li>All prices quoted are subject to GST.</li>
-            <li>Prices are correct as of January 2022. Please contact our hotline for confirmation.</li>
+            <li>Prices are correct as of February 2023. Please contact our hotline for confirmation.</li>
             <li>A waiting charge may be imposed after the first 15min of waiting.</li>
             <li>
               A cancellation charge of 50% of the price
