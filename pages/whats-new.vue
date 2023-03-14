@@ -95,6 +95,24 @@ export default {
     </div>
 
     <div class="mb-16">
+      <h3>Nov 2022 - Compliment on Mohan. 4 November 2022</h3>
+      <p>Dear Yvonne,</p>
+      <p>We want to thank Mohan for being attentive and proactive.</p>
+      <p>
+        Last Friday, 4 November 2022, we had multiple transfers from NTFGH to AH Ward 13.<br>
+        As both transfers were going to the same ward at the same time, Mohan proactively checked the timings we wanted and assisted in conveying NTFGH to stagger the timings.<br>
+        That being done, it helped the nursing team better manage the patients admitted to their ward.
+      </p>
+      <p>Please help us in conveying our appreciation to Mohan.</p>
+      <p>Thank you and regards,</p>
+      <p>
+        Alwyn Oliveiro<br>
+        Senior Patient Service Associate, Bed Management Unit<br>
+        ALEXANDRA HOSPITAL
+      </p>
+    </div>
+
+    <div class="mb-16">
       <h3>Oct 2022 - Thank you | Walk-A-Jog (6 Oct)</h3>
         <p>Dear Ambulance Medical Service,</p>
         <p>We would like to thank you for your professional medical support at our school's Walk-A-Jog yesterday. Your medical standby and provision of care for students contributed to a successful, fun and meaningful school event.</p>
@@ -112,24 +130,6 @@ export default {
         <p>Thank you so much and keep safe to everyone.</p>
         <p>Regards,</p>
         <p>Kerwin Mugar Quinquilleria</p>
-    </div>
-
-    <div class="mb-16">
-      <h3>Jul 2022 - Compliment on Mohan. 4 November 2022</h3>
-      <p>Dear Yvonne,</p>
-      <p>We want to thank Mohan for being attentive and proactive.</p>
-      <p>
-        Last Friday, 4 November 2022, we had multiple transfers from NTFGH to AH Ward 13.<br>
-        As both transfers were going to the same ward at the same time, Mohan proactively checked the timings we wanted and assisted in conveying NTFGH to stagger the timings.<br>
-        That being done, it helped the nursing team better manage the patients admitted to their ward.
-      </p>
-      <p>Please help us in conveying our appreciation to Mohan.</p>
-      <p>Thank you and regards,</p>
-      <p>
-        Alwyn Oliveiro<br>
-        Senior Patient Service Associate, Bed Management Unit<br>
-        ALEXANDRA HOSPITAL
-      </p>
     </div>
 
     <div class="col-flex">
