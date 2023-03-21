@@ -59,6 +59,12 @@ export default {
           Latest Events
         </h2>
         <div class="gallery_img">
+          <img src="/images/singapore-f1-race.JPG" alt="Singapore F1 Race">
+        </div>
+        <div class="gallery_img">
+          <img src="/images/sail-gp.jpg" class="Sail GP">
+        </div>
+        <div class="gallery_img">
           <img src="/images/event-1.jpg">
         </div>
         <div class="gallery_img">
