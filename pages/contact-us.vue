@@ -33,7 +33,7 @@ export default {
     <h1>Contact Us</h1>
     <form
       id="form1"
-      action="https://ams-bookings.herokuapp.com/enquiry"
+      action="https://ams-bookings.ambulanceservice.com.sg/enquiry"
       method="post"
       name="form1"
       @submit="trackGA"
