@@ -37,13 +37,13 @@
         <div class="address_black">
           <div class="tele_block">
             <div class="tele_name">
-              Fax
+              Mobile
             </div>
             <div class="semi_col">
               :
             </div>
             <div class="tele_no">
-              (65) 6281 1357
+              <a href="tel:+6587842484">(65) 8784 2484</a>
             </div>
             <div style="clear:both;" />
           </div>
