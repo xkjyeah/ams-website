@@ -17,36 +17,25 @@
               :
             </div>
             <div class="tele_no">
-              <a href="tel:+6562818111">(65) 6281 8111</a> or <a href="tel:+6562061188">(65) 6206 1188</a> (24-hr Hotline and General Enquiries)
-            </div>
-            <div style="clear:both;" />
-          </div>
-          <div class="tele_block">
-            <div class="tele_name">
-              Tel
-            </div>
-            <div class="semi_col">
-              :
-            </div>
-            <div class="tele_no">
-              <a href="tel:+6562813132">(65) 6281 3132</a> (General Enquiries during Office Hours)
+              <em>24-hr Hotline</em>
+              <br />
+              <a href="tel:+6562818111">6281 8111</a>
+              <br /> <a href="tel:+6562061188">6206 1188</a>
+              <br />
+              <br />
+              <em>General enquiries</em>
+              <br />
+              <a href="tel:+6562813132">6281 3132</a>
+              <br />
+              <br />
+              <em>Equipment rental</em>
+              <br />
+              <a href="tel:+6587842484">8784 2484</a>
             </div>
             <div style="clear:both;" />
           </div>
         </div>
         <div class="address_black">
-          <div class="tele_block">
-            <div class="tele_name">
-              Fax
-            </div>
-            <div class="semi_col">
-              :
-            </div>
-            <div class="tele_no">
-              (65) 6281 1357
-            </div>
-            <div style="clear:both;" />
-          </div>
           <div class="tele_block">
             <div class="tele_name">
               Email
