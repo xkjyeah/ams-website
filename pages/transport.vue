@@ -157,10 +157,10 @@ export default {
               <tr>
                 <td><b>1-way non emergency</b><br/>(discharge from nursing home or hospital)</td>
                 <td style="text-align:center;">
-                  <strong>$80 – $120</strong>
+                  <strong>$90 – $120</strong>
                 </td>
                 <td style="text-align:center;">
-                  <b>$120 – $200</b>
+                  <b>$130 – $180</b>
                 </td>
               </tr>
 
@@ -185,13 +185,13 @@ export default {
               <tr>
                 <td><strong>2-way non emergency</strong><br/>(same day)</td>
                 <td style="text-align: center">
-                  <b>$130 - $180*</b>
+                  <b>$140 - $180*</b>
                   <br>
                   <br>
                   * <strong>$30</strong> surcharge for any single trip that falls outside office hours
                 </td>
                 <td style="text-align:center;">
-                  <b>$160 - $220</b>
+                  <b>$180 - $220</b>
                 </td>
               </tr>
 
@@ -219,9 +219,8 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  Tarmac cases <strong>$450 - $550</strong> per trip
-                  <br>
-                  Wheelchair/stretcher cases <strong>$250 - $400</strong> per trip
+                  Tarmac cases <strong>$500 - $600</strong> per trip<br><br>
+                  Wheelchair/stretcher cases <strong>$300 - $400</strong> per trip
                 </td>
               </tr>
               <tr>
@@ -230,7 +229,7 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <strong>$300 - $400</strong> per case
+                  <strong>$350 - $500</strong> per case
                 </td>
               </tr>
               <tr>
@@ -239,7 +238,16 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <strong>$600 - $800</strong> per case
+                  <strong>$750 - $850</strong> per case
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Causeway (BSI)</strong></td>
+                <td
+                  colspan="2"
+                  style="text-align:center;"
+                >
+                  <strong>$500 - $650</strong> per case
                 </td>
               </tr>
               <tr>
@@ -248,7 +256,8 @@ export default {
                   colspan="2"
                   style="text-align:center;"
                 >
-                  <strong>$1600 - $2000</strong> per case
+                  <strong>$1,300 - $4,000</strong> per case*<br>
+                  Depending on how far and the patient's conditions
                 </td>
               </tr>
               <tr>
