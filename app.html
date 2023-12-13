@@ -10,6 +10,9 @@
     $(window).load(function () {
       $('#slider').nivoSlider();
     });
+
+    // So that grecaptcha doesn't call nothing
+    window.onloadCallback = () => {};
   </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->

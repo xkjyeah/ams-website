@@ -1,6 +1,4 @@
 <script>
-// So that grecaptcha doesn't call nothing
-window.onloadCallback = () => {};
 
 export default {
   mounted() {
