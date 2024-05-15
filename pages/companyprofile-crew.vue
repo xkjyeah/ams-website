@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Company & Staff Profile',
       meta: [
@@ -15,8 +15,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -27,13 +27,24 @@ export default {
   <default-page>
     <h1>Company Profile &amp; Crew</h1>
     <p>
-      Ambulance Medical Service Pte Ltd (AMS) has been providing quality <nuxt-link to="/">emergency and non-emergency ambulance services</nuxt-link> in Singapore since 1999.
+      Ambulance Medical Service Pte Ltd (AMS) has been providing quality <nuxt-link to="/">emergency and non-emergency
+        ambulance services</nuxt-link> in Singapore since 1999.
     </p>
     <p>
-      AMS has been awarded accreditation for providing Emergency Ambulance Medical / Transport Services compliant to the new MOH standards for Private Ambulance Operators that came into effect in 2019. AMS is also BizSAFE level 4 and ISO 9001 quality service certified. As a responsible pre-hospital healthcare provider, AMS is covered with professional indemnity and public liability insurance of S$1,000,000 & S$1000,000 respectively. AMS is GST registered with a paid-up capital of S$250,000. As of April 2020, we own over 60 well-furnished ambulances with state of art medical equipment and have 35 teams of ambulance crew.
+      AMS has been awarded accreditation for providing Emergency Ambulance Medical / Transport Services compliant to the
+      new MOH standards for Private Ambulance Operators that came into effect in 2019. AMS is also BizSAFE level 4 and
+      ISO 9001 quality service certified. As a responsible pre-hospital healthcare provider, AMS is covered with
+      professional indemnity and public liability insurance of S$1,000,000 & S$1000,000 respectively. AMS is GST
+      registered with a paid-up capital of S$250,000. As of April 2020, we own over 60 well-furnished ambulances with
+      state of art medical equipment and have 35 teams of ambulance crew.
     </p>
     <p>
-      AMS management promotes a sincere customer service culture with ongoing commitment to improve the customer journey. We have the honour of fulfilling contracted service to major Hospitals, Nursing Houses, Education institutes, Sport Clubs and Event Organizers covering <nuxt-link to="/event-standby/">event-standby</nuxt-link>, emergency and non-emergency ambulance, and medical services. AMS has extensive experience in small- and large-scale events, complex evacuations (both local and overseas), emergency cases, and 1777 (non-emergency public hotline) transport.
+      AMS management promotes a sincere customer service culture with ongoing commitment to improve the customer
+      journey. We have the honour of fulfilling contracted service to major Hospitals, Nursing Houses, Education
+      institutes, Sport Clubs and Event Organizers covering <nuxt-link to="/event-standby/">event-standby</nuxt-link>,
+      emergency and non-emergency ambulance, and medical services. AMS has extensive experience in small- and
+      large-scale events, complex evacuations (both local and overseas), emergency cases, and 1777 (non-emergency public
+      hotline) transport.
     </p>
     <div class="inner_service_area">
       <div class="inner_service_box">
@@ -45,7 +56,8 @@ export default {
         <div class="inner_service_right">
           <h2>Our Director</h2>
           <p>
-            The company is led by Dr Sim Kah Ming, a senior doctor specializing in Anaesthesia and Intensive Care Medicine, who is relentless in maintaining the highest quality of pre-hospital care.
+            The company is led by Dr Sim Kah Ming, a senior doctor specializing in Anaesthesia and Intensive Care
+            Medicine, who is relentless in maintaining the highest quality of pre-hospital care.
           </p>
         </div>
         <div style="clear:both;" />
@@ -62,10 +74,13 @@ export default {
           </h2>
           <h3>Experienced, professionally qualified staff</h3>
           <p>
-            In AMS, the drivers and paramedics work together to ensure a continuous chain of survival for our patients. We believe in continually training our staff to equip them with up-to-day skills necessary for managing medical emergencies.
+            In AMS, the drivers and paramedics work together to ensure a continuous chain of survival for our patients.
+            We believe in continually training our staff to equip them with up-to-day skills necessary for managing
+            medical emergencies.
           </p>
           <p>
-            Every ambulance team comprises of a Driver and a Paramedic. AMS drivers and medics are qualified personnel with either Paramedic level 1, 2, or 3.
+            Every ambulance team comprises of a Driver and a Paramedic. AMS drivers and medics are qualified personnel
+            with either Paramedic level 1, 2, or 3.
           </p>
           <h3>Essential Certification Courses competencies</h3>
           <p>
@@ -75,7 +90,8 @@ export default {
           <ol>
             <li>International Trauma Life Support (ITLS)</li>
             <li>Higher National ITE Certificate in Paramedic and Emergency Care (Paramedic level 3 only).</li>
-            <li>Emergency Medical Technician (EMT) course conducted by Institute of Advanced Nursing, Singapore General Hospital (majority).</li>
+            <li>Emergency Medical Technician (EMT) course conducted by Institute of Advanced Nursing, Singapore General
+              Hospital (majority).</li>
             <li>World Rugby ICIR Medical Level 2 course or Pre-Hospital Immediate Care in Sport course (Level 3).</li>
             <li>Basic Cardiac Life Support (BCLS) course.</li>
             <li>Cardiopulmonary Resuscitation & Automated External Defibrillator (CPR & AED) course.</li>
@@ -115,10 +131,10 @@ export default {
     <div id="inner_image">
       <img src="/images/company-crew.jpg">
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>

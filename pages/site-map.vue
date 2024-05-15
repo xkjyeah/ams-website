@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Site Map',
       link: [
@@ -55,9 +55,9 @@ export default {
     <MapComponent />
     <CallBanner />
 
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <AddressArea />
       <FacebookWidget />
-    </div>
+    </template>
   </default-page>
 </template>

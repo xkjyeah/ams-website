@@ -1,90 +1,94 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Emergency Ambulance Singapore',
       meta: [
-        {hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!'}
+        { hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!' }
       ],
       link: [
         {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'en-sg' }
       ]
     }
   },
   jsonld() {
-		return [
-			{
-				"@context": "https://schema.org",
-				"@type": "WebSite",
-				"name": "Ambulance Medical Service - Emergency and Non-emergency services in Singapore",
-				"url": "https://www.ambulanceservice.com.sg/"
-			},
-			{
-				"@context": "https://schema.org",
-				"@id": "https://www.ambulanceservice.com.sg/",
-				"@type": "LocalBusiness",
-				"name": "Ambulance Medical Service",
-				"logo": "https://www.ambulanceservice.com.sg/images/logo.png",
-				"image": "https://www.ambulanceservice.com.sg/images/logo.png",
-				"url": "https://www.ambulanceservice.com.sg/",
-				"telephone": "65 6281 8111",
-				"priceRange": "$$",
-				"address": {
-					"@type": "PostalAddress",
-					"streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
-					"addressLocality": "Singapore",
-					"postalCode": "408729",
-					"addressCountry": "+65"
-				},
-				"sameAs": [
-					"https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
-				],
-				"openingHoursSpecification": [{
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Monday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Tuesday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Wednesday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Thursday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Friday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Saturday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}, {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": "Sunday",
-					"opens": "00:00",
-					"closes": "23:59"
-				}]
-			}
-			
-		]
-	}
+    return [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ambulance Medical Service - Emergency and Non-emergency services in Singapore",
+        "url": "https://www.ambulanceservice.com.sg/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@id": "https://www.ambulanceservice.com.sg/",
+        "@type": "LocalBusiness",
+        "name": "Ambulance Medical Service",
+        "logo": "https://www.ambulanceservice.com.sg/images/logo.png",
+        "image": "https://www.ambulanceservice.com.sg/images/logo.png",
+        "url": "https://www.ambulanceservice.com.sg/",
+        "telephone": "65 6281 8111",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
+          "addressLocality": "Singapore",
+          "postalCode": "408729",
+          "addressCountry": "+65"
+        },
+        "sameAs": [
+          "https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
+        ],
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Wednesday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }, {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "23:59"
+        }]
+      }
+
+    ]
+  },
+  mounted() {
+    // $('#slider').nivoSlider();
+  }
 }
+
 </script>
 <template>
   <main>
@@ -92,40 +96,17 @@ export default {
       <div class="site">
         <div id="wrapper">
           <div class="slider-wrapper theme-default">
-            <div
-              id="slider"
-              class="nivoSlider"
-            >
-              <img
-                src="/images/slider1.png"
-                data-thumb="/images/slider1.png"
-                alt="Emergency and Non-emergency Ambulance Services in Singapore"
-                data-transition="fade"
-              >
-              <a href="/event-standby/"><img
-                src="/images/slider2.png"
-                data-thumb="/images/slider2.png"
-                alt="Medical Event Standby Ambulance"
-                data-transition="fade"
-              ></a>
-              <a href="/companyprofile-crew/"><img
-                src="/images/slider3.png"
-                data-thumb="/images/slider3.png"
-                alt="Ambulance Medical Certified Crew"
-                data-transition="fade"
-              ></a>
-              <img
-                src="/images/slider4.png"
-                data-thumb="/images/slider4.png"
-                alt="Excellent Track Record"
-                data-transition="fade"
-              >
-              <img
-                src="/images/slider5.png"
-                data-thumb="/images/slider5.png"
-                alt="Fully Insured Liability Insurance"
-                data-transition="fade"
-              >
+            <div id="slider" class="nivoSlider" style="display: none">
+              <img src="/images/slider1.png" data-thumb="/images/slider1.png"
+                alt="Emergency and Non-emergency Ambulance Services in Singapore" data-transition="fade">
+              <a href="/event-standby/"><img src="/images/slider2.png" data-thumb="/images/slider2.png"
+                  alt="Medical Event Standby Ambulance" data-transition="fade"></a>
+              <a href="/companyprofile-crew/"><img src="/images/slider3.png" data-thumb="/images/slider3.png"
+                  alt="Ambulance Medical Certified Crew" data-transition="fade"></a>
+              <img src="/images/slider4.png" data-thumb="/images/slider4.png" alt="Excellent Track Record"
+                data-transition="fade">
+              <img src="/images/slider5.png" data-thumb="/images/slider5.png" alt="Fully Insured Liability Insurance"
+                data-transition="fade">
             </div>
           </div>
         </div>
@@ -138,7 +119,9 @@ export default {
                 Dedicated. Reliable. Professional.
               </div>
               <p>Welcome to Ambulance Medical Service! </p>
-              <p>We have been serving Singaporeans since 1999, and we’re dedicated to serving our customers with premier pre-hospital care and a smile. Come aboard with our friendly and experienced crew and let us look after you! </p>
+              <p>We have been serving Singaporeans since 1999, and we’re dedicated to serving our customers with premier
+                pre-hospital care and a smile. Come aboard with our friendly and experienced crew and let us look after
+                you! </p>
               <p>These are the services that AMS offers:</p>
               <div style="clear:both;" />
               <div id="home_service_area">
@@ -148,7 +131,8 @@ export default {
 
                     <div class="service_img"><img src="/images/transport_service.png"></div>
                     <div>
-                      In view of COVID-19, enhanced preventive measures are in place for <strong>all regular cases</strong>, including full Personal Protective Equipment (PPE) for all emergency cases.
+                      In view of COVID-19, enhanced preventive measures are in place for <strong>all regular
+                        cases</strong>, including full Personal Protective Equipment (PPE) for all emergency cases.
                     </div>
                     <br>
                     <div class="text_left">24 hours Emergency or Non-Emergency</div>
@@ -167,7 +151,8 @@ export default {
                     <div class="service_img"><img src="/images/transport_service1.png"></div>
                     <div class="text_left">Engage an Ambulance with Paramedics, Nurses, Doctors</div>
                     <div class="text_left">Medical coverage of Sports Events, Gatherings, Conventions, Exhibitions</div>
-                    <div class="text_left">First Aid station and Mobile Medical team on buggies, bicycles and motorcycles</div>
+                    <div class="text_left">First Aid station and Mobile Medical team on buggies, bicycles and
+                      motorcycles</div>
                     <div class="text_left">Construction site medical post provision (with Doctors and Paramedics)</div>
                   </a>
                   <div style="clear:both;" />
@@ -195,7 +180,8 @@ export default {
                     <div id="title_Purple_normal">Company Profile and Crew</div>
                     <div class="service_img"><img src="/images/our_crew_1.png"></div>
                     <div class="text_left">Our Director, a Doctor, trained in Anaesthesia and Intensive Care.</div>
-                    <div class="text_left">Our Crew of drivers and paramedics level 1-3 is experienced and certified to do their task.
+                    <div class="text_left">Our Crew of drivers and paramedics level 1-3 is experienced and certified to
+                      do their task.
 
                     </div>
                   </nuxt-link>
@@ -205,7 +191,9 @@ export default {
                   <a href="/fleet-information/">
                     <div id="title_Purple_normal">Fleet Information</div>
                     <div class="service_img"><img src="/images/fleet_information_1.png"></div>
-                    <div class="text_left">We own 60 ambulances, each comprehensively equipped with monitors, medical aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized, insured.
+                    <div class="text_left">We own 60 ambulances, each comprehensively equipped with monitors, medical
+                      aids, stretcher and wheelchair locks, wheelchair lifts, GPS tracked, professionally sanitized,
+                      insured.
                     </div>
                   </a>
 
@@ -229,7 +217,7 @@ export default {
               <whats-new-widget />
               <enquiry-box />
               <address-area />
-            <!-- <facebook-widget /> -->
+              <!-- <facebook-widget /> -->
             </div>
           </div>
           <div style="clear:both;" />
@@ -237,6 +225,6 @@ export default {
       </div>
       <div style="clear:both;" />
     </div>
-  <!--body_area-->
+    <!--body_area-->
   </main>
 </template>

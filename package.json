@@ -1,41 +1,21 @@
 {
-  "name": "website2",
-  "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "daniel.ssq89@gmail.com",
+  "name": "nuxt-app",
   "private": true,
-  "dependencies": {
-    "@yonyou-cloud/eslint-config": "0.0.1",
-    "gh-pages": "^1.0.0",
-    "http-server": "^0.12.3",
-    "node-sass": "^7.0.1",
-    "nuxt": "^1.4.0",
-    "nuxt-jsonld": "^1.5.0",
-    "sass-loader": "^6.0.6",
-    "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
-  },
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path static --ignore-path .gitignore .",
-    "precommit": "npm run lint",
-    "serve": "npm run generate && http-server dist",
-    "build-for-deploy": "npm run generate",
-    "deploy": "npm run build-for-deploy && gh-pages --depth 1 -t -d dist"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "nuxt-jsonld": "^2.0.8",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^7.2.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-html": "^6.0.2",
-    "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1",
-    "eslint-plugin-vue": "^7.0.0-alpha.5",
-    "shx": "^0.2.2"
+    "sass": "^1.77.1"
   }
 }

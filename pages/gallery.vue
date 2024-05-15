@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Gallery',
       meta: [{
@@ -13,8 +13,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -85,10 +85,7 @@ export default {
           <img src="/images/sport1.jpg">
         </div>
         <p>We welcome our prominent visitor, Mr Teo Chee Hean, to our humble First Aid Tent.</p>
-        <div
-          id="buggy"
-          class="gallery_img"
-        >
+        <div id="buggy" class="gallery_img">
           <img src="/images/sport2.jpg">
         </div>
         <p>Check out the unlimited capacity of our buggy!</p>
@@ -115,12 +112,15 @@ export default {
         <div class="gallery_img">
           <img src="/images/duathlon2014 1.jpg">
         </div>
-        <p>Can you see our portable workstation behind our medic? It is fully equipped to provide quick medical relief!</p>
+        <p>Can you see our portable workstation behind our medic? It is fully equipped to provide quick medical relief!
+        </p>
         <div class="gallery_img">
           <img src="/images/duathlon2014 2.jpg">
         </div>
         <p>
-          Our privacy screens are so multi-purpose, they can even shade the participants from the sun! Our safari beds are a fixture at most sports events. They are covered with fresh clean sheets and cushy inflatable pillows for the weary athletes to sink
+          Our privacy screens are so multi-purpose, they can even shade the participants from the sun! Our safari beds
+          are a fixture at most sports events. They are covered with fresh clean sheets and cushy inflatable pillows for
+          the weary athletes to sink
           into. Come take a break!
         </p>
       </div>
@@ -139,10 +139,10 @@ export default {
         <p>That’s us on national TV!</p>
       </div>
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>

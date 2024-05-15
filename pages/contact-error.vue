@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Thank You',
       // category: 'contact',
@@ -25,9 +25,10 @@ export default {
     <p>
       You can also email us directly at <strong>mail@ambulanceservice.com.sg</strong>
     </p>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
+
   </default-page>
 </template>

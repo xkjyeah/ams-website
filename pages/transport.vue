@@ -82,7 +82,6 @@ export default {
         'closes': '23:59'
       }]
     }
-
     ]
   }
 }
@@ -152,7 +151,7 @@ export default {
                 </td>
               </tr>
               <tr>
-                <td><b>1-way discharge / admission</td>
+                <td><b>1-way discharge / admission</b></td>
                 <td style="text-align:center;">
                   <strong>$70 – $100</strong>
                 </td>
@@ -196,6 +195,7 @@ export default {
                 <td><strong>Airport cases (tarmac)</strong></td>
                 <td colspan="2" style="text-align:center;">
                   <strong>$500 - $600</strong>
+                </td>
               </tr>
               <tr>
                 <td><strong>Airport cases (wheelchair / stretcher)</strong></td>
@@ -367,11 +367,11 @@ export default {
     <div id="inner_image">
       <img src="/images/2.jpg">
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>
 

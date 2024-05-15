@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders',
       meta: [{
@@ -13,8 +13,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -34,8 +34,11 @@ export default {
         </h2>
 
         <p>
-          AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes with an attached flow regulator.
-          It has a carrying handle for easy handling; it does not rust therefore it is not possible for the patient to inhale rust particles. Our cylinders come in the following sizes according to the volume of liquid oxygen within: 2.9L, 3.4L, 4.6L and 10.5L.
+          AMS offers rental of oxygen cylinders for home care. Our oxygen cylinder is made of aluminium alloy and comes
+          with an attached flow regulator.
+          It has a carrying handle for easy handling; it does not rust therefore it is not possible for the patient to
+          inhale rust particles. Our cylinders come in the following sizes according to the volume of liquid oxygen
+          within: 2.9L, 3.4L, 4.6L and 10.5L.
           <br clear="both">
         </p>
 
@@ -112,10 +115,12 @@ export default {
             </tbody>
           </table>
         </table-wrap>
-        
+
         <ol>
-          <li>Encourage customers to deal with office for Rent or Sales of Oxygen Cylinders and self collection if possible.</li>
-          <li>Each rental period is 1 week maximum, need to return to office whether utilised or not in or before 1 week time.</li>
+          <li>Encourage customers to deal with office for Rent or Sales of Oxygen Cylinders and self collection if
+            possible.</li>
+          <li>Each rental period is 1 week maximum, need to return to office whether utilised or not in or before 1 week
+            time.</li>
           <li>To extend the rental after 1 week will be charged same rental fee for another 1 week.</li>
           <li>Deposit will be refundable if the oxygen Is returned in good condition.</li>
           <li>No re-fill cost, rental of another oxygen cylinder is charged according to the rental fee.</li>
@@ -125,7 +130,7 @@ export default {
           <li>The deposit (no gst), will be issued in separate Green Receipt.</li>
         </ol>
         <br>
-        
+
         <table-wrap>
           <table style="width:100%; min-width: 600px">
             <thead>
@@ -205,19 +210,22 @@ export default {
             </tbody>
           </table>
         </table-wrap>
-        
+
         <ol>
           <li>For Refill, will take at least 5 days for collection.</li>
-          <li>If customer needs to get cylinder Immediately, would suggest to exchange 1 to 1 and pay for 2 cylinders top up.</li>
-          <li>Customer will collect back their cylinder when it's filled up and return our cylinder.  </li>
+          <li>If customer needs to get cylinder Immediately, would suggest to exchange 1 to 1 and pay for 2 cylinders
+            top up.</li>
+          <li>Customer will collect back their cylinder when it's filled up and return our cylinder. </li>
         </ol>
         <h3>ALL QUOTES ARE SUBJECT TO GST</h3><br>
 
         <h3>Details to Provide When Calling Us</h3>
         <p>
-          To help us advise you better, please provide us the answers to the following questions when making the rental:<br> - What is the medical condition that the patient suffering from? <br> - What oxygen flow rate does his doctor prescribe?
+          To help us advise you better, please provide us the answers to the following questions when making the
+          rental:<br> - What is the medical condition that the patient suffering from? <br> - What oxygen flow rate does
+          his doctor prescribe?
         </p>
-        
+
         <h3>Replacement of depleted oxygen cylinders</h3>
         <p>
           You can contact us 24/7 to replace your depleted oxygen cylinders with full oxygen cylinders.
@@ -231,31 +239,30 @@ export default {
           Sale of Automated External Defibrillator (AED)
         </h2>
         <p style="text-align: center">
-          <img
-            src="/images/AED_Small.png"
-            width="250"
-          >
+          <img src="/images/AED_Small.png" width="250">
         </p>
         <p>
-          AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a 8-year warranty provided by HeartSine against device malfunction.
+          AMS is the appointed sales agent for HeartSine Automated External Defibrillator (AED). The device comes with a
+          8-year warranty provided by HeartSine against device malfunction.
         </p>
         <p>
           Each AED comes with:
-          <ol>
-            <li>1 lithium battery (non-rechargeable) </li>
-            <li>1 pair of adult defibrillation pads</li>
-            <li>Optional AED cabinet &mdash; installation included</li>
-          </ol>
+        <ol>
+          <li>1 lithium battery (non-rechargeable) </li>
+          <li>1 pair of adult defibrillation pads</li>
+          <li>Optional AED cabinet &mdash; installation included</li>
+        </ol>
         </p>
-        <p>We also sell consumables such as the <strong>battery and a pair of adult defibrillation pads together.</strong></p>
+        <p>We also sell consumables such as the <strong>battery and a pair of adult defibrillation pads
+            together.</strong></p>
         <p>We do not stock the paediatric defibrillation pads.</p>
       </div>
     </div>
 
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>
