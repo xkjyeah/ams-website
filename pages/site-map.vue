@@ -24,7 +24,7 @@ export default {
           <li><a href="/companyprofile-crew">Company Profile &amp; Crew</a></li>
           <li><a href="/fleet-information">Fleet Information</a></li>
           <li><a href="/ambulance-equipment-list">Ambulance Equipment List</a></li>
-          <li><a href="/what-new">What's New</a></li>
+          <li><a href="/whats-new">What's New</a></li>
         </ul>
       </li>
       <li>
