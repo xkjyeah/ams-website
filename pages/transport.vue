@@ -140,14 +140,16 @@ export default {
           <table style="min-width: 450px; width: 100%">
             <tbody>
               <tr>
-                <th style="text-align:center; width: 40%">
+                <th style="text-align:center; width: 40%; background-color: #e7dfea">
                   Services
                 </th>
-                <td style="text-align:center; width: 30%">
-                  <strong>Office Hours</strong><br> (9am - 5pm, weekdays)
+                <td style="text-align:center; width: 30%; background-color: #e7dfea">
+                  <strong>Office Hours</strong><br> 9am - 5pm Mon-Fri
                 </td>
-                <td style="text-align:center; width: 30%">
-                  <strong>After office Hours</strong><br>(5pm - 9am weekdays,<br> weekends and public holidays)
+                <td style="text-align:center; width: 30%; background-color: #e7dfea">
+                  <strong>After Hours</strong>
+                  <br>5pm - 9am Mon-Fri
+                  <br>Sat, Sun, PH
                 </td>
               </tr>
               <tr>
@@ -224,9 +226,11 @@ export default {
               <tr>
                 <td><strong>Other cities in Malaysia</strong></td>
                 <td colspan="2" style="text-align:center;">
-                  <strong>$1,300 - $4,000</strong> per case*<br>
-                  Depending on how far and the patient's conditions
+                  <strong>$1,300 - $4,000</strong>
                 </td>
+              </tr>
+              <tr>
+                <td style="text-align: center; background-color: #e7dfea" colspan="3"><strong>Surcharges</strong></td>
               </tr>
               <tr>
                 <td><strong>Use of oxygen or suction apparatus</strong></td>
@@ -263,7 +267,7 @@ export default {
             of full personal protective equipment (PPE).
           </li>
           <li>All prices quoted are subject to GST.</li>
-          <li>Prices are correct as of February 2023. Please contact our hotline for confirmation.</li>
+          <li>Prices are correct as of May 2024. Please contact our hotline for confirmation.</li>
           <li>A waiting charge may be imposed after the first 15min of waiting.</li>
           <li>
             A cancellation charge of 50% of the price
