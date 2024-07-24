@@ -27,6 +27,23 @@ export default {
     <slot />
     <PageFooter />
   </div>
+  <div class="whatsapp-icon">
+    <div>
+      <a href="https://wa.me/6583390167" target="whatsapp"><img src="~/assets/images/whatsapp-icon.png" /></a>
+    </div>
+    <div>
+      Chat with us!
+    </div>
+  </div>
 </template>
+
+<style>
+.whatsapp-icon {
+  text-align: center;
+  text-shadow:
+    0px 1px white, 1px 0px white, 0px -1px white, -1px 0px white;
+  color: #090;
+}
+</style>
 
 <style lang="scss" src="../assets/index.scss"></style>
