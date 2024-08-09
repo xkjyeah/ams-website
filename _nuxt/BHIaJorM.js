@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n}from"./DVqiAT4l.js";const c={mounted(){const e=()=>window.grecaptcha.render(this.$refs.root,{sitekey:"6LcZNygTAAAAAKPt757U3VcKOzCXGkLyl2sC2jCp"});window.grecaptcha?e():window.onloadCallback=e}},r={ref:"root"};function s(e,a,_,d,i,p){return t(),n("div",r,null,512)}const f=o(c,[["render",s]]);export{f as _};
