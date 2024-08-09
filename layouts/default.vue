@@ -29,7 +29,7 @@ export default {
   </div>
   <div class="whatsapp-icon">
     <div>
-      <a href="https://wa.me/6583390167" target="whatsapp"><img src="~/assets/images/whatsapp-icon.png" /></a>
+      <a href="https://wa.me/6598514075" target="whatsapp"><img src="~/assets/images/whatsapp-icon.png" /></a>
     </div>
     <div>
       Chat with us!
