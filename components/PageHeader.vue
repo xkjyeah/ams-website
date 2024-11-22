@@ -24,7 +24,6 @@ export default {
           <div class="certification-logos">
             <img src="/images/bizsafe_enterprise_level_4_thumb.jpg" alt="Biz SAFE Enterprise Level 4" class="cert-logo">
             <img src="/images/qms_vertical_sac_thumb.jpg" alt="QMS Vertical Sac" class="cert-logo">
-            <img src="/images/iso-logo.png" alt="iso-logo" class="cert-logo">
           </div>
         </div>
         <div id="call_area">
