@@ -33,6 +33,11 @@ export default {
               alt="QMS Vertical Sac"
               class="cert-logo"
             >
+            <img
+              src="/images/ts.png"
+              alt="Tripartite Standards"
+              class="cert-logo"
+            >
           </div>
         </div>
         <div id="call_area">
@@ -181,7 +186,6 @@ export default {
 <style>
   .certification-logos {
     margin: 10px 0 0;
-    text-align: center;
   }
 
   .certification-logos .cert-logo {
