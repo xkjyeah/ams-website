@@ -1,12 +1,11 @@
-
 <script>
 export default {
-  data () {
+  data() {
     return {
       menuOpened: false
     }
   },
-  created () {
+  created() {
     this.$router.afterEach(() => {
       this.menuOpened = false
     })
@@ -19,25 +18,12 @@ export default {
     <div class="site">
       <div id="logo_call_area">
         <div id="logo_area">
-          <nuxt-link to="/">
+          <NuxtLink to="/">
             <img src="/images/logo.png">
-          </nuxt-link>
+          </NuxtLink>
           <div class="certification-logos">
-            <img
-              src="/images/bizsafe_enterprise_level_4_thumb.jpg"
-              alt="Biz SAFE Enterprise Level 4"
-              class="cert-logo"
-            >
-            <img
-              src="/images/qms_vertical_sac_thumb.jpg"
-              alt="QMS Vertical Sac"
-              class="cert-logo"
-            >
-            <img
-              src="/images/ts.png"
-              alt="Tripartite Standards"
-              class="cert-logo"
-            >
+            <img src="/images/bizsafe_enterprise_level_4_thumb.jpg" alt="Biz SAFE Enterprise Level 4" class="cert-logo">
+            <img src="/images/qms_vertical_sac_thumb.jpg" alt="QMS Vertical Sac" class="cert-logo">
           </div>
         </div>
         <div id="call_area">
@@ -56,140 +42,78 @@ export default {
       </div>
       <!--logo_call_area-->
       <div id="nav_area">
-        <div
-          id="cssmenu"
-          :class="{opened: menuOpened}"
-        >
-          <button
-            class="toggle-navigation"
-            @click="menuOpened = !menuOpened"
-          >
+        <div id="cssmenu" :class="{ opened: menuOpened }">
+          <button class="toggle-navigation" @click="menuOpened = !menuOpened">
             <span class="icon-bar" />
             <span class="icon-bar" />
             <span class="icon-bar" />
           </button>
           <ul>
-            <nuxt-link
-              tag="li"
-              active-class="active"
-              to="/"
-            >
-              <a>Home</a>
-            </nuxt-link>
+            <PageHeaderLink to="/">
+              Home
+            </PageHeaderLink>
             <NavMenuList label="About Us">
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/companyprofile-crew/"
-              >
-                <a>Company Profile &amp; Crew</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/fleet-information/"
-              >
-                <a>Fleet Information</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/ambulance-equipment-list/"
-              >
-                <a>Ambulance Equipment List</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/whats-new/"
-              >
-                <a>What's New</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/join-us/"
-              >
-                <a>Jobs</a>
-              </nuxt-link>
+              <PageHeaderLink to="/companyprofile-crew/">
+                Company Profile &amp; Crew
+              </PageHeaderLink>
+              <PageHeaderLink to="/fleet-information/">
+                Fleet Information
+              </PageHeaderLink>
+              <PageHeaderLink to="/ambulance-equipment-list/">
+                Ambulance Equipment List
+              </PageHeaderLink>
+              <PageHeaderLink to="/whats-new/">
+                What's New
+              </PageHeaderLink>
+              <PageHeaderLink to="/join-us/">
+                Jobs
+              </PageHeaderLink>
             </NavMenuList>
             <NavMenuList label="Transport">
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/transport/"
-              >
-                <a>Local Transport</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/transport/#critically-ill"
-              >
-                <a>Transport of Critically Ill</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/transport/#overseas-transport"
-              >
-                <a>Overseas Transport</a>
-              </nuxt-link>
+              <PageHeaderLink to="/transport/">
+                Local Transport
+              </PageHeaderLink>
+              <PageHeaderLink to="/transport/#critically-ill">
+                Transport of Critically Ill
+              </PageHeaderLink>
+              <PageHeaderLink to="/transport/#overseas-transport">
+                Overseas Transport
+              </PageHeaderLink>
             </NavMenuList>
             <NavMenuList label="Event Standby">
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/event-standby/"
-              >
-                <a>Information</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/gallery/"
-              >
-                <a>Gallery</a>
-              </nuxt-link>
+              <PageHeaderLink to="/event-standby/">
+                Information
+              </PageHeaderLink>
+              <PageHeaderLink to="/gallery/">
+                Gallery
+              </PageHeaderLink>
             </NavMenuList>
             <NavMenuList label="Sales &amp; Rental">
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/sales-purchase/"
-              >
-                <a>Rental of Oxygen Cylinders</a>
-              </nuxt-link>
-              <nuxt-link
-                tag="li"
-                active-class="active"
-                to="/sales-purchase/#purchaseAED"
-              >
-                <a>Sales of AED</a>
-              </nuxt-link>
+              <PageHeaderLink to="/sales-purchase/">
+                Rental of Oxygen Cylinders
+              </PageHeaderLink>
+              <PageHeaderLink to="/sales-purchase/#purchaseAED">
+                Sales of AED
+              </PageHeaderLink>
             </NavMenuList>
-            <nuxt-link
-              tag="li"
-              active-class="active"
-              to="/contact-us/"
-            >
-              <a>Contact Us</a>
-            </nuxt-link>
+            <PageHeaderLink to="/contact-us/">
+              Contact Us
+            </PageHeaderLink>
           </ul>
         </div>
         <div style="clear:both;" />
       </div>
-    <!--nav area-->
+      <!--nav area-->
     </div>
   </header>
 </template>
 <style>
-  .certification-logos {
-    margin: 10px 0 0;
-  }
+.certification-logos {
+  margin: 10px 0 0;
+}
 
-  .certification-logos .cert-logo {
-    width: 80px !important;
-    margin-right: 10px !important;
-  }
+.certification-logos .cert-logo {
+  width: 80px !important;
+  margin-right: 10px !important;
+}
 </style>

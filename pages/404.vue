@@ -10,7 +10,8 @@ export default {
     <div>
       <h3>The requested page was not found</h3>
 
-      <p>Over time there have been changes to the architecture of this web server and despite our best efforts some older links may bring you to this page.</p>
+      <p>Over time there have been changes to the architecture of this web server and despite our best efforts some
+        older links may bring you to this page.</p>
 
       <p>You may not be able to visit this page because of:</p>
 
@@ -30,9 +31,9 @@ export default {
     <MapComponent />
     <CallBanner />
 
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>

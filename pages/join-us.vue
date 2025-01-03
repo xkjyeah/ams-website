@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Join us',
       meta: [{
@@ -13,8 +13,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -55,9 +55,9 @@ export default {
         <img src="/images/company-crew.jpg">
       </div>
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>

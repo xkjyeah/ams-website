@@ -1,13 +1,13 @@
 <script>
 export default {
   methods: {
-    trackGA () {
+    trackGA() {
       if (window.gtag) {
         window.gtag('event', 'conversion', { 'send_to': 'AW-952434988/sbHXCMT5-IcBEKyClMYD' })
       }
     }
   },
-  head () {
+  head() {
     return {
       title: 'Contact Us',
       meta: [{
@@ -20,8 +20,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -31,53 +31,24 @@ export default {
 <template>
   <default-page>
     <h1>Contact Us</h1>
-    <form
-      id="form1"
-      action="https://ams-bookings.ambulanceservice.com.sg/enquiry"
-      method="post"
-      name="form1"
-      @submit="trackGA"
-    >
-      <input
-        type="hidden"
-        name="redirect"
-        value="http://www.ambulanceservice.com.sg/contact-success"
-      >
+    <form id="form1" action="https://ams-bookings.ambulanceservice.com.sg/enquiry" method="post" name="form1"
+      @submit="trackGA">
+      <input type="hidden" name="redirect" value="http://www.ambulanceservice.com.sg/contact-success">
       <label class="enquiry_text_area">
         <span>Name:</span>
-        <input
-          name="name"
-          size="32"
-          type="text"
-          placeholder="John"
-        >
+        <input name="name" size="32" type="text" placeholder="John">
       </label>
       <label class="enquiry_text_area">
         <span>Contact No:</span>
-        <input
-          type="tel"
-          name="telephone"
-          size="32"
-          placeholder="6123 4567"
-        >
+        <input type="tel" name="telephone" size="32" placeholder="6123 4567">
       </label>
       <label class="enquiry_text_area">
         <span>Email:</span>
-        <input
-          name="email"
-          size="32"
-          type="email"
-          placeholder="john@example.com"
-        >
+        <input name="email" size="32" type="email" placeholder="john@example.com">
       </label>
       <label class="enquiry_text_area">
         <span>Organization:</span>
-        <input
-          name="organization"
-          size="32"
-          type="text"
-          placeholder="ACME Corporation"
-        >
+        <input name="organization" size="32" type="text" placeholder="ACME Corporation">
       </label>
       <label class="enquiry_text_area">
         <span>Service:</span>
@@ -93,10 +64,7 @@ export default {
       </label>
       <label class="enquiry_text_area">
         <span>Message:</span>
-        <textarea
-          name="message"
-          placeholder="Message"
-        />
+        <textarea name="message" placeholder="Message" />
       </label>
 
       <ReCaptcha />
@@ -110,9 +78,9 @@ export default {
     <br>
     <MapComponent />
 
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>

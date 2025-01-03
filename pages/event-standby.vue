@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Event Standby',
       meta: [{
@@ -9,78 +9,78 @@ export default {
         content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
       }],
       link: [{
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg'}
+        rel: 'canonical',
+        href: process.env.baseUrl + this.$route.path + '/'
+      },
+      { rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'x-default' },
+      { rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg' }
       ]
     }
   },
   jsonld() {
     return [{
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Ambulance Medical Service - Medical Event Standby Ambulance",
-        "url": "https://www.ambulanceservice.com.sg/"
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ambulance Medical Service - Medical Event Standby Ambulance",
+      "url": "https://www.ambulanceservice.com.sg/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@id": "https://www.ambulanceservice.com.sg/event-standby/",
+      "@type": "LocalBusiness",
+      "name": "Ambulance Medical Service",
+      "logo": "https://www.ambulanceservice.com.sg/images/logo.png",
+      "image": "https://www.ambulanceservice.com.sg/images/logo.png",
+      "url": "https://www.ambulanceservice.com.sg/event-standby/",
+      "telephone": "65 6281 8111",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
+        "addressLocality": "Singapore",
+        "postalCode": "408729",
+        "addressCountry": "+65"
       },
-      {
-        "@context": "https://schema.org",
-        "@id": "https://www.ambulanceservice.com.sg/event-standby/",
-        "@type": "LocalBusiness",
-        "name": "Ambulance Medical Service",
-        "logo": "https://www.ambulanceservice.com.sg/images/logo.png",
-        "image": "https://www.ambulanceservice.com.sg/images/logo.png",
-        "url": "https://www.ambulanceservice.com.sg/event-standby/",
-        "telephone": "65 6281 8111",
-        "priceRange": "$$",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
-          "addressLocality": "Singapore",
-          "postalCode": "408729",
-          "addressCountry": "+65"
-        },
-        "sameAs": [
-          "https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
-        ],
-        "openingHoursSpecification": [{
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Monday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Tuesday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Wednesday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Thursday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Friday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }, {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "00:00",
-          "closes": "23:59"
-        }]
-      }
+      "sameAs": [
+        "https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
+      ],
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Wednesday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }, {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "00:00",
+        "closes": "23:59"
+      }]
+    }
 
     ]
   }
@@ -90,7 +90,9 @@ export default {
   <default-page>
     <h1>Medical Event Standby</h1>
     <p>
-      Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous planning to ensure the
+      Ambulance Medical Service has been providing medical standby for many years and our experience will be invaluable
+      to help you develop a customized medical coverage and patient evacuation plan. You can trust our meticulous
+      planning to ensure the
       safety of your participants.
     </p>
     <p>
@@ -186,10 +188,7 @@ export default {
                   </ul>
                 </ul>
                 <figure class="address_gradient">
-                  <img
-                    src="/images/buggy-small.jpg"
-                    style=""
-                  >
+                  <img src="/images/buggy-small.jpg" style="">
                   <figcaption>
                     All terrain buggies to reach casualties fast
                   </figcaption>
@@ -200,48 +199,30 @@ export default {
               <td style="text-align:center;">
                 <strong>Medical Post</strong>
               </td>
-              <td
-                colspan="2"
-                style="text-align:left;"
-              >
+              <td colspan="2" style="text-align:left;">
                 <ul>
                   <li>First aid trolley with vital monitor</li>
                   <li>Safari camp bed(s) with privacy screen</li>
                   <li>Spinal board</li>
-                  <li>Litter carrier - lightweight casualty transport system that allows one person to transport a casualty strapped to a stretcher, and also performs as a litter stand in the medical station</li>
+                  <li>Litter carrier - lightweight casualty transport system that allows one person to transport a
+                    casualty strapped to a stretcher, and also performs as a litter stand in the medical station</li>
                   <li>
-                    <a
-                      href="http://www.zoll.com/medical-products/cardiac-support-pump/autopulse/"
-                      target="new"
-                      class="text_link"
-                    >AutoPulse</a> – automated CPR machine that allows continuous CPR while transporting a patient on a stretcher
-                    <br><img
-                      src="/images/zoll-autopulse-small.jpg"
-                      class="img-me"
-                    >
+                    <a href="http://www.zoll.com/medical-products/cardiac-support-pump/autopulse/" target="new"
+                      class="text_link">AutoPulse</a> – automated CPR machine that allows continuous CPR while
+                    transporting a patient on a stretcher
+                    <br><img src="/images/zoll-autopulse-small.jpg" class="img-me">
                   </li>
                   <li>
-                    <a
-                      href="http://caervest.com/"
-                      target="new"
-                      class="text_link"
-                    >Caervest</a> - portable, core body cooling device for heatstroke/cardiac arrest victim
-                    <br><img
-                      src="/images/caervest-small.jpg"
-                      class="img-lg"
-                    >
+                    <a href="http://caervest.com/" target="new" class="text_link">Caervest</a> - portable, core body
+                    cooling device for heatstroke/cardiac arrest victim
+                    <br><img src="/images/caervest-small.jpg" class="img-lg">
                   </li>
                   <li>
-                    External Defibrillator Cardioverter and Cardiac Pacer &mdash; Philips MRx<sup>TM</sup> or Zoll<sup>TM</sup>
+                    External Defibrillator Cardioverter and Cardiac Pacer &mdash; Philips MRx<sup>TM</sup> or
+                    Zoll<sup>TM</sup>
                     <br>
-                    <img
-                      src="/images/mrx-small.jpg"
-                      class="img-me"
-                    >
-                    <img
-                      src="/images/zoll-r-series-small.jpg"
-                      class="img-lg"
-                    >
+                    <img src="/images/mrx-small.jpg" class="img-me">
+                    <img src="/images/zoll-r-series-small.jpg" class="img-lg">
                   </li>
                 </ul>
               </td>
@@ -265,10 +246,7 @@ export default {
         <tbody>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image4.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image4.png" class="partner-logo">
             </td>
             <td>
               Peace and Prosperity Singapore (27,000 participants)
@@ -279,10 +257,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image5.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image5.png" class="partner-logo">
             </td>
             <td>
               River Hongbao (10,000 participants)
@@ -293,10 +268,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image6.jpeg"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image6.jpeg" class="partner-logo">
             </td>
             <td>
               Christmas wonderland (1.6 million visitors)
@@ -307,10 +279,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image7.jpeg"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image7.jpeg" class="partner-logo">
             </td>
             <td>
               Siloso beach party (25,000 attendants)
@@ -321,10 +290,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image8.jpeg"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image8.jpeg" class="partner-logo">
             </td>
             <td>
               Civil Service Club
@@ -337,10 +303,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image9.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image9.png" class="partner-logo">
             </td>
             <td>
               Esprimo Pte Ltd
@@ -353,10 +316,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image10.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image10.png" class="partner-logo">
             </td>
             <td>
               Singapore Rugby Union, National League
@@ -369,10 +329,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image11.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image11.png" class="partner-logo">
             </td>
             <td>
               Centaurs weekly Rugby training
@@ -384,10 +341,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image12.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image12.png" class="partner-logo">
             </td>
             <td>
               Tanglin Rugby Club Weekly Rugby training Ambulance standby with WR Medic
@@ -398,10 +352,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image13.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image13.png" class="partner-logo">
             </td>
             <td>
               SRU World Rugby HSBC 7’s
@@ -413,10 +364,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image14.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image14.png" class="partner-logo">
             </td>
             <td>
               JRCS Grand Finals
@@ -428,10 +376,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image15.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image15.png" class="partner-logo">
             </td>
             <td>
               SCC Rugby Academy Tournament
@@ -443,10 +388,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image16.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image16.png" class="partner-logo">
             </td>
             <td>
               One Edge of Greatness Martial Arts Championship
@@ -459,13 +401,11 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image17.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image17.png" class="partner-logo">
             </td>
             <td>
-              Evolve Mixed Martial Arts (MMA).  Warrior Fight Night, Muay Thai Competition.  Annual Jiu Jitsu competition for kids, Kids Brazilian Jiu Jitsu Tournament
+              Evolve Mixed Martial Arts (MMA). Warrior Fight Night, Muay Thai Competition. Annual Jiu Jitsu competition
+              for kids, Kids Brazilian Jiu Jitsu Tournament
             </td>
             <td>
               2019 current /
@@ -474,10 +414,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image18.jpeg"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image18.jpeg" class="partner-logo">
             </td>
             <td>
               Singapore F1 Race
@@ -489,10 +426,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image19.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image19.png" class="partner-logo">
             </td>
             <td>Standard Chartered Singapore Marathon 2019</td>
             <td>
@@ -502,13 +436,10 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image20.jpeg"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image20.jpeg" class="partner-logo">
             </td>
             <td>
-              Event Health Management: Marathon, Run, Dash.   Emergency /Non-emergency / Doctor Standby &amp; transfer
+              Event Health Management: Marathon, Run, Dash. Emergency /Non-emergency / Doctor Standby &amp; transfer
             </td>
             <td>
               From 2017,
@@ -517,10 +448,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image21.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image21.png" class="partner-logo">
             </td>
             <td>
               Singapore Badminton Association – International Series + Youth International Series
@@ -532,13 +460,11 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image22.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image22.png" class="partner-logo">
             </td>
             <td>
-              Singapore Athletics:  U13 Track &amp; Field, School Meet, Cross Country, Schools Relay, Singapore Open Track &amp; Field Championship
+              Singapore Athletics: U13 Track &amp; Field, School Meet, Cross Country, Schools Relay, Singapore Open
+              Track &amp; Field Championship
             </td>
             <td>
               From 2014,
@@ -547,10 +473,7 @@ export default {
           </tr>
           <tr>
             <td>
-              <img
-                src="../assets/images/partners/image23.png"
-                class="partner-logo"
-              >
+              <img src="../assets/images/partners/image23.png" class="partner-logo">
             </td>
             <td>
               Orangeroom Tri Factor Events – Run &amp; RunSwim Challenge, Triathlon, Aquathon,
@@ -567,29 +490,27 @@ export default {
 
       <div class="testimonial_area">
         <blockquote>
-          “Together, we have successfully organized AMC 2016 and team AMS (Yvonne and Dr Sim) have been right there, helping out wherever and whenever needed during the trial run and actual event day. The operation of this event was smooth and well thought through
+          “Together, we have successfully organized AMC 2016 and team AMS (Yvonne and Dr Sim) have been right there,
+          helping out wherever and whenever needed during the trial run and actual event day. The operation of this
+          event was smooth and well thought through
           with your expertise. Everything came together, and we are sincerely appreciative.”
         </blockquote>
       </div>
       <div class="testimonial_area">
         <blockquote>
-          “A special thank you to the wonderful medical support team at the first aid tent, especially the medic in-charge. It was abundantly clear that they were highly experienced in treating sports athletes and were at all times truly professional with their
+          “A special thank you to the wonderful medical support team at the first aid tent, especially the medic
+          in-charge. It was abundantly clear that they were highly experienced in treating sports athletes and were at
+          all times truly professional with their
           treatment and advice. Likewise, we very much appreciated your follow-up telephone call today with us!”
         </blockquote>
       </div>
-      <div
-        class="gallery_img"
-        style="margin:0 0 20px 0;"
-      >
+      <div class="gallery_img" style="margin:0 0 20px 0;">
         <img src="/images/eventstandby_new2.JPG">
       </div>
       <div class="gallery_img">
         <img src="/images/eventstandby_new.JPG">
       </div>
-      <div
-        class="text_justify"
-        style="text-align:center;"
-      >
+      <div class="text_justify" style="text-align:center;">
         You can count on US!
       </div>
     </div>
@@ -597,11 +518,11 @@ export default {
     <div id="inner_image">
       <img src="/images/3.jpg">
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>
 
@@ -609,27 +530,32 @@ export default {
 table.past-projects-table {
   max-width: 800px;
   margin: auto;
+
   img.partner-logo {
     width: auto;
     height: auto;
     max-width: 60px;
     max-height: 40px;
   }
+
   tr:nth-child(even) td,
-  th
-   {
+  th {
     background-color: #EEE;
   }
-  td, tr, th {
+
+  td,
+  tr,
+  th {
     border: none;
   }
+
   /* the logo */
   tbody tr td:nth-child(1) {
     text-align: center;
   }
+
   th {
     text-align: center;
   }
 }
 </style>
-

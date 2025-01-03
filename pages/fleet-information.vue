@@ -1,6 +1,6 @@
 <script>
 export default {
-  head () {
+  head() {
     return {
       title: 'Fleet Information',
       meta: [{
@@ -13,8 +13,8 @@ export default {
           rel: 'canonical',
           href: process.env.baseUrl + this.$route.path + '/'
         },
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'x-default'},
-        {rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'en-sg'}
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'en-sg' }
       ]
     }
   }
@@ -25,7 +25,8 @@ export default {
   <default-page>
     <h1>Fleet Information</h1>
     <p>
-      AMS currently owns 60 ambulances that are equipped to the highest standards of pre-hospital care and comfort. Here's how our ambulances are different:
+      AMS currently owns 60 ambulances that are equipped to the highest standards of pre-hospital care and comfort.
+      Here's how our ambulances are different:
     </p>
     <div class="inner_service_area">
       <div class="inner_service_box">
@@ -37,10 +38,8 @@ export default {
         <div class="inner_service_right">
           <h2>Well-equipped</h2>
           <p>
-            Every ambulance is extensively equipped to provide pre-hospital care. Our full equipment list within each ambulance can be found <a
-              href="/ambulance-equipment-list/"
-              class="text_link"
-            >here.</a>
+            Every ambulance is extensively equipped to provide pre-hospital care. Our full equipment list within each
+            ambulance can be found <a href="/ambulance-equipment-list/" class="text_link">here.</a>
           </p>
         </div>
 
@@ -54,7 +53,8 @@ export default {
         </div>
         <div class="inner_service_right">
           <h2>Comfortable, quiet</h2>
-          <p>Our ambulances are high-roofed and wide bodied to give ample cabin room for our patients and their medics looking after them. We sound-proof our vehicles to avoid resonance and provide quieter rides. </p>
+          <p>Our ambulances are high-roofed and wide bodied to give ample cabin room for our patients and their medics
+            looking after them. We sound-proof our vehicles to avoid resonance and provide quieter rides. </p>
         </div>
 
         <div style="clear:both;" />
@@ -67,8 +67,11 @@ export default {
         </div>
         <div class="inner_service_right">
           <h2>Hygienic</h2>
-          <p>Our stretcher mattresses are covered with fresh disposable covers; in addition, every patient is carried on a disposable draw sheet to reduce the risk of cross contamination. </p>
-          <p>We professionally disinfect our vehicles using state of the art technologies –regular misting with Stabilized Silver Ion Complex & annual coating of our interior with Titanium Dioxide (TiO2) to protect our patients.</p>
+          <p>Our stretcher mattresses are covered with fresh disposable covers; in addition, every patient is carried on
+            a disposable draw sheet to reduce the risk of cross contamination. </p>
+          <p>We professionally disinfect our vehicles using state of the art technologies –regular misting with
+            Stabilized Silver Ion Complex & annual coating of our interior with Titanium Dioxide (TiO2) to protect our
+            patients.</p>
         </div>
 
         <div style="clear:both;" />
@@ -82,7 +85,9 @@ export default {
         <div class="inner_service_right">
           <h2>Quality-assured</h2>
           <p>
-            Our ambulances are equipped with a comprehensive set of equipment capable of monitoring vital signs, providing oxygen, performing medical care such as suctioning, head and neck stabilization, spinal immobilization, resuscitation etc. We have built
+            Our ambulances are equipped with a comprehensive set of equipment capable of monitoring vital signs,
+            providing oxygen, performing medical care such as suctioning, head and neck stabilization, spinal
+            immobilization, resuscitation etc. We have built
             in stretcher and wheelchair locks with seatbelts to ensure safer rides for our passengers.
           </p>
         </div>
@@ -120,11 +125,11 @@ export default {
     <div id="inner_image">
       <img src="/images/fleet_info_img.jpg">
     </div>
-    <div slot="sidebar">
+    <template v-slot:sidebar>
       <enquiry-box />
 
       <address-area />
       <facebook-widget />
-    </div>
+    </template>
   </default-page>
 </template>
