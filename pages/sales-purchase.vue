@@ -130,6 +130,7 @@ export default {
           <li>The deposit (no gst), will be issued in separate Green Receipt.</li>
         </ol>
         <br>
+
         <table-wrap>
           <table style="width:100%; min-width: 600px">
             <thead>
