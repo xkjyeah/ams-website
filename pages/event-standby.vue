@@ -1,24 +1,18 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Event Standby',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here!'
-      }],
-      link: [{
-        rel: 'canonical',
-        href: process.env.baseUrl + this.$route.path + '/'
-      },
-      { rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'x-default' },
-      { rel: "alternate", href: "https://www.ambulanceservice.com.sg/event-standby/", hreflang: 'en-sg' }
-      ]
-    }
-  },
-  jsonld() {
-    return [{
+<script setup>
+useHead({
+  title: `Event Standby | Ambulance Medical Service`,
+  meta: [
+    { name: `description`, content: `Ambulance Medical Service offers medical stand-by services for various events in Singapore. View our prices, customized equipment and schedules here.` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/event-standby/`, hreflang: `x-default` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/event-standby/`, hreflang: `en-SG` },
+  ],
+  link: [
+    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/event-standby/` },
+  ],
+});
+useJsonld(
+  [
+    {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Ambulance Medical Service - Medical Event Standby Ambulance",
@@ -81,10 +75,8 @@ export default {
         "closes": "23:59"
       }]
     }
-
-    ]
-  }
-}
+  ]
+)
 </script>
 <template>
   <default-page>

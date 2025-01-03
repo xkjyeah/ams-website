@@ -1,25 +1,18 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Emergency Medical Transport',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service provides 24/7 emergency transport for patients in Singapore, including non-emergency cases, and patients requiring overseas evacuation. Contact us at 6281-8111 today!'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/transport/', hreflang: 'x-default' },
-        { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/transport/', hreflang: 'en-sg' }
-      ]
-    }
-  },
-  jsonld() {
-    return [{
+<script setup>
+useHead({
+  title: `Emergency Medical Transport | Ambulance Medical Service`,
+  meta: [
+    { name: `description`, content: `Ambulance Medical Service provides 24/7 emergency transport for patients in Singapore, including non-emergency cases, and patients requiring overseas evacuation. Contact us at 6281-8111 today.` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/transport/`, hreflang: `x-default` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/transport/`, hreflang: `en-SG` },
+  ],
+  link: [
+    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/transport/` },
+  ],
+});
+useJsonld(
+  [
+    {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       'name': 'Ambulance Medical Service - Emergency Transport',
@@ -82,9 +75,8 @@ export default {
         'closes': '23:59'
       }]
     }
-    ]
-  }
-}
+  ]
+)
 </script>
 
 <template>

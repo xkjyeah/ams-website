@@ -1,24 +1,15 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'What\'s New',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here!'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: "x-default" },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: "en-sg" }
-      ]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: `What's New | Ambulance Medical Service`,
+  meta: [
+    { name: `description`, content: `Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here.` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/whats-new/`, hreflang: `x-default` },
+    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/whats-new/`, hreflang: `en-SG` },
+  ],
+  link: [
+    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/whats-new/` },
+  ],
+});
 </script>
 
 <style scoped>

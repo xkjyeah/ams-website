@@ -1,24 +1,15 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Fleet Information',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service offers pre-hospital care and comfort for our patients. Learn more about the medical equipment and treatment we use for rescue operations here!'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'x-default' },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/fleet-information/", hreflang: 'en-sg' }
-      ]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: 'Fleet Information | Ambulance Medical Service',
+  meta: [
+    { name: 'description', content: 'Ambulance Medical Service offers pre-hospital care and comfort for our patients. Learn more about the medical equipment and treatment we use for rescue operations here.' },
+    { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/fleet-information/', hreflang: 'x-default' },
+    { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/fleet-information/', hreflang: 'en-SG' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://www.ambulanceservice.com.sg/fleet-information/' },
+  ],
+});
 </script>
 
 <template>
