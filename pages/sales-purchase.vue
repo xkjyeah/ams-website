@@ -1,24 +1,20 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service sells and rents certain medical equipment for home use in Singapore, such as oxygen cylinders & AEDs. View more details here.'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'x-default' },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'en-sg' }
-      ]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Ambulance Medical Service sells and rents certain medical equipment for home use in Singapore, such as oxygen cylinders & AEDs. View more details here.'
+  }],
+  link: [
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/sales-purchase/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

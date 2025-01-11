@@ -1,9 +1,9 @@
-<script>
-export default {
-  head: {
-    title: 'The page was not found!'
-  }
-}
+<script setup>
+
+useHead({
+  title: 'The page was not found!'
+})
+
 </script>
 <template>
   <default-page>

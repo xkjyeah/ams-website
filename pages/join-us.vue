@@ -1,24 +1,20 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Join us',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default' },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg' }
-      ]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: 'Join us',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
+  }],
+  link: [
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

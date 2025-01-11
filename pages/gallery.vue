@@ -1,24 +1,20 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Gallery',
-      meta: [{
-        hid: 'description',
-        name: 'description',
-        content: 'Ambulance Medical Service provides medical coverage for events and operations. Browse our gallery here!'
-      }],
-      link: [
-        {
-          rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
-        },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'x-default' },
-        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'en-sg' }
-      ]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: 'Gallery',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Ambulance Medical Service provides medical coverage for events and operations. Browse our gallery here!'
+  }],
+  link: [
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/gallery/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

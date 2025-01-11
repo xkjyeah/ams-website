@@ -18,7 +18,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: process.env.baseUrl + this.$route.path + '/'
+          href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
         },
         { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default' },
         { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg' }
