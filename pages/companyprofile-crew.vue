@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Company & Staff Profile',
+  title: 'Company & Staff Profile | Ambulance Medical Service',
   meta: [
     {
       hid: 'description',

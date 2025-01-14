@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Event Standby',
+  title: 'Event Standby | Ambulance Medical Service',
   meta: [{
     hid: 'description',
     name: 'description',

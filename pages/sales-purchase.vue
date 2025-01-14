@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders',
+  title: 'Equipment for Sale & Rent | AED & Oxygen Cylinders | Ambulance Medical Service',
   meta: [{
     hid: 'description',
     name: 'description',

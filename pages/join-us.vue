@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Join us',
+  title: 'Join us | Ambulance Medical Service',
   meta: [{
     hid: 'description',
     name: 'description',

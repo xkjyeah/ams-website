@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Emergency Ambulance Singapore',
+  title: 'Emergency Ambulance Singapore | Ambulance Medical Service',
   meta: [
     { hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!' }
   ],
