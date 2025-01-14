@@ -1,15 +1,20 @@
 <script setup>
 useHead({
-  title: `Ambulance Equipment | Ambulance Medical Service`,
-  meta: [
-    { name: `description`, content: `Our ambulances are fully equipped with modern medical equipment and medications necessary for emergency situations. View our full list of ambulance equipment here.` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/ambulance-equipment-list/`, hreflang: `x-default` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/ambulance-equipment-list/`, hreflang: `en-SG` },
-  ],
+  title: 'Ambulance Equipment',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Our ambulances are fully equipped with modern medical equipment and medications necessary for emergency situations. View our full list of ambulance equipment here. '
+  }],
   link: [
-    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/ambulance-equipment-list/` },
-  ],
-});
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/ambulance-equipment-list/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/ambulance-equipment-list/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

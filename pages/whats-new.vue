@@ -1,15 +1,20 @@
 <script setup>
 useHead({
-  title: `What's New | Ambulance Medical Service`,
-  meta: [
-    { name: `description`, content: `Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here.` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/whats-new/`, hreflang: `x-default` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/whats-new/`, hreflang: `en-SG` },
-  ],
+  title: 'What\'s New',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Ambulance Medical Service is committed to continuously upgrading our equipment to serve our patients better in emergencies. See our latest updates here!'
+  }],
   link: [
-    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/whats-new/` },
-  ],
-});
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: "x-default" },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/whats-new/", hreflang: "en-sg" }
+  ]
+})
 </script>
 
 <style scoped>

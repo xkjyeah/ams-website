@@ -6,23 +6,18 @@ export default {
     PageHeader,
     PageFooter
   },
-  head() {
-    return {
-      meta: [
-        { hid: 'Device-Width', name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
-      ],
-      link: [
-        { rel: 'shortcut icon', href: 'favicon.ico' },
-        { rel: 'stylesheet', type: 'text/css', href: '/css/nivo-slider.css' },
-        { rel: 'stylesheet', type: 'text/css', href: '/css/default.css' }
-      ]
-    }
-  }
 }
 
 </script>
 <template>
   <div data-tag="tadsfas">
+
+    <Head>
+      <Meta hid="Device-Width" name="viewport" content="width=device-width, initial-scale=1.0" />
+      <Link rel="shortcut icon" href="favicon.ico" />
+      <Link rel="stylesheet" type="text/css" href="/css/nivo-slider.css" />
+      <Link rel="stylesheet" type="text/css" href="/css/default.css" />
+    </Head>
     <PageHeader />
     <slot />
     <PageFooter />

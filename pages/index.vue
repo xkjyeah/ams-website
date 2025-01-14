@@ -1,83 +1,83 @@
 <script setup>
 useHead({
-  title: 'Emergency Ambulance Singapore | Ambulance Medical Service',
+  title: 'Emergency Ambulance Singapore',
   meta: [
-    { name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today.' },
-    { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/', hreflang: 'x-default' },
-    { rel: 'alternate', href: 'https://www.ambulanceservice.com.sg/', hreflang: 'en-SG' },
+    { hid: 'description', name: 'description', content: 'Ambulance Medical Service provides 24/7 private ambulance for medical emergency and non-emergency operations in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 today!' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://www.ambulanceservice.com.sg/' },
-  ],
-});
-
-useJsonld(
-  [
     {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Ambulance Medical Service - Emergency and Non-emergency services in Singapore",
-      "url": "https://www.ambulanceservice.com.sg/"
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path
     },
-    {
-      "@context": "https://schema.org",
-      "@id": "https://www.ambulanceservice.com.sg/",
-      "@type": "LocalBusiness",
-      "name": "Ambulance Medical Service",
-      "logo": "https://www.ambulanceservice.com.sg/images/logo.png",
-      "image": "https://www.ambulanceservice.com.sg/images/logo.png",
-      "url": "https://www.ambulanceservice.com.sg/",
-      "telephone": "65 6281 8111",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
-        "addressLocality": "Singapore",
-        "postalCode": "408729",
-        "addressCountry": "+65"
-      },
-      "sameAs": [
-        "https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
-      ],
-      "openingHoursSpecification": [{
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Monday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Tuesday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Wednesday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Thursday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Friday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }, {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
-        "opens": "00:00",
-        "closes": "23:59"
-      }]
-    }
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/", hreflang: 'en-sg' }
   ]
-)
+})
+useJsonld([
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Ambulance Medical Service - Emergency and Non-emergency services in Singapore",
+    "url": "https://www.ambulanceservice.com.sg/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@id": "https://www.ambulanceservice.com.sg/",
+    "@type": "LocalBusiness",
+    "name": "Ambulance Medical Service",
+    "logo": "https://www.ambulanceservice.com.sg/images/logo.png",
+    "image": "https://www.ambulanceservice.com.sg/images/logo.png",
+    "url": "https://www.ambulanceservice.com.sg/",
+    "telephone": "65 6281 8111",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "65 Ubi Road 1, #01-57 Oxley Bizhub",
+      "addressLocality": "Singapore",
+      "postalCode": "408729",
+      "addressCountry": "+65"
+    },
+    "sameAs": [
+      "https://www.facebook.com/AMS-Ambulance-Medical-Service-Pte-Ltd-587840834594309/"
+    ],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Tuesday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Wednesday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Thursday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }, {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "00:00",
+      "closes": "23:59"
+    }]
+  }
+])
 </script>
 <template>
   <main>

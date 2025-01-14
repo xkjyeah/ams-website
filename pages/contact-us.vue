@@ -1,20 +1,29 @@
-<script setup>
-useHead({
-  title: `Contact Us | Ambulance Medical Service`,
-  meta: [
-    { name: `description`, content: `Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here.` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/contact-us/`, hreflang: `x-default` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/contact-us/`, hreflang: `en-SG` },
-  ],
-  link: [
-    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/contact-us/` },
-  ],
-});
-
-// Define a function inside the setup function
-const trackGA = () => {
-  if (window.gtag) {
-    window.gtag('event', 'conversion', { 'send_to': 'AW-952434988/sbHXCMT5-IcBEKyClMYD' });
+<script>
+export default {
+  methods: {
+    trackGA() {
+      if (window.gtag) {
+        window.gtag('event', 'conversion', { 'send_to': 'AW-952434988/sbHXCMT5-IcBEKyClMYD' })
+      }
+    }
+  },
+  head() {
+    return {
+      title: 'Contact Us',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Ambulance Medical Service provides 24/7 private transportation for medical emergencies in Singapore, as well as patient evacuation to some nearby countries. Call us at 6281-8111 or drop us a message here!'
+      }],
+      link: [
+        {
+          rel: 'canonical',
+          href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+        },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'x-default' },
+        { rel: "alternate", href: "https://www.ambulanceservice.com.sg/contact-us/", hreflang: 'en-sg' }
+      ]
+    }
   }
 }
 </script>

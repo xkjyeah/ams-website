@@ -1,15 +1,20 @@
 <script setup>
 useHead({
-  title: `Join Us | Ambulance Medical Service`,
-  meta: [
-    { name: `description`, content: `Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to qualified candidates. To apply, download the application form here.` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/join-us/`, hreflang: `x-default` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/join-us/`, hreflang: `en-SG` },
-  ],
+  title: 'Join us',
+  meta: [{
+    hid: 'description',
+    name: 'description',
+    content: 'Ambulance Medical Service is looking for passionate individuals to join our team. We offer free training programs to the qualified candidate! To apply, download the application form here!'
+  }],
   link: [
-    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/join-us/` },
-  ],
-});
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/join-us/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

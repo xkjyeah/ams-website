@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['nuxt-jsonld'],
+  runtimeConfig: {
+    canonicalBaseUrl: 'https://www.ambulanceservice.com.sg',
+  },
   app: {
     head: {
       charset: 'utf-8',

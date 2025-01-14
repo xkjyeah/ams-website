@@ -1,15 +1,22 @@
 <script setup>
 useHead({
-  title: `Company & Staff Profile | Ambulance Medical Service`,
+  title: 'Company & Staff Profile',
   meta: [
-    { name: `description`, content: `Ambulance Medical Service provides 24/7 ambulance services with professional paramedics trained to handle a range of medical emergencies. Find out more about our company and staff here.` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/companyprofile-crew/`, hreflang: `x-default` },
-    { rel: `alternate`, href: `https://www.ambulanceservice.com.sg/companyprofile-crew/`, hreflang: `en-SG` },
+    {
+      hid: 'description',
+      name: 'description',
+      content: 'Ambulance Medical Service provides 24/7 ambulance services with professional paramedics trained to handle a range of medical emergencies. Find out more about our company and staff here!'
+    }
   ],
   link: [
-    { rel: `canonical`, href: `https://www.ambulanceservice.com.sg/companyprofile-crew/` },
-  ],
-});
+    {
+      rel: 'canonical',
+      href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+    },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'x-default' },
+    { rel: "alternate", href: "https://www.ambulanceservice.com.sg/companyprofile-crew/", hreflang: 'en-sg' }
+  ]
+})
 </script>
 
 <template>

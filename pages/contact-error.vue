@@ -1,16 +1,12 @@
-<script>
-export default {
-  head() {
-    return {
-      title: 'Thank You',
-      // category: 'contact',
-      link: [{
-        rel: 'canonical',
-        href: process.env.baseUrl + this.$route.path + '/'
-      }]
-    }
-  }
-}
+<script setup>
+useHead({
+  title: 'Thank You',
+  // category: 'contact',
+  link: [{
+    rel: 'canonical',
+    href: useRuntimeConfig().canonicalBaseUrl + useRoute().path + '/'
+  }]
+})
 </script>
 
 <template>
