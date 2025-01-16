@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
 
       // Not converted
-      titleTemplate: (title) => `${title} | Ambulance Medical Service`,
+      titleTemplate: `%s | Ambulance Medical Service`,
       meta: [
         { hid: 'description', name: 'description', content: 'Ambulance Medical Service' }
       ],
